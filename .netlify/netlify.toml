@@ -1,0 +1,30 @@
+functionsDirectory = "C:\\Users\\greni\\OneDrive\\Desktop\\PROJET MONS TOURISME\\FINAL COMPLET\\clq-mons\\netlify\\functions"
+functionsDirectoryOrigin = "default"
+plugins = []
+headers = []
+redirects = []
+
+[build]
+publish = "C:\\Users\\greni\\OneDrive\\Desktop\\PROJET MONS TOURISME\\FINAL COMPLET\\clq-mons\\dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+command = "npm run build"
+functions = "C:\\Users\\greni\\OneDrive\\Desktop\\PROJET MONS TOURISME\\FINAL COMPLET\\clq-mons\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[functions]
+
+[functions."*"]

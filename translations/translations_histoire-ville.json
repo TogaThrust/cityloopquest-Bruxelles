@@ -1,0 +1,106 @@
+{
+  "fr": {
+    "title": "📜 Histoire de la Ville",
+    "warning": "⚠ Les vidéos présentées sont uniquement en français. Celles-ci sont et restent propriété des auteurs et producteurs et sont disponibles, libres de droits sur des plates-formes internet gratuites.",
+    "video_1": "Reportage RCF Radio",
+    "video_2": "Bataille de Mons",
+    "video_3": "Le Beffroy",
+    "video_4": "Les Anges de Mons",
+    "back": "RETOUR",
+    "close": "Fermer"
+  },
+  "en": {
+    "title": "📜 History of the City",
+    "warning": "⚠ The videos presented are only available in French. They remain the property of their authors and producers and are freely available on public internet platforms.",
+    "video_1": "RCF Radio Report",
+    "video_2": "Battle of Mons",
+    "video_3": "The Belfry",
+    "video_4": "The Angels of Mons",
+    "back": "BACK",
+    "close": "Close"
+  },
+  "nl": {
+    "title": "📜 Geschiedenis van de Stad",
+"warning": "⚠ De gepresenteerde video's zijn alleen in het Frans beschikbaar. Ze blijven eigendom van de auteurs en producenten en zijn vrij beschikbaar op gratis internetplatforms.",
+"video_1": "RCF Radio reportage",
+"video_2": "Slag om Bergen",
+"video_3": "Het Belfort",
+"video_4": "De Engelen van Bergen",
+"back": "TERUG",
+"close": "Sluiten"
+
+  },
+ "de": {
+  "title": "📜 Geschichte der Stadt",
+  "warning": "⚠ Die gezeigten Videos sind nur auf Französisch. Diese sind und bleiben Eigentum der Urheber und Produzenten und sind lizenzfrei auf kostenlosen Internetplattformen verfügbar.",
+  "video_1": "RCF Radio-Reportage",
+  "video_2": "Schlacht von Mons",
+  "video_3": "Der Beffroi",
+  "video_4": "Die Engel von Mons",
+  "back": "ZURÜCK",
+  "close": "Schließen"
+},
+"it": {
+"title": "📜 Storia della città",
+"warning": "⚠ I video presentati sono disponibili solo in francese. Restano proprietà dei rispettivi autori e produttori e sono reperibili, liberi da diritti, su piattaforme internet gratuite.",
+"video_1": "Reportage RCF Radio",
+"video_2": "Battaglia di Mons",
+"video_3": "Il Beffroi",
+"video_4": "Gli Angeli di Mons",
+"back": "INDIETRO",
+"close": "Chiudi"
+},
+"es": {
+  "title": "📜 Historia de la Ciudad",
+  "warning": "⚠ Los vídeos presentados están únicamente en francés. Estos son y siguen siendo propiedad de los autores y productores y están disponibles, libres de derechos, en plataformas de internet gratuitas.",
+  "video_1": "Reportaje RCF Radio",
+  "video_2": "Batalla de Mons",
+  "video_3": "El Beffroi",
+  "video_4": "Los Ángeles de Mons",
+  "back": "VOLVER",
+  "close": "Cerrar"
+},
+"pl": {
+  "title": "📜 Historia miasta",
+  "warning": "⚠ Prezentowane filmy są wyłącznie po francusku. Stanowią i pozostają własnością ich autorów i producentów; są dostępne bezpłatnie na ogólnodostępnych platformach internetowych.",
+  "video_1": "Reportaż Radia RCF",
+  "video_2": "Bitwa pod Mons",
+  "video_3": "Belfort",
+  "video_4": "Aniołowie z Mons",
+  "back": "POWRÓT",
+  "close": "Zamknij"
+},
+
+  "ar": {
+  "title": "📜 تاريخ المدينة",
+  "warning": "⚠ مقاطع الفيديو المعروضة متوفرة بالفرنسية فقط. حقوقها تعود إلى مؤلفيها ومنتجيها، وهي متاحة مجانًا على منصّات إنترنت مفتوحة.",
+  "video_1": "تقرير إذاعة RCF",
+  "video_2": "معركة مُونْس",
+  "video_3": "البيفروى (برج الأجراس)",
+  "video_4": "ملائكة مُونْس",
+  "back": "رجوع",
+  "close": "إغلاق"
+  },
+  "cn": {
+"title": "📜 城市历史",
+"warning": "⚠ 所展示的视频仅为法语。其版权归原作者与出品方所有，并可在免费的互联网平台上以免版税方式观看。",
+"video_1": "RCF 电台报道",
+"video_2": "蒙斯战役",
+"video_3": "钟楼",
+"video_4": "蒙斯的天使",
+"back": "返回",
+"close": "关闭"
+},
+"jp": {
+    "title": "📜 モンス市の歴史",
+    "warning": "⚠ 掲載している動画はフランス語のみです。これらの著作権は作者および製作者に帰属し、無料のインターネット・プラットフォーム上で視聴可能です。",
+    "video_1": "RCFラジオのレポルタージュ",
+    "video_2": "モンスの戦い",
+    "video_3": "ベフロワ（鐘楼）",
+    "video_4": "モンスの天使たち",
+    "back": "戻る",
+    "close": "閉じる"
+  }
+  }
+  
+

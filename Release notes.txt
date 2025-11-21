@@ -1,0 +1,21 @@
+CityLoop Quest Mons - Release notes
+Version 25.11.03
+----------------------------------------
+
+Modification description Gare de Mons
+
+CityLoop Quest Mons - Release notes
+Version 25.11.02
+----------------------------------------
+
+Mise en place de la Version
+Alerte de géolocalisation, contrôle des paramètres navigateur et appareil
+Modification page d'aide
+Modification page install/web
+
+CityLoop Quest Mons - Release notes
+Version 25.11.1
+----------------------------------------
+
+- Version initiale publiée
+

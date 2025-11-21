@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sélection de langue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Hint réseau pour Wikimedia -->
+  <link rel="preconnect" href="https://upload.wikimedia.org">
+  <link rel="dns-prefetch" href="https://upload.wikimedia.org">
+
+  <!-- Popup iOS warning - style unifié -->
+  <style>
+    .ios-warning-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.5);
+      display: none; align-items: center; justify-content: center; z-index: 10001;
+    }
+    .ios-warning-box {
+      background: rgba(255, 255, 255, 0.95); padding: 24px 28px; max-width: min(420px, calc(100vw - 40px)); width: 90%;
+      border-radius: 16px; box-shadow: 0 18px 45px rgba(20,54,92,0.35); text-align: center;
+      border: 2px solid #14365c;
+    }
+    .ios-warning-message { 
+      font-weight: 700; color: #14365c; font-size: 1.45rem; line-height: 1.5; margin-bottom: 18px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    }
+    .ios-warning-message small {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-top: 6px;
+      color: #2b6cb0;
+    }
+    .ios-warning-btn { 
+      display: inline-block; padding: 14px 32px; border-radius: 12px; border: none;
+      background: #14365c; color: #fff; font-weight: 600; cursor: pointer; font-size: 16px;
+      box-shadow: 0 8px 18px rgba(20,54,92,0.25);
+    }
+    .ios-warning-btn:hover {
+      background: #2b6cb0;
+    }
+    @media screen and (max-width: 480px) {
+      .ios-warning-box { 
+        width: min(350px, calc(100vw - 40px)); 
+        padding: 20px 24px; 
+        font-size: 14px; 
+      }
+      .ios-warning-btn { 
+        font-size: 14px; 
+        padding: 10px 18px; 
+      }
+    }
+  </style>
+
+  <!-- Mise en page sélection de langue -->
+  <style>
+    :root {
+      --shadow: 0 8px 24px rgba(0,0,0,0.3);
+      --rad: 12px;
+    }
+    body {
+      margin: 0; padding: 0;
+      background: linear-gradient(135deg, #c8102e 0%, #b30000 100%);
+      font-family: Arial, sans-serif;
+      display: flex; justify-content: center; align-items: flex-start;
+      min-height: 100vh; overflow: hidden; max-width: 100vw; max-height: 100vh;
+      box-sizing: border-box; padding-top: 15vh;
+    }
+    .language-container {
+      display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(2, 1fr);
+      gap: 30px; align-items: center; justify-items: center;
+      max-width: calc(100vw - 40px); max-height: calc(100vh - 40px); box-sizing: border-box; padding: 20px;
+    }
+    .flag-button {
+      width: 120px; height: 80px;
+      border: 4px solid #fff; border-radius: var(--rad);
+      cursor: pointer; transition: all 0.3s ease;
+      background-size: cover; background-position: center;
+      box-shadow: var(--shadow); position: relative; overflow: hidden;
+      display: grid; place-items: center;
+      background-color: #eee; /* fallback neutre */
+    }
+    .flag-button:hover { transform: scale(1.08); border-color: #ffd700; }
+
+    /* Images internes ; on les affiche si chargées (sinon le background CSS reste) */
+    .flag-button > img.flag-img {
+      width: 100%; height: 100%; object-fit: cover; display: none; /* passe à block quand chargée */
+    }
+    /* Fallback texte si tout rate */
+    .flag-button .fallback-label {
+      position: absolute; inset: auto auto 6px 8px; font-weight: 700; font-size: 13px;
+      color: #222; background: rgba(255,255,255,.8); padding: 2px 6px; border-radius: 8px; display: none;
+    }
+    .flag-button.is-fallback .fallback-label { display: inline-block; }
+
+    /* Backgrounds CSS d’origine (restent actifs si rien d’autre ne marche) */
+    .flag-fr { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png'); }
+    .flag-en { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/320px-Flag_of_the_United_Kingdom_%283-5%29.svg.png'); }
+    .flag-nl { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png'); }
+    .flag-de { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png'); }
+    .flag-it { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png'); }
+    .flag-es { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png'); }
+    .flag-pl { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/320px-Flag_of_Poland.svg.png'); }
+    .flag-ar { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png'); }
+    .flag-cn { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png'); }
+    .flag-jp { background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png'); }
+
+    @media (orientation: portrait) {
+      .language-container { grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(5, 1fr); gap: 22px; }
+      .flag-button { width: 100px; height: 70px; }
+    }
+  </style>
+
+  <!-- Bootstrap APP_CONFIG (sécurisé) -->
+  <script>
+    (function () {
+      function safeGet(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+      var isLocal = (location.hostname==='localhost' || location.hostname==='127.0.0.1');
+      var isDevPort = (location.port==='5173' || location.port==='5174');
+      var dev = isLocal && isDevPort;
+      var fromLS = safeGet('api_base');
+      var guessed = dev
+        ? location.origin.replace(/:517[34]/, ':8081')
+        : location.origin;
+      window.APP_CONFIG = window.APP_CONFIG || {};
+      window.APP_CONFIG.API_BASE = fromLS || guessed;
+    })();
+  </script>
+  <script src="api-base.js"></script>
+
+  <!-- Traductions -->
+  <script src="translations/translationManager.js"></script>
+  <script src="translations/languageSelector.js"></script>
+</head>
+<body>
+  <div class="language-container">
+    <!-- Chaque bouton contient un <img> + un label de secours -->
+    <div class="flag-button flag-fr" data-lang="fr" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png" title="Français">
+      <img class="flag-img" alt="Français" referrerpolicy="no-referrer">
+      <span class="fallback-label">FR</span>
+    </div>
+    <div class="flag-button flag-en" data-lang="en" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/320px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" title="English">
+      <img class="flag-img" alt="English" referrerpolicy="no-referrer">
+      <span class="fallback-label">EN</span>
+    </div>
+    <div class="flag-button flag-nl" data-lang="nl" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png" title="Nederlands">
+      <img class="flag-img" alt="Nederlands" referrerpolicy="no-referrer">
+      <span class="fallback-label">NL</span>
+    </div>
+    <div class="flag-button flag-de" data-lang="de" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png" title="Deutsch">
+      <img class="flag-img" alt="Deutsch" referrerpolicy="no-referrer">
+      <span class="fallback-label">DE</span>
+    </div>
+    <div class="flag-button flag-it" data-lang="it" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png" title="Italiano">
+      <img class="flag-img" alt="Italiano" referrerpolicy="no-referrer">
+      <span class="fallback-label">IT</span>
+    </div>
+    <div class="flag-button flag-es" data-lang="es" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png" title="Español">
+      <img class="flag-img" alt="Español" referrerpolicy="no-referrer">
+      <span class="fallback-label">ES</span>
+    </div>
+    <div class="flag-button flag-pl" data-lang="pl" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/320px-Flag_of_Poland.svg.png" title="Polski">
+      <img class="flag-img" alt="Polski" referrerpolicy="no-referrer">
+      <span class="fallback-label">PL</span>
+    </div>
+    <div class="flag-button flag-ar" data-lang="ar" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png" title="العربية">
+      <img class="flag-img" alt="العربية" referrerpolicy="no-referrer">
+      <span class="fallback-label">AR</span>
+    </div>
+    <div class="flag-button flag-cn" data-lang="cn" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png" title="中文">
+      <img class="flag-img" alt="中文" referrerpolicy="no-referrer">
+      <span class="fallback-label">CN</span>
+    </div>
+    <div class="flag-button flag-jp" data-lang="jp" data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png" title="日本語">
+      <img class="flag-img" alt="日本語" referrerpolicy="no-referrer">
+      <span class="fallback-label">JP</span>
+    </div>
+  </div>
+
+  <!-- Popup iOS-only -->
+  <div id="ios-warning-overlay" class="ios-warning-overlay">
+    <div class="ios-warning-box">
+      <p id="ios-warning-message" class="ios-warning-message" data-translate="ios_warning_message"></p>
+      <button id="ios-warning-ok" type="button" class="ios-warning-btn" data-translate="ios_warning_ok_button"></button>
+    </div>
+  </div>
+
+  <script>
+    // Forcer le chargement <img> (double filet : CSS bg + <img>)
+    (function preloadFlags(){
+      document.querySelectorAll('.flag-button').forEach(btn => {
+        const url = btn.getAttribute('data-src');
+        const img = btn.querySelector('img.flag-img');
+        if (!url || !img) return;
+
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        img.src = url;
+
+        img.addEventListener('load', () => {
+          // si ça charge, on affiche l'<img> (par-dessus le background)
+          img.style.display = 'block';
+          btn.classList.remove('is-fallback');
+        });
+
+        img.addEventListener('error', () => {
+          // fallback : fond neutre + sigle
+          img.style.display = 'none';
+          btn.classList.add('is-fallback');
+          // dernier recours : on tente sans https (rarement utile) 
+          // ou on pourrait basculer sur un asset local si tu en ajoutes.
+        });
+      });
+    })();
+  </script>
+
+  <script>
+    // Si l'utilisateur a déjà un code et une langue => route vers index.html
+    (function() {
+      const hasCode =
+        localStorage.getItem('clq_short_code') ||
+        localStorage.getItem('clq_token') ||
+        localStorage.getItem('jwt') ||
+        localStorage.getItem('clq_has_access') === '1';
+      if (hasCode) {
+        if (!localStorage.getItem('selectedLanguage')) {
+          localStorage.setItem('selectedLanguage', 'fr');
+          localStorage.setItem('lang', 'fr');
+          sessionStorage.setItem('webLanguageSelected', 'true');
+        }
+        location.replace('index.html');
+      }
+    })();
+
+    // Choix de langue + popup iOS
+    document.addEventListener('DOMContentLoaded', function () {
+      const overlay      = document.getElementById('ios-warning-overlay');
+      const okBtn        = document.getElementById('ios-warning-ok');
+      const langButtons  = document.querySelectorAll('.flag-button');
+      if (!overlay || !okBtn || !langButtons.length) return;
+
+      langButtons.forEach(btn => {
+        btn.addEventListener('click', async function (e) {
+          e.preventDefault();
+          const lang = btn.getAttribute('data-lang') || 'fr';
+          try {
+            localStorage.setItem('selectedLanguage', lang);
+            localStorage.setItem('lang', lang);
+            sessionStorage.setItem('webLanguageSelected', 'true');
+          } catch (_) {}
+
+          try {
+            if (window.translationManager) {
+              if (typeof window.translationManager.loadTranslations === 'function') {
+                await window.translationManager.loadTranslations();
+              } else if (typeof window.translationManager.init === 'function') {
+                await window.translationManager.init();
+              }
+              window.translationManager.setLanguage(lang);
+              window.translationManager.applyTranslations();
+            }
+          } catch (err) {
+            console.warn('[language-selection] init traductions popup iOS :', err);
+          }
+
+          overlay.style.display = 'flex';
+        });
+      });
+
+      okBtn.addEventListener('click', function () {
+        overlay.style.display = 'none';
+        location.replace('choose-access.html');
+      });
+    });
+  </script>
+</body>
+</html>
