@@ -64,7 +64,7 @@ class LanguageSelector {
         customSelect.style.cssText = `
             position: relative;
             cursor: pointer;
-            min-width: 36px;
+            min-width: 72px;
         `;
 
         const selectedDisplay = document.createElement('div');
@@ -76,7 +76,7 @@ class LanguageSelector {
             border: 1px solid #ccc;
             border-radius: 4px;
             background: white;
-            min-width: 24px;
+            min-width: 48px;
             min-height: 18px;
             position: relative;
             cursor: pointer;
@@ -113,6 +113,8 @@ class LanguageSelector {
             z-index: 1001;
             max-height: 200px;
             overflow-y: auto;
+            min-width: 72px;
+            width: 72px;
         `;
         this.dropdown = dropdown;
 
@@ -127,7 +129,7 @@ class LanguageSelector {
                 justify-content: center;
                 padding: 8px;
                 cursor: pointer;
-                min-width: 36px;
+                min-width: 72px;
                 min-height: 18px;
                 visibility: visible !important;
                 opacity: 1 !important;
@@ -145,25 +147,25 @@ class LanguageSelector {
             `;
 
             if (code === 'fr') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-fr.png')`;
             } else if (code === 'en') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/320px-Flag_of_the_United_Kingdom_%283-5%29.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-en.png')`;
             } else if (code === 'nl') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-nl.png')`;
             } else if (code === 'de') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-de.png')`;
             } else if (code === 'it') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-it.png')`;
             } else if (code === 'es') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-es.png')`;
             } else if (code === 'cn') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-cn.png')`;
             } else if (code === 'ar') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-ar.png')`;
             } else if (code === 'pl') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/320px-Flag_of_Poland.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-pl.png')`;
             } else if (code === 'jp') {
-                flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png')`;
+                flag.style.backgroundImage = `url('images/flag-jp.png')`;
             }
 
 
@@ -275,25 +277,25 @@ class LanguageSelector {
         `;
 
         if (currentLang === 'fr') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-fr.png')`;
         } else if (currentLang === 'en') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/320px-Flag_of_the_United_Kingdom_%283-5%29.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-en.png')`;
         } else if (currentLang === 'nl') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-nl.png')`;
         } else if (currentLang === 'de') {
-        flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png')`;
+        flag.style.backgroundImage = `url('images/flag-de.png')`;
         } else if (currentLang === 'it') {
-        flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png')`;
+        flag.style.backgroundImage = `url('images/flag-it.png')`;
         } else if (currentLang === 'es') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-es.png')`;
         } else if (currentLang === 'cn') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-cn.png')`;
         } else if (currentLang === 'ar') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-ar.png')`;
         } else if (currentLang === 'pl') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/320px-Flag_of_Poland.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-pl.png')`;
         } else if (currentLang === 'jp') {
-            flag.style.backgroundImage = `url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png')`;
+            flag.style.backgroundImage = `url('images/flag-jp.png')`;
         }
         
 

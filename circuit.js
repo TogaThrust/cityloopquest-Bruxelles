@@ -13,7 +13,7 @@ function confirmYes() {
     moyen: 'moyen',
     petit: 'court'
   }[selectedCircuit];
-  localStorage.setItem('mons_parcoursType', parcoursType);
+  localStorage.setItem('bruxelles_parcoursType', parcoursType);
 
   setTimeout(() => {
     window.location.href = 'main.html';

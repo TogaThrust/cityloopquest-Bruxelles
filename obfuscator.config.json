@@ -15,6 +15,11 @@
   "numbersToExpressions": true,
   "simplify": true,
   "transformObjectKeys": true,
+  "reservedStrings": [
+    "question",
+    "options",
+    "answer"
+  ],
   "reservedNames": [
     "ServiceWorkerGlobalScope",
     "Workbox",

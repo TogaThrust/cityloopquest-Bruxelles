@@ -377,6 +377,81 @@ header h1 {
   transition: width 0.4s ease;
 }
 
+/* Popup itinéraire transports */
+#transit-modal {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  align-items: center;
+  justify-content: center;
+  z-index: 10005;
+}
+
+.transit-hidden {
+  display: none !important;
+}
+
+.transit-visible {
+  display: flex;
+}
+
+.transit-modal-content {
+  width: min(520px, 92vw);
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  font-family: 'Arial', sans-serif;
+}
+
+.transit-modal-content h3 {
+  margin: 0 0 8px 0;
+  color: #14365c;
+}
+
+.transit-modal-content p {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.transit-link {
+  display: inline-block;
+  margin: 10px 0 14px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  color: #14365c;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+
+.transit-link:hover {
+  background: #f2f6fb;
+}
+
+.transit-disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.transit-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.transit-close {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #c8102e;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
 #media-display {
   width: 90%;
   max-height: 90%;

@@ -151,7 +151,7 @@
     
     
     const body = { 
-      city: 'mons',
+      city: 'bruxelles',
       locale: stripeLocale, // Envoyer la locale Stripe à l'API pour la page de paiement
       // user_language: code de langue pour les emails (mappé pour correspondre aux attentes du serveur)
       // Le serveur doit utiliser ce code pour envoyer l'email dans la bonne langue

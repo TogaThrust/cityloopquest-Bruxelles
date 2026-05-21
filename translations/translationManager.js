@@ -32,7 +32,7 @@ class TranslationManager {
             
             // Charger les traductions montois (optionnel)
             try {
-                const montoisResponse = await fetch('translations/translations_montois.json');
+                const montoisResponse = await fetch('translations/translations_bruxellois.json');
                 const montoisTranslations = await montoisResponse.json();
                 
                 // Fusionner les traductions montois

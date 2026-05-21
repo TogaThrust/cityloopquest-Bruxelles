@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Choisissez votre Circuit</title>
 
-  <link rel="manifest" href="manifest.json">
+  <script>(function(){var u=navigator.userAgent||'';document.write('<link rel="manifest" href="'+(/android/i.test(u)?'manifest-android.json':'manifest.json')+'">');})();</script>
   <meta name="theme-color" content="#ffffff">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -180,17 +180,17 @@
     <button class="circuit grand"
             data-circuit="grand"
             onclick="confirmChoice('grand')"
-            data-translate-html="grand_circuit">Grand Circuit<br>10.5km - 5h30</button>
+            data-translate-html="grand_circuit">Grand Circuit<br>17.5km - 6h45 hors visites (bus/tram/metrotaxi)</button>
 
     <button class="circuit moyen"
             data-circuit="moyen"
             onclick="confirmChoice('moyen')"
-            data-translate-html="medium_circuit">Circuit Moyen<br>6km - 4h</button>
+            data-translate-html="medium_circuit">Circuit Moyen<br>10km - 4h15 hors visites (marche/bus/tram/metrotaxi)</button>
 
     <button class="circuit petit"
             data-circuit="petit"
             onclick="confirmChoice('petit')"
-            data-translate-html="short_circuit">Petit Circuit<br>4km - 3h15</button>
+            data-translate-html="short_circuit">Petit Circuit<br>3.5km - 2h00 hors visites (marche)</button>
 
     <div id="confirm-popup" class="popup-confirm hidden">
       <div id="confirm-popup-text" class="popup-title">
@@ -202,13 +202,7 @@
       </div>
     </div>
 
-    <div id="popup" class="popup-confirm hidden">
-      <div id="popup-text" class="popup-title" data-translate="start_point_prompt">Où souhaitez-vous commencer le parcours ?</div>
-      <div class="popup-actions">
-        <button id="start-grand-place" class="start-option" onclick="chooseStartPoint('grand_place')" data-translate="start_point_grand_place">Grand-Place</button>
-        <button id="start-gare" class="start-option" onclick="chooseStartPoint('gare')" data-translate="start_point_gare">Gare Calatrava</button>
-      </div>
-    </div>
+    <!-- Popup de sélection du point de départ supprimé pour Bruxelles - départ toujours à la Grand-Place -->
   </div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -221,8 +215,7 @@
     let cachedStartDistances = null;
 
     const START_POINT_INDICES = {
-      grand_place: 1,   // Grand-Place (index 1 dans les circuits -> locations[0])
-      gare: 47          // Gare Calatrava (index 47 -> locations[46])
+      grand_place: 1   // Grand-Place (index 1 dans les circuits -> locations[0])
     };
 
     const CIRCUIT_CONFIRM_LABELS = {
@@ -261,9 +254,32 @@
         return;
       }
 
+      if (typeof locations === 'undefined' || !locations || !Array.isArray(locations)) {
+        console.warn('Locations non disponibles pour previewSelectedCircuit');
+        return;
+      }
+
       clearCircuits();
 
-      const path = circuits[selectedCircuit].map(i => ({ lat: locations[i - 1].lat, lng: locations[i - 1].lng }));
+      const path = circuits[selectedCircuit].map(i => {
+        // Vérifier que l'index est valide
+        if (i < 1 || i > locations.length) {
+          console.warn(`Index ${i} hors limites pour previewSelectedCircuit (locations.length = ${locations.length})`);
+          return null;
+        }
+        const loc = locations[i - 1];
+        if (!loc || typeof loc.lat !== 'number' || typeof loc.lng !== 'number') {
+          console.warn(`Location invalide à l'index ${i - 1} pour previewSelectedCircuit`);
+          return null;
+        }
+        return { lat: loc.lat, lng: loc.lng };
+      }).filter(point => point !== null);
+
+      if (path.length === 0) {
+        console.warn('Aucun point valide pour previewSelectedCircuit');
+        return;
+      }
+
       const polyline = new google.maps.Polyline({
         path: path,
         geodesic: true,
@@ -307,10 +323,32 @@
 
     function initMap() {
       map = new google.maps.Map(document.getElementById('map'), {
-        center: { lat: 50.4545, lng: 3.9524 },
+        center: { lat: 50.846791204508826, lng: 4.352435091035297 },
         zoom: 14
       });
-      showAllCircuits();
+      
+      // Fonction pour essayer d'afficher les circuits avec retry
+      function tryShowAllCircuits(attempt = 0) {
+        if (typeof circuits !== 'undefined' && typeof locations !== 'undefined' && circuits && locations && map) {
+          console.log('Affichage des circuits (tentative ' + (attempt + 1) + ')');
+          showAllCircuits();
+        } else if (attempt < 10) {
+          // Réessayer jusqu'à 10 fois avec un délai croissant
+          setTimeout(function() {
+            tryShowAllCircuits(attempt + 1);
+          }, 100 * (attempt + 1));
+        } else {
+          console.error('Impossible de charger les circuits après 10 tentatives');
+          console.log('circuits:', typeof circuits, circuits);
+          console.log('locations:', typeof locations, locations);
+          console.log('map:', map);
+        }
+      }
+      
+      // Attendre que la carte soit complètement chargée ET que les données soient disponibles
+      google.maps.event.addListenerOnce(map, 'idle', function() {
+        tryShowAllCircuits();
+      });
     }
 
     function clearCircuits() {
@@ -381,31 +419,9 @@
         return;
       }
 
-      if (!polylines.length) {
-        previewSelectedCircuit();
-      }
-
-      document.querySelectorAll('.circuit').forEach(btn => btn.disabled = true);
-
-      const popup = document.getElementById('popup');
-      const popupText = document.getElementById('popup-text');
-      if (popupText) {
-        const promptText = getTranslationValue('start_point_prompt', 'Où souhaitez-vous commencer le parcours ?');
-        const subtitleText = getTranslationValue('start_point_prompt_distance', 'Distance à vol d\'oiseau');
-        popupText.innerHTML = `${promptText}<br><small>${subtitleText}</small>`;
-      }
-
-      if (popup) {
-        popup.classList.remove('hidden');
-        popup.style.display = 'block';
-      }
-
-      if (window.translationManager && typeof window.translationManager.applyTranslations === 'function') {
-        window.translationManager.applyTranslations();
-      }
-
-      updatePopupTitle();
-      updateStartPointDistances(true);
+      // Pour Bruxelles : départ toujours à la Grand-Place (point 1)
+      // Pas de choix de point de départ, redirection directe vers main.html
+      chooseStartPoint('grand_place');
     }
 
     function updateConfirmPopupText(circuit = selectedCircuit) {
@@ -446,60 +462,16 @@
     }
 
     function updatePopupTitle() {
-      const popupText = document.getElementById('popup-text');
-      if (!popupText) return;
-
-      const promptKey = 'start_point_prompt';
-      const subtitleKey = 'start_point_prompt_distance';
-      let promptText = 'Où souhaitez-vous commencer le parcours ?';
-      let subtitleText = 'Distance à vol d\'oiseau';
-
-      if (window.translationManager && window.translationManager.isLoaded && typeof window.translationManager.translate === 'function') {
-        const translatedPrompt = window.translationManager.translate(promptKey);
-        if (translatedPrompt && translatedPrompt !== promptKey) {
-          promptText = translatedPrompt;
-        }
-        const translatedSubtitle = window.translationManager.translate(subtitleKey);
-        if (translatedSubtitle && translatedSubtitle !== subtitleKey) {
-          subtitleText = translatedSubtitle;
-        }
-      }
-
-      popupText.innerHTML = `${promptText}<br><small>${subtitleText}</small>`;
+      // Fonction désactivée pour Bruxelles - pas de popup de sélection du point de départ
     }
 
     function resolveCircuitKey(circuit, startPoint) {
-      if (startPoint === 'gare') {
-        const variantKey = `${circuit}_gare`;
-        if (circuits[variantKey]) {
-          return variantKey;
-        }
-      }
+      // Pour Bruxelles : pas de variante "_gare", toujours le circuit de base
       return circuit;
     }
 
     function refreshStartButtonBaseLabels() {
-      ['start-grand-place', 'start-gare'].forEach(id => {
-        const btn = document.getElementById(id);
-        if (!btn) return;
-        const translateKey = btn.getAttribute('data-translate');
-        let baseLabel = '';
-
-        if (translateKey && window.translationManager && typeof window.translationManager.translate === 'function') {
-          const translated = window.translationManager.translate(translateKey);
-          if (translated && translated !== translateKey) {
-            baseLabel = translated.trim();
-          }
-        }
-
-        if (!baseLabel) {
-          const currentText = btn.textContent || '';
-          baseLabel = currentText.split('•')[0].trim();
-        }
-
-        btn.dataset.baseLabel = baseLabel;
-        btn.textContent = baseLabel;
-      });
+      // Fonction désactivée pour Bruxelles - pas de choix de point de départ
     }
 
     function getStartLocation(key) {
@@ -532,68 +504,12 @@
     }
 
     function applyStartDistanceLabels(distances) {
-      ['grand_place', 'gare'].forEach(key => {
-        const btnId = key === 'grand_place' ? 'start-grand-place' : 'start-gare';
-        const btn = document.getElementById(btnId);
-        if (!btn) return;
-        const baseLabel = btn.dataset.baseLabel || (btn.textContent || '').trim();
-        const distance = distances && distances[key];
-        if (distance && Number.isFinite(distance)) {
-          const formatted = formatDistance(distance);
-          btn.textContent = formatted ? `${baseLabel} • ${formatted}` : baseLabel;
-        } else {
-          btn.textContent = baseLabel;
-        }
-      });
+      // Fonction désactivée pour Bruxelles - pas de choix de point de départ
     }
 
     function updateStartPointDistances(force = false) {
-      refreshStartButtonBaseLabels();
-
-      // Réinitialiser les libellés avant de recalculer
-      applyStartDistanceLabels(null);
-
-      if (cachedStartDistances && !force) {
-        applyStartDistanceLabels(cachedStartDistances);
-        return;
-      }
-
-      if (!navigator.geolocation) {
-        console.warn('🌐 Géolocalisation indisponible pour le calcul des distances.');
-        applyStartDistanceLabels(null);
-        return;
-      }
-
-      navigator.geolocation.getCurrentPosition((position) => {
-        const { latitude, longitude } = position.coords;
-
-        const distances = {
-          grand_place: null,
-          gare: null
-        };
-
-        const grandLoc = getStartLocation('grand_place');
-        if (grandLoc) {
-          distances.grand_place = computeDistanceMeters(latitude, longitude, grandLoc.lat, grandLoc.lng);
-        }
-
-        const gareLoc = getStartLocation('gare');
-        if (gareLoc) {
-          distances.gare = computeDistanceMeters(latitude, longitude, gareLoc.lat, gareLoc.lng);
-        }
-
-        cachedStartDistances = distances;
-        applyStartDistanceLabels(distances);
-      }, (error) => {
-        console.warn('⚠️ Impossible de récupérer la position pour calculer la distance:', error);
-        cachedStartDistances = null;
-        applyStartDistanceLabels(null);
-      }, {
-        // 👉 plus souple pour desktop
-        enableHighAccuracy: false,
-        maximumAge: 60000,
-        timeout: 8000
-      });
+      // Fonction désactivée pour Bruxelles - pas de choix de point de départ
+      // Le départ se fait toujours à la Grand-Place
     }
 
     function chooseStartPoint(startPoint) {
@@ -610,40 +526,99 @@
         localStorage.setItem('mons_parcoursType', parcoursType);
       }
 
+      // Vérifier si l'élément popup existe avant d'essayer d'y accéder
       const popup = document.getElementById('popup');
-      popup.style.display = 'none';
-      popup.classList.add('hidden');
+      if (popup) {
+        popup.style.display = 'none';
+        popup.classList.add('hidden');
+      }
 
       window.location.href = 'main.html';
     }
 
     function showAllCircuits() {
+      if (!map) {
+        console.warn('Carte non initialisée');
+        return;
+      }
+      
+      if (typeof circuits === 'undefined' || typeof locations === 'undefined' || !circuits || !locations) {
+        console.warn('Circuits ou locations non disponibles');
+        return;
+      }
+
       clearCircuits();
       const bounds = new google.maps.LatLngBounds();
 
       ['grand', 'moyen', 'petit'].forEach(circuitName => {
-        const path = circuits[circuitName].map(i => ({ lat: locations[i - 1].lat, lng: locations[i - 1].lng }));
+        if (!circuits[circuitName] || !Array.isArray(circuits[circuitName])) {
+          console.warn(`Circuit ${circuitName} non trouvé ou invalide`);
+          return;
+        }
+        
+        const path = circuits[circuitName].map(i => {
+          // Vérifier que l'index est valide (les indices dans circuits commencent à 1, pas 0)
+          if (i < 1 || i > locations.length) {
+            console.warn(`Index ${i} hors limites pour le circuit ${circuitName} (locations.length = ${locations.length})`);
+            return null;
+          }
+          const loc = locations[i - 1]; // Convertir l'index 1-based en 0-based
+          if (!loc) {
+            console.warn(`Location manquante à l'index ${i - 1} pour le circuit ${circuitName}`);
+            return null;
+          }
+          if (typeof loc.lat !== 'number' || typeof loc.lng !== 'number') {
+            console.warn(`Location invalide à l'index ${i - 1} pour le circuit ${circuitName} (lat: ${loc.lat}, lng: ${loc.lng})`);
+            return null;
+          }
+          return { lat: loc.lat, lng: loc.lng };
+        }).filter(point => point !== null);
+        
+        if (path.length === 0) {
+          console.warn(`Aucun point valide pour le circuit ${circuitName}`);
+          return;
+        }
+        
         const polyline = new google.maps.Polyline({
-          path: path, geodesic: true,
+          path: path, 
+          geodesic: true,
           strokeColor: getColor(circuitName),
-          strokeOpacity: 1.0, strokeWeight: 5
+          strokeOpacity: 1.0, 
+          strokeWeight: 5
         });
         polyline.setMap(map);
         polylines.push(polyline);
         path.forEach(point => bounds.extend(point));
       });
 
-      if (map) map.fitBounds(bounds);
+      if (polylines.length > 0 && map) {
+        map.fitBounds(bounds);
+      }
 
       document.querySelectorAll('.circuit').forEach(btn => btn.disabled = false);
 
       const p = document.getElementById('popup');
-      p.classList.add('hidden');
-      p.style.display = 'none';
+      if (p) {
+        p.classList.add('hidden');
+        p.style.display = 'none';
+      }
     }
 
     // Charger la carte (deferred script)
     loadGoogleMapsAPI();
+    
+    // Appel de secours pour afficher les circuits après le chargement complet
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        if (map && typeof circuits !== 'undefined' && typeof locations !== 'undefined' && circuits && locations) {
+          // Vérifier si les circuits ne sont pas déjà affichés
+          if (polylines.length === 0) {
+            console.log('Appel de secours : affichage des circuits');
+            showAllCircuits();
+          }
+        }
+      }, 1000);
+    });
 
     // Langue + éviter les warnings de traduction trop tôt
     function waitUntil(cond, {timeout=5000, interval=50}={}) {
@@ -668,15 +643,12 @@
         window.languageSelector.createSelector();
       }
 
-      // Attendre que les traductions soient prêtes avant d’écrire le texte
+      // Attendre que les traductions soient prêtes avant d'écrire le texte
       await waitUntil(() => window.translationManager && window.translationManager.isLoaded);
-      updatePopupTitle();
       updateConfirmPopupText(selectedCircuit);
     });
 
     document.addEventListener('languageChanged', () => {
-      updatePopupTitle();
-      updateStartPointDistances(true);
       updateConfirmPopupText(selectedCircuit);
     });
 
@@ -723,6 +695,16 @@
         await window.translationManager.init();
         window.translationManager.applyTranslations();
       }
+      
+      // Forcer l'affichage des circuits après le chargement complet
+      setTimeout(function() {
+        if (map && typeof circuits !== 'undefined' && typeof locations !== 'undefined' && circuits && locations) {
+          if (polylines.length === 0) {
+            console.log('Forçage de l\'affichage des circuits depuis DOMContentLoaded');
+            showAllCircuits();
+          }
+        }
+      }, 1500);
     });
   </script>
 

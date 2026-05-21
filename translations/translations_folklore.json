@@ -1,75 +1,72 @@
 {
   "fr": {
-    "headerTitle": "CityLoop Quest Bruxelles- Au cœur de l’Europe",
-    "title": "🎭 Folklore Montois",
+    "headerTitle": "CityLoop Quest Bruxelles- Au cœur de l'Europe",
+    "title": "🎭 Folklore Bruxellois",
     "back": "RETOUR",
     "backButton": "RETOUR",
-    "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">La ducasse rituelle en 500 mots</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">La ducasse rituelle, les origines et l'évolution</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">La ducasse rituelle, la descente de la Châsse</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">La ducasse rituelle, la procession du Car d'Or</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">La ducasse rituelle, la montée du Car d'Or</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">La ducasse rituelle, le combat dit 'Lumeçon'</a><a href=\"personnages.html\">Personnages acteurs de la procession et du Lumeçon</a></div>"
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meyboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Procession de Saint Guidon</a><a href=\"sablon.html\">Fête du Sablon</a><a href=\"zinneke.html\">Zinneke parade</a><a href=\"noireauds.html\">Cortège des Noirauds & Election de la Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Election de Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">Bal National</a><a href=\"tapis_de_fleurs.html\">Tapis de fleurs</a><a href=\"musique.html\">Fête de la musique</a><a href=\"biere.html\">Fête de la bière</a><a href=\"diversite.html\">Fête de la diversité culturelle</a><a href=\"iris.html\">Fête de l'Iris</a><a href=\"personnages.html\">Personnages acteurs de la procession et du Lumeçon</a></div>"
   },
   "en": {
-    "headerTitle": "CityLoop Quest Mons - The Ride of Saint George",
-    "title": "🎭 Mons Folklore",
+    "headerTitle": "CityLoop Quest Bruxelles - The heart of Europe",
+    "title": "🎭 Brussels Folklore",
     "back": "BACK",
     "backButton": "BACK",
-    "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">The ritual ducasse in 500 words</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">The ritual ducasse, origins and evolution</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">The ritual ducasse, the descent of the Chasse</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">The ritual ducasse, the procession of the Golden Car</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">The ritual ducasse, the ascent of the Golden Car</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">The ritual ducasse, the combat called 'Lumeçon'</a><a href=\"personnages.html\">Character actors of the procession and Lumeçon</a></div>"
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meyboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Procession of Saint Guidon</a><a href=\"sablon.html\">Festival of Sablon</a><a href=\"zinneke.html\">Zinneke Parade</a><a href=\"noireauds.html\">Noirauds Procession & Election of the Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Election of Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">National Ball</a><a href=\"tapis_de_fleurs.html\">Flower Carpet</a><a href=\"musique.html\">Music Day</a><a href=\"biere.html\">Beer Festival</a><a href=\"diversite.html\">Cultural Diversity Festival</a><a href=\"iris.html\">Iris Festival</a><a href=\"personnages.html\">Character actors of the procession and Lumeçon</a></div>"
   },
   "nl": {
-    "headerTitle": "CityLoop Quest Mons - De Ruiterstoet van Sint Georges",
-    "title": "🎭 Bergen Folklore",
+    "headerTitle": "CityLoop Quest Bruxelles - Het hart van Europa",
+    "title": "🎭 Brussels Folklore",
     "back": "TERUG",
     "backButton": "TERUG",
-"content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">Het rituele Doudoufeest in 500 woorden</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">Het rituele Doudoufeest, oorsprong en evolutie</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">Het rituele Doudoufeest, de afdaling van de reliekschrijn</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">Het rituele Doudoufeest, de processie van de Car d'Or</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">Het rituele Doudoufeest, de beklimming van de Car d'Or</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">Het rituele Doudoufeest, het gevecht genaamd 'Lumeçon'</a><a href=\"personnages.html\">Personages van de processie en de Lumeçon</a></div>"
-
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meiboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Processie van Sint-Guidon</a><a href=\"sablon.html\">Feest van de Zavel</a><a href=\"zinneke.html\">Zinneke Parade</a><a href=\"noireauds.html\">Ommegang van de Zwarte Zot & Verkiezing van de Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Verkiezing van Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">Nationaal Bal</a><a href=\"tapis_de_fleurs.html\">Bloementapijt</a><a href=\"musique.html\">Feest van de Muziek</a><a href=\"biere.html\">Bierfeest</a><a href=\"diversite.html\">Feest van de Culturele Diversiteit</a><a href=\"iris.html\">Irisfeest</a><a href=\"personnages.html\">Personages van de processie en de Lumeçon</a></div>"
   },
- "de": {
-  "headerTitle": "CityLoop Quest Mons - Der Ritt des heiligen Georg",
-  "title": "🎭 Folklore aus Mons",
-  "back": "ZURÜCK",
-  "backButton": "ZURÜCK",
-  "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">Die rituelle Ducasse in 500 Wörtern</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">Die rituelle Ducasse, Ursprünge und Entwicklung</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">Die rituelle Ducasse, das Herablassen der Châsse</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">Die rituelle Ducasse, die Prozession des Car d'Or</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">Die rituelle Ducasse, der Aufstieg des Car d'Or</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">Die rituelle Ducasse, der sogenannte Kampf 'Lumeçon'</a><a href=\"personnages.html\">Akteure der Prozession und des Lumeçon</a></div>"
-},
-"it": {
-"headerTitle": "CityLoop Quest Mons - La Cavalcata di San Giorgio",
-"title": "🎭 Folklore di Mons",
-"back": "INDIETRO",
-"backButton": "INDIETRO",
-"content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">La ducasse rituale in 500 parole</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">La ducasse rituale, le origini e l’evoluzione</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">La ducasse rituale, la discesa della teca reliquiaria</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">La ducasse rituale, la processione del Car d’Or</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">La ducasse rituale, la salita del Car d’Or</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">La ducasse rituale, il combattimento detto «Lumeçon»</a><a href=\"personnages.html\">Personaggi della processione e del Lumeçon</a></div>"
-},
-"es": {
-  "headerTitle": "CityLoop Quest Mons - La Cabalgata de San Jorge",
-  "title": "🎭 Folclore de Mons",
-  "back": "VOLVER",
-  "backButton": "VOLVER",
-  "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">La ducasse ritual en 500 palabras</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">La ducasse ritual, los orígenes y la evolución</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">La ducasse ritual, el descenso de la Châsse</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">La ducasse ritual, la procesión del Car d'Or</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">La ducasse ritual, la subida del Car d'Or</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">La ducasse ritual, el combate llamado 'Lumeçon'</a><a href=\"personnages.html\">Personajes actores de la procesión y del Lumeçon</a></div>"
-},
-"pl": {
-  "headerTitle": "CityLoop Quest Mons - Szarża św. Jerzego",
-  "title": "🎭 Folklor Mons",
-  "back": "POWRÓT",
-  "backButton": "POWRÓT",
-  "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">Ducasse rytualna w 500 słowach</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">Ducasse rytualna — początki i ewolucja</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">Ducasse rytualna — zniesienie relikwiarza</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">Ducasse rytualna — procesja Złotego Wozu</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">Ducasse rytualna — wciąganie Złotego Wozu</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">Ducasse rytualna — walka zwana „Lumeçon”</a><a href=\"personnages.html\">Postacie — uczestnicy procesji i Lumeçonu</a></div>"
-},
-
+  "de": {
+    "headerTitle": "CityLoop Quest Bruxelles - Im Herzen von Europa",
+    "title": "🎭 Brüsseler Folklore",
+    "back": "ZURÜCK",
+    "backButton": "ZURÜCK",
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meyboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Prozession des Heiligen Guidon</a><a href=\"sablon.html\">Fest des Sablon</a><a href=\"zinneke.html\">Zinneke Parade</a><a href=\"noireauds.html\">Zug der Noirauds & Wahl der Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Wahl der Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">Nationalball</a><a href=\"tapis_de_fleurs.html\">Blumenteppich</a><a href=\"musique.html\">Musikfest</a><a href=\"biere.html\">Bierfest</a><a href=\"diversite.html\">Fest der Kulturellen Vielfalt</a><a href=\"iris.html\">Irisfest</a><a href=\"personnages.html\">Akteure der Prozession und des Lumeçon</a></div>"
+  },
+  "it": {
+    "headerTitle": "CityLoop Quest Bruxelles - Nel cuore dell'Europa",
+    "title": "🎭 Folclore di Bruxelles",
+    "back": "INDIETRO",
+    "backButton": "INDIETRO",
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meyboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Processione di San Guidone</a><a href=\"sablon.html\">Festa del Sablon</a><a href=\"zinneke.html\">Zinneke Parade</a><a href=\"noireauds.html\">Corteo dei Noirauds & Elezione della Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Elezione di Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">Ball Nazionale</a><a href=\"tapis_de_fleurs.html\">Tappeto di Fiori</a><a href=\"musique.html\">Festa della Musica</a><a href=\"biere.html\">Festa della Birra</a><a href=\"diversite.html\">Festa della Diversità Culturale</a><a href=\"iris.html\">Festa dell'Iris</a><a href=\"personnages.html\">Personaggi della processione e del Lumeçon</a></div>"
+  },
+  "es": {
+    "headerTitle": "CityLoop Quest Bruxelles - En el corazón de Europa",
+    "title": "🎭 Folclore de Bruselas",
+    "back": "VOLVER",
+    "backButton": "VOLVER",
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meyboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Procesión de San Guidón</a><a href=\"sablon.html\">Fiesta del Sablon</a><a href=\"zinneke.html\">Zinneke Parade</a><a href=\"noireauds.html\">Cortejo de los Noirauds & Elección de la Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Elección de Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">Baile Nacional</a><a href=\"tapis_de_fleurs.html\">Alfombra de Flores</a><a href=\"musique.html\">Fiesta de la Música</a><a href=\"biere.html\">Fiesta de la Cerveza</a><a href=\"diversite.html\">Fiesta de la Diversidad Cultural</a><a href=\"iris.html\">Fiesta del Iris</a><a href=\"personnages.html\">Personajes actores de la procesión y del Lumeçon</a></div>"
+  },
+  "pl": {
+    "headerTitle": "CityLoop Quest Bruxelles - W sercu Europy",
+    "title": "🎭 Folklorystyk Brukselski",
+    "back": "POWRÓT",
+    "backButton": "POWRÓT",
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">Meyboom</a><a href=\"ommegang.html\">Ommegang</a><a href=\"procession_guidon.html\">Procesja św. Guidona</a><a href=\"sablon.html\">Święto Sablon</a><a href=\"zinneke.html\">Zinneke Parade</a><a href=\"noireauds.html\">Orszak Noirauds & Wybór Moestasje</a><a href=\"folklorissimo.html\">Folklorissimo</a><a href=\"election_madame_chapeau.html\">Wybór Madame Chapeau</a><a href=\"brussels_pride.html\">Brussels Pride</a><a href=\"bal.html\">Bal Narodowy</a><a href=\"tapis_de_fleurs.html\">Dywan Kwiatowy</a><a href=\"musique.html\">Święto Muzyki</a><a href=\"biere.html\">Święto Piwa</a><a href=\"diversite.html\">Święto Różnorodności Kulturowej</a><a href=\"iris.html\">Święto Irysa</a><a href=\"personnages.html\">Postacie — uczestnicy procesji i Lumeçonu</a></div>"
+  },
   "ar": {
-  "headerTitle": "CityLoop Quest Mons - حملة القديس جورج",
-  "title": "🎭 الفولكلور المُنْوازي",
-  "back": "رجوع",
-  "backButton": "رجوع",
-  "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">الدكاس الطقسية في 500 كلمة</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">الدكاس الطقسية: الأصول والتطور</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">الدكاس الطقسية: إنزال العِلبة المقدّسة (La Châsse)</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">الدكاس الطقسية: موكب «كار دور» (عربة الذهب)</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">الدكاس الطقسية: صعود «كار دور»</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">الدكاس الطقسية: القتال المسمّى «لومسون»</a><a href=\"personnages.html\">شخصيات الموكب وممثلو «لومسون»</a></div>"
+    "headerTitle": "CityLoop Quest Bruxelles - في قلب أوروبا",
+    "title": "🎭 الفولكلور البروكسلي",
+    "back": "رجوع",
+    "backButton": "رجوع",
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">مايبوم</a><a href=\"ommegang.html\">أوميغانغ</a><a href=\"procession_guidon.html\">موكب القديس غيدون</a><a href=\"sablon.html\">مهرجان سابلون</a><a href=\"zinneke.html\">موكب زينيك</a><a href=\"noireauds.html\">موكب النوارود & انتخاب المويستاج</a><a href=\"folklorissimo.html\">فولكلوريسيمو</a><a href=\"election_madame_chapeau.html\">انتخاب مدام شابو</a><a href=\"brussels_pride.html\">فخر بروكسل</a><a href=\"bal.html\">الحفل الوطني</a><a href=\"tapis_de_fleurs.html\">سجادة الزهور</a><a href=\"musique.html\">عيد الموسيقى</a><a href=\"biere.html\">عيد البيرة</a><a href=\"diversite.html\">عيد التنوع الثقافي</a><a href=\"iris.html\">عيد السوسن</a><a href=\"personnages.html\">شخصيات الموكب وممثلو «لومسون»</a></div>"
   },
   "cn": {
-"headerTitle": "CityLoop Quest Mons - 圣乔治的骑行",
-"title": "🎭 蒙斯民俗",
-"back": "返回",
-"backButton": "返回",
-"content": "<div class='button-container'><a href='la_ducasse_rituelle_n_500_mots.html'>仪式性盛会（500 字概述）</a><a href='la_ducasse_rituelle_les_origines_et_lévolution.html'>仪式性盛会：起源与演变</a><a href='la_ducasse_rituelle_la_descente_de_la_châsse.html'>仪式性盛会：圣物龛下架</a><a href='la_ducasse_rituelle_la_procession_du_car_dor.html'>仪式性盛会：金车游行</a><a href='la_ducasse_rituelle_la_montée_du_car_dor.html'>仪式性盛会：金车登坡</a><a href='la_ducasse_rituelle_le_combat_dit_lumeçon.html'>仪式性盛会：所谓的“鲁梅松之战”</a><a href='personnages.html'>游行与鲁梅松之战的角色人物</a></div>"
-},
-"jp": {
-    "headerTitle": "CityLoop Quest Mons ― 聖ジョルジュの騎行",
-    "title": "🎭 モンスの民俗文化",
+    "headerTitle": "CityLoop Quest Bruxelles - 在欧洲的心脏",
+    "title": "🎭 布鲁塞尔民俗",
+    "back": "返回",
+    "backButton": "返回",
+    "content": "<div class='button-container'><a href='meyboom.html'>梅树节</a><a href='ommegang.html'>奥梅冈游行</a><a href='procession_guidon.html'>圣吉东游行</a><a href='sablon.html'>萨布隆节</a><a href='zinneke.html'>津内克游行</a><a href='noireauds.html'>黑帽游行与莫斯塔杰选举</a><a href='folklorissimo.html'>民俗节</a><a href='election_madame_chapeau.html'>帽子夫人选举</a><a href='brussels_pride.html'>布鲁塞尔骄傲节</a><a href='bal.html'>国家舞会</a><a href='tapis_de_fleurs.html'>鲜花地毯</a><a href='musique.html'>音乐节</a><a href='biere.html'>啤酒节</a><a href='diversite.html'>文化多样性节</a><a href='iris.html'>鸢尾花节</a><a href='personnages.html'>游行与鲁梅松之战的角色人物</a></div>"
+  },
+  "jp": {
+    "headerTitle": "CityLoop Quest Bruxelles ― ヨーロッパの中心",
+    "title": "🎭 ブリュッセルの民俗文化",
     "back": "戻る",
     "backButton": "戻る",
-    "content": "<div class=\"button-container\"><a href=\"la_ducasse_rituelle_n_500_mots.html\">儀礼のデュカスを500語で</a><a href=\"la_ducasse_rituelle_les_origines_et_lévolution.html\">儀礼のデュカス：起源と発展</a><a href=\"la_ducasse_rituelle_la_descente_de_la_châsse.html\">儀礼のデュカス：聖遺物箱（シャス）の降下</a><a href=\"la_ducasse_rituelle_la_procession_du_car_dor.html\">儀礼のデュカス：カール・ドールの行列</a><a href=\"la_ducasse_rituelle_la_montée_du_car_dor.html\">儀礼のデュカス：カール・ドールの登坂</a><a href=\"la_ducasse_rituelle_le_combat_dit_lumeçon.html\">儀礼のデュカス：いわゆる「リュムソン」の戦い</a><a href=\"personnages.html\">行列とリュムソンの登場人物</a></div>"
+    "content": "<div class=\"button-container\"><a href=\"meyboom.html\">メイブーム</a><a href=\"ommegang.html\">オメガング</a><a href=\"procession_guidon.html\">サン・ギドンの行列</a><a href=\"sablon.html\">サブロンの祭り</a><a href=\"zinneke.html\">ジネケ・パレード</a><a href=\"noireauds.html\">ノワロの行列とモエスタージュの選出</a><a href=\"folklorissimo.html\">フォルクロリッシモ</a><a href=\"election_madame_chapeau.html\">マダム・シャポーの選出</a><a href=\"brussels_pride.html\">ブリュッセル・プライド</a><a href=\"bal.html\">ナショナル・バル</a><a href=\"tapis_de_fleurs.html\">花のじゅうたん</a><a href=\"musique.html\">音楽祭</a><a href=\"biere.html\">ビール祭</a><a href=\"diversite.html\">文化的多様性の祭り</a><a href=\"iris.html\">アイリスの祭り</a><a href=\"personnages.html\">行列とリュムソンの登場人物</a></div>"
   }
-  }
-  
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peinture et sculpture - CityLoop Quest Bruxelles</title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Librairies de traduction -->
+  <script src="translations/translationManager.js"></script>
+  <script src="translations/languageSelector.js"></script>
+
+  <!-- UNIQUE: le vrai access-control -->
+  <script src="api-base.js"></script>
+  <script src="js/access-control.js"></script>
+
+  <!-- Garde d'accès : bloque l'accès si aucun code d'activation valide (clq_short_code) -->
+ <script src="js/access-guard.js" defer></script>
+ 
+  <!-- Script pour les popups de personnalités -->
+  <script src="js/personnalites-popup.js"></script>
+  <script src="js/personnalites-buttons.js"></script>
+</head>
+<body>
+<header class="main-header">
+  <div class="header-content">
+    <img src="images/icone titre0.png" alt="Icone 0" class="header-img left">
+    <h1 data-translate="title_chevauchee">CityLoop Quest Bruxelles- Au cœur de l'Europe</h1>
+    <img src="images/icone titre1.png" alt="Icone 1" class="header-img right">
+  </div>
+</header>
+
+<main style="text-align:center; padding:20px;">
+  <h2 data-translate="personnalites_peinture_sculpture">🎨 Peinture et sculpture</h2>
+
+  <div id="personnalites-container" style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:600px; margin:auto;">
+    <!-- Les boutons seront générés par JavaScript -->
+  </div>
+
+  <div style="margin-top:40px;"></div>
+</main>
+
+<button class="back-button" id="back-button" data-translate="back">BACK</button>
+
+<script>
+// ----------------- INIT PAGE / LANGUE -----------------
+function initPeintureSculpturePage() {
+  if (window.translationManager?.isLoaded) {
+    window.languageSelector?.createSelector?.();
+    window.languageSelector?.updateSelectorValue?.();
+  } else {
+    setTimeout(initPeintureSculpturePage, 100);
+  }
+}
+
+// ----------------- DOM READY -----------------
+document.addEventListener('DOMContentLoaded', () => {
+  initPeintureSculpturePage();
+
+  // Back
+  document.getElementById('back-button')?.addEventListener('click', () => {
+    window.location.href = 'personnalites.html';
+  });
+
+  // Ajouter les boutons de personnalités
+  const container = document.getElementById('personnalites-container');
+  if (container && typeof addPersonnaliteButtons === 'function') {
+    const personNames = [
+      'Jan Borremans', 'Jan van den Dale', 'Passchier Borremans', 'Philippe de Champaigne',
+      'Jean-Baptiste Madou', 'René Magritte', 'Max Morton'
+    ];
+    addPersonnaliteButtons(container, personNames).catch(err => console.error('Erreur lors de l\'ajout des boutons:', err));
+  }
+});
+</script>
+</body>
+</html>
+

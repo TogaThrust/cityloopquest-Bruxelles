@@ -23,7 +23,16 @@
             text-align: center;
         }
         .museum-category {
-            margin-top: 40px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .museum-category h2 {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #14365c;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #14365c;
         }
         .museum {
             display: flex;
@@ -37,7 +46,7 @@
         .museum-info {
             flex: 1;
         }
-        button {
+        button:not(.back-button) {
             margin-top: 10px;
         }
         button:disabled {
@@ -52,6 +61,23 @@
             padding: 10px 20px;
             font-size: 1rem;
         }
+        .back-button {
+            position: fixed !important;
+            top: 50% !important;
+            right: 10px !important;
+            transform: translateY(-50%) !important;
+            z-index: 1000 !important;
+            margin-top: 0 !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            margin-bottom: 0 !important;
+            width: auto !important;
+            max-width: none !important;
+            display: block !important;
+        }
+        button.back-button {
+            margin-top: 0 !important;
+        }
     </style>
 </head>
 <body>
@@ -64,146 +90,398 @@
     </div>
 </header>
 
-<h1 data-translate="museums.title">🏛️ Musées à visiter à Mons</h1>
+<h1 data-translate="museums.title">🏛️ Musées à visiter à Bruxelles</h1>
 <div class="museum-category">
-<h2 data-translate="museums.artHeritage">Musées d'art et patrimoine</h2>
+<h2 data-translate="museums.artHeritage">Art, beaux-arts & architecture</h2>
 <div class="museum">
-<img alt="Musée des Beaux-Arts" src="images/beauxarts.jpg"/>
+<img alt="Musée des Beaux-Arts" src="images/musées/beauxarts.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.bam.name">Musée des Beaux-Arts (BAM)</strong><br/>
-<span data-translate="museums.bam.address">Adresse : Rue Neuve 8, 7000 Mons</span><br/>
-<span data-translate="museums.bam.description">Le BAM (Beaux-Arts Mons) est un musée d'art moderne et contemporain proposant des expositions temporaires prestigieuses dans un cadre architectural contemporain.</span>
-<br/><button onclick="goToMuseum('BAM', 50.45561164910952, 3.9525083177023212, '', 'images/beauxarts.jpg')" data-translate="museums.bam.button">Y aller ?</button>
-</div>
-</div>
-<div class="museum">
-<img alt="Musée des Collections (CAP)" src="images/collections.jpg"/>
-<div class="museum-info">
-<strong data-translate="museums.cap.name">Musée des Collections (CAP)</strong><br/>
-<span data-translate="museums.cap.address">Adresse : Rue Neuve 8, 7000 Mons</span><br/>
-<span data-translate="museums.cap.description">Le Musée des Collections (CAP) de Mons présente les riches collections permanentes de la ville, mêlant arts anciens, modernes et contemporains dans un parcours thématique.</span>
-<br/><button onclick="goToMuseum('Musée des Collections (CAP)', 50.45561164910952, 3.9525083177023212, '', 'images/collections.jpg')" data-translate="museums.cap.button">Y aller ?</button>
+<strong data-translate="museums.MRBAB.name">Musées royaux des Beaux-Arts de Belgique (MRBAB)</strong><br/>
+<span data-translate="museums.MRBAB.address">Adresse : Rue de la Régence 3, 1000 Bruxelles</span><br/>
+<span data-translate="museums.MRBAB.description">Grand complexe fédéral qui regroupe plusieurs musées (Old Masters, Fin-de-Siècle, etc.) avec plus de 20 000 œuvres de peinture, sculpture et dessin du XVe au XXIe siècle, dont Bruegel, Rubens, Ensor, Magritte…</span>
+<span data-translate="museums.MRBAB.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 11:00–18:00<br/>dimanche 11:00–18:00</span>
+<span data-translate="museums.MRBAB.coordonnees"><br/><br/>https://www.fine-arts-museum.be/<br/>+32 (0)2/508 32 11</span>
+<br/><button onclick="goToMuseum('MRBAB', 50.841618177950004, 4.358180637759238, '', 'images/musées/beauxarts.jpg')" data-translate="museums.MRBAB.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Maison Losseau" src="images/maison_losseau.jpg"/>
+<img alt="Musée Magritte" src="images/musées/Musee_Magritte.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.maisonLosseau.name">Maison Losseau</strong><br/>
-<span data-translate="museums.maisonLosseau.address">Adresse : Rue de Nimy 37, 7000 Mons</span><br/>
-<span data-translate="museums.maisonLosseau.description">La Maison Losseau à Mons est un joyau de l'Art nouveau, abritant un centre littéraire et une maison-musée dédiée à l'œuvre du bibliophile Léon Losseau.</span>
-<br/><button onclick="goToMuseum('Maison Losseau', 50.456350393400506, 3.954181616253802, '', 'images/Maison_Losseau.jpg')" data-translate="museums.maisonLosseau.button">Y aller ?</button>
+<strong data-translate="museums.mag.name">"Musée Magritte"</strong><br/>
+<span data-translate="museums.mag.address">Adresse : Place Royale 1, 1000 Bruxelles (intégré aux MRBAB, côté place)</span><br/>
+<span data-translate="museums.mag.description">Musée entièrement dédié à René Magritte, présentant plus de 200 œuvres (peintures, gouaches, dessins, affiches…) et retraçant l’évolution de son surréalisme, de ses débuts aux icônes mondialement connues.</span>
+<span data-translate="museums.mag.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 11:00–18:00<br/>dimanche 11:00–18:00</span>
+<span data-translate="museums.mag.coordonnees"><br/><br/>https://www.musee-magritte-museum.be/<br/>+32 (0)2/508 32 11</span>
+<br/><button onclick="goToMuseum('Musée Magritte', 50.84240606483071, 4.358638375681356, '', 'images/musées/Musee_Magritte.jpg')" data-translate="museums.mag.button">Y aller ?</button>
+
 </div>
 </div>
 <div class="museum">
-<img alt="Musée du Doudou" src="images/du_doudou.jpg"/>
+<img alt="Musée Art & Histoire" src="images/musées/art_histoire.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.museeDoudou.name">Musée du Doudou</strong><br/>
-<span data-translate="museums.museeDoudou.address">Adresse : Jardin du Mayeur, 7000 Mons</span><br/>
-<span data-translate="museums.museeDoudou.description">Le Musée du Doudou à Mons est consacré à la Ducasse rituelle, mettant en valeur son histoire, ses traditions et son inscription au patrimoine immatériel de l'UNESCO.</span>
-<br/><button onclick="goToMuseum('Musée du Doudou', 50.45588967867004, 3.9512415876339406, '', 'images/du_doudou.jpg')" data-translate="museums.museeDoudou.button">Y aller ?</button>
+<strong data-translate="museums.art_histoire.name">Musée Art & Histoire</strong><br/>
+<span data-translate="museums.art_histoire.address">Adresse : Parc du Cinquantenaire 10, 1000 Bruxelles</span><br/>
+<span data-translate="museums.art_histoire.description">Un des plus grands musées d’art et d’archéologie d’Europe : antiquités égyptiennes, grecques et romaines, art précolombien, arts décoratifs européens, collections d’arts extra-européens, etc.</span>
+<span data-translate="museums.art_histoire.ouverture"><br/><br/>lundi Fermé<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi 09:30–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.art_histoire.coordonnees"><br/><br/>https://artandhistory.museum/<br/>+32 (0)2/741 73 31</span>
+<br/><button onclick="goToMuseum('Musée Art & Histoire', 50.83934938449651, 4.391502346652871, '', 'images/musées/art_histoire.jpg')" data-translate="museums.art_histoire.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Anciens abattoirs" src="images/abattoirs.jpg"/>
+<img alt="Musée des Instruments de Musique (MIM)" src="images/musées/MIM.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.anciensAbattoirs.name">Anciens abattoirs</strong><br/>
-<span data-translate="museums.anciensAbattoirs.address">Adresse : Rue de la Trouille 17, 7000 Mons</span><br/>
-<span data-translate="museums.anciensAbattoirs.description">Le musée des Anciens Abattoirs de Mons est un espace d'art contemporain installé dans un remarquable site industriel du XIXe siècle rénové.</span>
-<br/><button onclick="goToMuseum('Anciens Abattoirs', 50.44854636716852, 3.9517990966136898, '', 'images/abattoirs.jpg')" data-translate="museums.anciensAbattoirs.button">Y aller ?</button>
+<strong data-translate="museums.MIM.name">Musée des Instruments de Musique (MIM)</strong><br/>
+<span data-translate="museums.MIM.address">Adresse : Rue Montagne de la Cour 2, 1000 Bruxelles</span><br/>
+<span data-translate="museums.MIM.description">Installé dans l’ancien magasin Art nouveau « Old England », le MIM expose plusieurs milliers d’instruments du monde entier, avec un audio-guide qui permet d’entendre leur son. Terrasse panoramique sur le toit avec vue sur Bruxelles.</span>
+<span data-translate="museums.MIM.ouverture"><br/>lundi Fermé<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi 09:30–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span><br/>
+<span data-translate="museums.MIM.coordonnees"><br/>https://www.mim.be/<br/>+32 (0)2/545 01 30</span>
+<br/><button onclick="goToMuseum('Musée des Instruments de Musique (MIM)', 50.842889514838035, 4.359003945602334, '', 'images/musées/MIM.jpg')" data-translate="museums.MIM.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Artothèque" src="images/artotheque.jpg"/>
+<img alt="Art et marges musée" src="images/musées/art_marges.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.artotheque.name">Artothèque</strong><br/>
-<span data-translate="museums.artotheque.address">Adresse :  Rue Claude de Bettignies 1, 7000 Mons</span><br/>
-<span data-translate="museums.artotheque.description">L'Artothèque de Mons est un centre de conservation et de recherche dédié aux collections muséales de la ville, situé dans une ancienne chapelle rénovée.</span>
-<br/><button onclick="goToMuseum('Artothèque', 50.45438138412336, 3.9453124389427847, '', 'images/artotheque.jpg')" data-translate="museums.artotheque.button">Y aller ?</button>
-</div>
-</div>
-</div>
-<div class="museum-category">
-<h2 data-translate="museums.historyMemory">Musées d'histoire et mémoire</h2>
-<div class="museum">
-<img alt="Mons Memorial Museum (MMM)" src="images/memorial.jpg"/>
-<div class="museum-info">
-<strong data-translate="museums.mmm.name">Mons Memorial Museum (MMM)</strong><br/>
-<span data-translate="museums.mmm.address">Adresse :  Boulevard Dolez 51, 7000 Mons</span><br/>
-<span data-translate="museums.mmm.description">Le Mons Memorial Museum retrace l'histoire militaire de Mons à travers les conflits du XXe siècle, en mettant l'accent sur les expériences humaines des civils et des soldats.</span>
-<br/><button onclick="goToMuseum('Mons Memorial Museum', 50.45008169324088, 3.9568755389425245, '', 'images/memorial.jpg')" data-translate="museums.mmm.button">Y aller ?</button>
+<strong data-translate="museums.art_marges.name">Art et marges musée</strong><br/>
+<span data-translate="museums.art_marges.address">Adresse : Rue Haute 312–314, 1000 Bruxelles</span><br/>
+<span data-translate="museums.art_marges.description">Musée dédié à l’art brut et outsider (créateurs hors des circuits artistiques classiques). Collections très fortes, expos souvent engagées et poétiques, dans le quartier des Marolles.</span>
+<span data-translate="museums.art_marges.ouverture"><br/><br/>lundi Fermé<br/>mardi 11:00–18:00<br/>mercredi 11:00–18:00<br/>jeudi 11:00–18:00<br/>vendredi 11:00–18:00<br/>samedi 11:00–18:00<br/>dimanche 11:00–18:00<br/></span>
+<span data-translate="museums.art_marges.coordonnees"><br/><br/>http://www.artetmarges.be/<br/>+32 (0)2/533 94 90</span>
+<br/><button onclick="goToMuseum('Art et marges musée', 50.44854636716852, 3.9517990966136898, '', 'images/musées/art_marges.jpg')" data-translate="museums.art_marges.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Maison Van Gogh" src="images/maisonVanGogh.jpg"/>
+<img alt="Villa Empain – Fondation Boghossian" src="images/musées/empain.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.maisonVanGogh.name">Maison Van Gogh</strong><br/>
-<span data-translate="museums.maisonVanGogh.address">Adresse :  Rue du Pavillon 3, 7033 Cuesmes (Voiture nécessaire)</span><br/>
-<span data-translate="museums.maisonVanGogh.description">La Maison Van Gogh à Mons évoque le séjour du peintre à Cuesmes et présente son évolution artistique à travers une scénographie immersive.</span>
-<br/><button onclick="goToMuseum('Maison Van Gogh', 50.44151402395947, 3.925145996613246, '', 'images/maisonVanGogh.jpg')" data-translate="museums.maisonVanGogh.button">Y aller ?</button>
+<strong data-translate="museums.empain.name">Villa Empain – Fondation Boghossian</strong><br/>
+<span data-translate="museums.empain.address">Adresse :  Rue Claude de Bettignies 1, 1000 Bruxelles</span><br/>
+<span data-translate="museums.empain.description">Musée dédié à l’art moderne et contemporain, avec une collection exceptionnelle de peintures, sculptures, objets décoratifs et installations.</span>
+<span data-translate="museums.empain.ouverture"><br/><br/>lundi Fermé<br/>mardi 11:00–18:00<br/>mercredi 11:00–18:00<br/>jeudi 11:00–18:00<br/>vendredi 11:00–18:00<br/>samedi 11:00–18:00<br/>dimanche 11:00–18:00</span>
+<span data-translate="museums.empain.coordonnees"><br/><br/>http://www.villaempain.com/<br/>+32 (0)2/627 52 30</span>
+<br/><button onclick="goToMuseum('Villa Empain – Fondation Boghossian', 50.45438138412336, 3.9453124389427847, '', 'images/musées/empain.jpg')" data-translate="museums.empain.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Mundaneum" src="images/mundaneum.jpg"/>
+<img alt="Musée Horta" src="images/musées/horta.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.mundaneum.name">Mundaneum</strong><br/>
-<span data-translate="museums.mundaneum.address">Adresse : Rue de Nimy 76, 7000 Mons</span><br/>
-<span data-translate="museums.mundaneum.description">Archives de la connaissance mondiale, musée et centre d'exposition autour des utopies documentaires.</span>
-<br/><button onclick="goToMuseum('Mundaneum', 50.45782364219858, 3.955460083121218, '', 'images/mundaneum.jpg')" data-translate="museums.mundaneum.button">Y aller ?</button>
+<strong data-translate="museums.horta.name">Musée Horta</strong><br/>
+<span data-translate="museums.horta.address">Adresse : Rue Américaine 25, 1060 Saint-Gilles (Bruxelles)</span><br/>
+<span data-translate="museums.horta.description">Ancienne maison et atelier de l’architecte Victor Horta, figure majeure de l’Art nouveau. Intérieurs d’origine (mobilier, vitraux, ferronneries) conservés, donnant une vision très complète de son style.</span>
+<span data-translate="museums.horta.ouverture"><br/><br/>lundi Fermé<br/>mardi 14:00–17:30<br/>mercredi 14:00–17:30<br/>jeudi 14:00–17:30<br/>vendredi 14:00–17:30<br/>samedi 11:00–17:30<br/>dimanche 11:00–17:30</span>
+<span data-translate="museums.horta.coordonnees"><br/><br/>http://www.hortamuseum.be/<br/></span>
+<br/><button onclick="goToMuseum('Musée Horta', 50.824211736093304, 4.355570126986167, '', 'images/musées/horta.jpg')" data-translate="museums.horta.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Lescart" src="images/maisonLescart.jpg"/>
+<img alt="KBR Museum (Trésors de la Bibliothèque royale)" src="images/musées/kbr.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.maisonLescart.name">Maison Jean Lescart</strong><br/>
-<span data-translate="museums.maisonLescart.address">Adresse : Rue Neuve 8, 7000 Mons</span><br/>
-<span data-translate="museums.maisonLescart.description">La Maison Jean Lescarts à Mons est un musée du folklore local retraçant la vie montoise à travers objets, traditions et scènes reconstituées. Hélas fermé définitivement.</span>
-<br/><button disabled onclick="goToMuseum('Maison Jean Lescarts', 50.45571014891227, 3.9525041966141377, '', 'images/maisonLescart.jpg')" data-translate="museums.maisonLescart.button">Y aller ?</button>
+<strong data-translate="museums.kbr.name">KBR Museum (Trésors de la Bibliothèque royale)</strong><br/>
+<span data-translate="museums.kbr.address">Adresse : Mont des Arts 28, 1000 Bruxelles</span><br/>
+<span data-translate="museums.kbr.description">Musée installé au sein de la Bibliothèque royale, dédié notamment aux manuscrits des ducs de Bourgogne. Manuscrits enluminés, livres rares, plongée dans l'Europe des cours princières et l'histoire du livre.</span><br/>
+<span data-translate="museums.kbr.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.kbr.coordonnees"><br/><br/>http://www.kbr.be/museum<br/>+32 (0)2/519 53 11</span>
+<br/><button onclick="goToMuseum('KBR Museum (Trésors de la Bibliothèque royale)', 50.843241488017476, 4.357078471164361, '', 'images/musées/kbr.jpg')" data-translate="museums.kbr.button">Y aller ?</button>
 </div>
 </div>
 </div>
 <div class="museum-category">
-<h2 data-translate="museums.scienceTech">Musées sciences et techniques</h2>
+<h2 data-translate="museums.historyMemory">Histoire, ville & société</h2>
 <div class="museum">
-<img alt="MUMONS" src="images/mumons.jpg"/>
+<img alt="Musée de la Ville de Bruxelles (Maison du Roi)" src="images/musées/ville_bruxelles.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.mumons.name">MUMONS</strong><br/>
-<span data-translate="museums.mumons.address">Adresse : Place du Parc 24, 7000 Mons</span><br/>
-<span data-translate="museums.mumons.description">Le Musée MUMONS est le musée universitaire de l'UMONS, explorant les liens entre science, art et société à travers des expositions originales.</span>
-<br/><button onclick="goToMuseum('MUMONS', 50.45839467956602, 3.953279467778681, '', 'images/mumons.jpg')" data-translate="museums.mumons.button">Y aller ?</button>
-</div>
-</div>
-<div class="museum">
-<img alt="SciTechLab " src="images/scitechlab.jpg"/>
-<div class="museum-info">
-<strong data-translate="museums.scitechlab.name">SciTechLab </strong><br/>
-<span data-translate="museums.scitechlab.address">Adresse : Rue de Houdain 9, 7000 Mons</span><br/>
-<span data-translate="museums.scitechlab.description">Le SciTechLab est un espace muséal interactif de l'UMONS dédié à la découverte des sciences et des technologies de manière ludique et immersive.</span>
-<br/><button onclick="goToMuseum('SciTechLab', 50.45320364280444, 3.9534699244062814, '', 'images/scitechlab.jpg')" data-translate="museums.scitechlab.button">Y aller ?</button>
+<strong data-translate="museums.ville_bruxelles.name">Musée de la Ville de Bruxelles (Maison du Roi)</strong><br/>
+<span data-translate="museums.ville_bruxelles.address">Adresse :  Grand-Place 30–32, 1000 Bruxelles</span><br/>
+<span data-translate="museums.ville_bruxelles.description">Situé dans la Maison du Roi sur la Grand-Place, ce musée raconte l’histoire de Bruxelles à travers peintures, tapisseries, maquettes, documents… On y voit notamment une des versions originales du Manneken Pis.</span>
+<span data-translate="museums.ville_bruxelles.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.ville_bruxelles.coordonnees"><br/><br/>http://www.brusselscitymuseum.brussels/<br/>+32 (0)2/279 43 50</span>
+<br/><button onclick="goToMuseum('Musée de la Ville de Bruxelles (Maison du Roi)', 50.84693076821766, 4.352712825326451, '', 'images/musées/ville_bruxelles.jpg')" data-translate="museums.ville_bruxelles.button">Y aller ?</button>
 </div>
 </div>
 <div class="museum">
-<img alt="Sciences naturelles " src="images/naturelles.jpg"/>
+<img alt="Musée BELvue" src="images/musées/belvue.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.sciencesNaturelles.name">Muséum régional des Sciences naturelles de Mons </strong><br/>
-<span data-translate="museums.sciencesNaturelles.address">Adresse : Rue des Gailliers 7, 7000 Mons</span><br/>
-<span data-translate="museums.sciencesNaturelles.description">Le Musée régional des Sciences naturelles de Mons présente une riche collection de spécimens zoologiques, botaniques et géologiques pour explorer la biodiversité.</span>
-<br/><button onclick="goToMuseum('Muséum régional des Sciences naturelles', 50.45728904389688, 3.948240467778629, '', 'images/naturelles.jpg')" data-translate="museums.sciencesNaturelles.button">Y aller ?</button>
+<strong data-translate="museums.belvue.name">Musée BELvue</strong><br/>
+<span data-translate="museums.belvue.address">Adresse : Place des Palais 7, 1000 Bruxelles</span><br/>
+<span data-translate="museums.belvue.description">Musée consacré à l’histoire de la Belgique (monarchie, démocratie, société, période coloniale…) avec une scénographie interactive, installé dans un ancien hôtel de prestige jouxtant le Palais royal.</span>
+<span data-translate="museums.belvue.ouverture"><br/><br/>lundi Fermé<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi 09:30–17:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span>
+<span data-translate="museums.belvue.coordonnees"><br/><br/>http://belvue.be/<br/>+32 (0)2/500 45 54</span>
+<br/><button onclick="goToMuseum('Musée BELvue', 50.84262548711246, 4.360536292011873, '', 'images/musées/belvue.jpg')" data-translate="museums.belvue.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Porte de Hal" src="images/musées/hal.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.hal.name">Porte de Hal</strong><br/>
+<span data-translate="museums.hal.address">Adresse :Boulevard du Midi 150, 1000 Bruxelles</span><br/>
+<span data-translate="museums.hal.description">Dernière porte fortifiée subsistante des anciens remparts de Bruxelles, transformée en musée. Expositions sur le Moyen Âge, les fortifications de la ville et belles vues panoramiques depuis le sommet.</span>
+<span data-translate="museums.hal.ouverture"><br/><br/>lundi 09:30–17:00<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi Fermé<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.hal.coordonnees"><br/><br/>https://www.hallegatemuseum.be/<br/>+32 (0)2/534 15 18</span>
+<br/><button onclick="goToMuseum('Porte de Hal', 50.83300471204016, 4.344867367443653, '', 'images/musées/hal.jpg')" data-translate="museums.hal.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée Juif de Belgique" src="images/musées/juif.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.juif.name">Musée Juif de Belgique</strong><br/>
+<span data-translate="museums.juif.address">Adresse : Rue des Minimes 21, 1000 Bruxelles</span><br/>
+<span data-translate="museums.juif.description">Musée dédié à l’histoire et aux cultures juives en Belgique et en Europe. Collections d’objets religieux, œuvres d’art, archives et expositions temporaires d’art moderne et contemporain.</span>
+<span data-translate="museums.juif.ouverture"><br/><br/>lundi Fermé<br/>mardi Fermé<br/>mercredi Fermé<br/>jeudi 11:00–18:00<br/>vendredi 11:00–18:00<br/>samedi 11:00–18:00<br/>dimanche 11:00–18:00</span>
+<span data-translate="museums.juif.coordonnees"><br/><br/>http://www.mjb-jmb.org/<br/>+32 (0)2/512 19 63</span>
+<br/><button onclick="goToMuseum('Musée Juif de Belgique', 50.84081171440021, 4.3533605716581025, '', 'images/musées/juif.jpg')" data-translate="museums.juif.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée belge de la Franc-maçonnerie" src="images/musées/franc.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.franc.name">Musée belge de la Franc-maçonnerie</strong><br/>
+<span data-translate="museums.franc.address">Adresse : Rue de Laeken 73, 1000 Bruxelles</span><br/>
+<span data-translate="museums.franc.description">Situé dans l’hôtel Dewez (bâtiment néoclassique XVIIIᵉ), le musée explique l’histoire, les symboles et les rites de la franc-maçonnerie en Belgique à travers objets, décorations, documents et œuvres.</span>
+<span data-translate="museums.franc.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 11:00–17:00<br/>dimanche Fermé</span>
+<span data-translate="museums.franc.coordonnees"><br/><br/>http://www.mbfm.be/<br/>+32 (0)2/223 06 04</span>
+<br/><button onclick="goToMuseum('Musée belge de la Franc-maçonnerie', 50.85298909613138, 4.351578390493821, '', 'images/musées/franc.jpg')" data-translate="museums.franc.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée des Égouts de Bruxelles" src="images/musées/egouts.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.egouts.name">Musée des Égouts de Bruxelles</strong><br/>
+<span data-translate="museums.egouts.address">Adresse : Pavillons d’Octroi – Porte d’Anderlecht, Boulevard de l’Abattoir 1, 1000 Bruxelles</span><br/>
+<span data-translate="museums.egouts.description">Musée insolite qui fait découvrir le réseau d’égouts, le cours enterré de la Senne et l’histoire sanitaire de la ville. Visite partiellement souterraine, très pédagogique (maquettes, vidéos, odeur authentique 😅).</span>
+<span data-translate="museums.egouts.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.egouts.coordonnees"><br/><br/>https://www.sewermuseum.brussels/fr/<br/>+32 (0)2/279 43 83</span>
+<br/><button onclick="goToMuseum('Musée des Égouts de Bruxelles', 50.844643593073606, 4.338947204096457, '', 'images/musées/egouts.jpg')" data-translate="museums.egouts.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum-category">
+<h2 data-translate="museums.scienceTech">Sciences & techniques / mobilité</h2>
+<div class="museum">
+<img alt="Musée des Sciences naturelles" src="images/musées/sciences.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.sciences.name">Musée des Sciences naturelles</strong><br/>
+<span data-translate="museums.sciences.address">Adresse : Rue Vautier 29, 1000 Bruxelles</span><br/>
+<span data-translate="museums.sciences.description">Le grand musée de sciences naturelles de Belgique, célèbre pour sa galerie des dinosaures (iguanodons de Bernissart), ses collections de biodiversité, de géologie et d’évolution humaine.</span>
+<span data-translate="museums.sciences.ouverture"><br/><br/>lundi Fermé<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi 09:30–17:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span>
+<span data-translate="museums.sciences.coordonnees">https://www.naturalsciences.be/<br/>+32 (0)2/627 42 11</span>
+<br/><button onclick="goToMuseum('Musée des Sciences naturelles', 50.836665847667405, 4.376668871614852, '', 'images/musées/sciences.jpg')" data-translate="museums.sciences.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Autoworld Brussels " src="images/musées/autoworld.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.autoworld.name">Autoworld Brussels </strong><br/>
+<span data-translate="museums.autoworld.address">Adresse : Parc du Cinquantenaire 11, 1000 Bruxelles</span><br/>
+<span data-translate="museums.autoworld.description">Grand musée de l’automobile installé dans une halle monumentale du Cinquantenaire, avec environ 250 véhicules : voitures anciennes, voitures de course, carrosses, expo thématiques sur l’histoire de la mobilité.</span>
+<span data-translate="museums.autoworld.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span>
+<span data-translate="museums.autoworld.coordonnees"><br/><br/>https://www.autoworld.be/<br/>+32 (0)2/736 41 65</span>
+<br/><button onclick="goToMuseum('Autoworld Brussels', 50.83933990463787, 4.393421095569629, '', 'images/musées/autoworld.jpg')" data-translate="museums.autoworld.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée royal de l’Armée et d’Histoire militaire " src="images/musées/armee.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.armee.name">Musée royal de l’Armée et d’Histoire militaire </strong><br/>
+<span data-translate="museums.armee.address">Adresse : Parc du Cinquantenaire 3, 1000 Bruxelles</span><br/>
+<span data-translate="museums.armee.description">Musée géré par le War Heritage Institute, dédié à l’histoire militaire belge et internationale, avec collections d’uniformes, armes, blindés et une spectaculaire halle de l’aviation remplie d’avions historiques.</span>
+<span data-translate="museums.armee.ouverture"><br/><br/>lundi Fermé<br/>mardi 09:00–17:00<br/>mercredi 09:00–17:00<br/>jeudi 09:00–17:00<br/>vendredi 09:00–17:00<br/>samedi 09:00–17:00<br/>dimanche 09:00–17:00</span>
+<span data-translate="museums.armee.coordonnees"><br/><br/>http://www.klm-mra.be/<br/>+32 (0)2/737 78 33</span>
+<br/><button onclick="goToMuseum('Musée royal de l’Armée et d’Histoire militaire', 50.84080365454776, 4.393357009762516, '', 'images/musées/armee.jpg')" data-translate="museums.armee.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Train World" src="images/musées/train.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.train.name">Train World</strong><br/>
+<span data-translate="museums.train.address">Adresse : Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruxelles)</span><br/>
+<span data-translate="museums.train.description">Musée national du rail belge, combinant l’ancienne gare de Schaerbeek et des halls modernes, avec locomotives à vapeur emblématiques, trains d’époque et mise en scène immersive de l’histoire du chemin de fer. Second building au numéro 8 de la même Place</span>
+<span data-translate="museums.train.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi Fermé<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.train.coordonnees"><br/><br/>http://www.trainworld.be/<br/>+32 (0)2/607 13 13</span>
+<br/><button onclick="goToMuseum('Train World', 50.87776977921289, 4.379052816775861, '', 'images/musées/train.jpg')" data-translate="museums.train.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Atomium" src="images/musées/atomium.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.atomium.name">Atomium</strong><br/>
+<span data-translate="museums.atomium.address">Adresse : Square de l’Atomium / Atomiumplein 1, 1020 Bruxelles (Laeken)</span><br/>
+<span data-translate="museums.atomium.description">Icône absolue de Bruxelles, construite pour l’Expo 58 : une structure de 102 m représentant un cristal de fer agrandi 165 milliards de fois, avec boules accessibles, expositions et restaurant panoramique.</span>
+<span data-translate="museums.atomium.ouverture"><br/><br/>lundi 10:00–18:00<br/>mardi 10:00–18:00<br/>mercredi 10:00–18:00<br/>jeudi 10:00–18:00<br/>vendredi 10:00–18:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span>
+<span data-translate="museums.atomium.coordonnees"><br/><br/>https://www.atomium.be/<br/>+32 (0)2/475 47 75</span>
+<br/><button onclick="goToMuseum('Atomium', 50.89487987738725, 4.341553954064467, '', 'images/musées/atomium.jpg')" data-translate="museums.atomium.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Design Museum Brussels" src="images/musées/design.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.design.name">Design Museum Brussels</strong><br/>
+<span data-translate="museums.design.address">Adresse : Place de Belgique 1, 1020 Bruxelles (plateau du Heysel, près de l’Atomium)</span><br/>
+<span data-translate="museums.design.description">Musée consacré au design des XXᵉ–XXIᵉ siècles, avec notamment une grande collection autour du plastique et du design industriel. Expositions sur le design belge et international, mobilier, objets du quotidien, installations.</span>
+<span data-translate="museums.design.ouverture"><br/><br/>lundi 11:00–19:00<br/>mardi 11:00–19:00<br/>mercredi 11:00–19:00<br/>jeudi 11:00–19:00<br/>vendredi 11:00–19:00<br/>samedi 11:00–19:00<br/>dimanche 11:00–19:00</span>
+<span data-translate="museums.design.coordonnees"><br/><br/>https://www.designmuseum.brussels/<br/>+32 (0)2/669 49 29</span>
+<br/><button onclick="goToMuseum('Design Museum Brussels', 50.89767871475933, 4.341226672176098, '', 'images/musées/design.jpg')" data-translate="museums.design.button">Y aller ?</button>
 </div>
 </div>
 </div>
 <div class="museum-category">
-<h2 data-translate="museums.industrialHeritage">Musées patrimoine industriel et technique</h2>
+<h2 data-translate="museums.icone">BD, pop culture, chocolat & icônes bruxelloises</h2>
 <div class="museum">
-<img alt="Route" src="images/route.jpg"/>
+<img alt="Centre Belge de la Bande Dessinée" src="images/musées/bd.jpg"/>
 <div class="museum-info">
-<strong data-translate="museums.museeRoute.name">Musée de la Route de Mons </strong><br/>
-<span data-translate="museums.museeRoute.address">Adresse : Rue des Canonniers (Place Nervienne), Casemates 3, 4 et 5, 7000 Mons</span><br/>
-<span data-translate="museums.museeRoute.description">Le Musée de la Route de Mons retrace l'histoire des infrastructures routières et des métiers liés à la voirie en Wallonie. Hélas fermé définitevement.</span>
-<br/><button disabled onclick="goToMuseum('Musée de la Route de Mons', 50.44793289287343, 3.9468870542849452, '', 'images/route.jpg')" data-translate="museums.museeRoute.button">Y aller ?</button>
+<strong data-translate="museums.bd.name">Centre Belge de la Bande Dessinée</strong><br/>
+<span data-translate="museums.bd.address">Adresse : Rue des Sables 20, 1000 Bruxelles</span><br/>
+<span data-translate="museums.bd.description">Musée de référence dédié à la BD belge, installé dans un superbe bâtiment Art nouveau de Victor Horta (anciens magasins Waucquez). Expositions sur Tintin, les Schtroumpfs et de nombreux auteurs classiques et contemporains.</span>
+<span data-translate="museums.bd.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–18:00<br/>mercredi 10:00–18:00<br/>jeudi 10:00–18:00<br/>vendredi 10:00–18:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span>
+<span data-translate="museums.bd.coordonnees"><br/><br/>https://www.comicscenter.net/en/home<br/>+32 (0)2/219 19 80</span>
+<br/><button onclick="goToMuseum('Centre Belge de la Bande Dessinée', 50.85102752058884, 4.360144229441945, '', 'images/musées/bd.jpg')" data-translate="museums.bd.button">Y aller ?</button>
+
 </div>
 </div>
+<div class="museum">
+<img alt="Choco-Story Brussels" src="images/musées/choco.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.choco.name">Choco-Story Brussels</strong><br/>
+<span data-translate="museums.choco.address">Adresse : Rue de l’Etuve 41 (Stoofstraat 41), 1000 Bruxelles</span><br/>
+<span data-translate="museums.choco.description">Musée immersif consacré à l’histoire du cacao et du chocolat, des civilisations précolombiennes jusqu’à la praline belge, avec démonstrations de chocolatiers et dégustations.</span>
+<span data-translate="museums.choco.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.choco.coordonnees"><br/><br/>http://choco-story-brussels.be/<br/>+32 (0)2/514 20 48</span>
+<br/><button onclick="goToMuseum('Choco-Story Brussels', 50.84531031846983, 4.350171567190983, '', 'images/musées/choco.jpg')" data-translate="museums.choco.button">Y aller ?</button>
 </div>
 </div>
+<div class="museum">
+<img alt="GardeRobe MannekenPis" src="images/musées/costumes.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.costumes.name">GardeRobe MannekenPis</strong><br/>
+<span data-translate="museums.costumes.address">Adresse : Rue du Chêne 19, 1000 Bruxelles</span><br/>
+<span data-translate="museums.costumes.description">Petit musée qui présente une sélection des centaines de costumes du Manneken Pis : tenues folkloriques, uniformes, costumes offerts par des pays ou associations du monde entier. Idéal à combiner avec la statue elle-même à deux pas.</span>
+<span data-translate="museums.costumes.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.costumes.coordonnees"><br/><br/>http://www.mannekenpis.brussels/<br/>+32 (0)2/514 53 97</span>
+<br/><button onclick="goToMuseum('GardeRobe MannekenPis', 50.844165598637964, 4.351046249203069, '', 'images/musées/costumes.jpg')" data-translate="museums.costumes.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum-category">
+<h2 data-translate="museums.famille">Enfants & familles (fort potentiel ludique)</h2>
+<div class="museum">
+<img alt="Musée des Enfants" src="images/musées/enfants.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.enfants.name">Musée des Enfants</strong><br/>
+<span data-translate="museums.enfants.address">Adresse : Rue du Bourgmestre 15, 1050 Ixelles</span><br/>
+<span data-translate="museums.enfants.description">Musée interactif pensé pour les enfants (et les accompagnants) avec des espaces de jeu éducatifs, ateliers créatifs et installations participatives. L’accent est mis sur l’expérimentation plutôt que sur des vitrines classiques.</span>
+<span data-translate="museums.enfants.ouverture"><br/><br/>lundi Fermé<br/>mardi Fermé<br/>mercredi 14:30–17:00<br/>jeudi Fermé<br/>vendredi Fermé<br/>samedi 14:30–17:00<br/>dimanche 14:30–17:00</span>
+<span data-translate="museums.enfants.coordonnees"><br/><br/>http://www.museedesenfants.be/<br/>+32 (0)2/640 01 07</span>
+<br/><button onclick="goToMuseum('Musée des Enfants', 50.82167949734999, 4.378601451003866, '', 'images/musées/enfants.jpg')" data-translate="museums.enfants.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée des Sciences naturelles" src="images/musées/sciences.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.sciences.name">Musée des Sciences naturelles</strong><br/>
+<span data-translate="museums.sciences.address">Adresse : Rue Vautier 29, 1000 Bruxelles</span><br/>
+<span data-translate="museums.sciences.description">Le grand musée de sciences naturelles de Belgique, célèbre pour sa galerie des dinosaures (iguanodons de Bernissart), ses collections de biodiversité, de géologie et d'évolution humaine.</span>
+<span data-translate="museums.sciences.ouverture"><br/><br/>lundi Fermé<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi 09:30–17:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span><br/>
+<span data-translate="museums.sciences.coordonnees"><br/><br/>https://www.naturalsciences.be/<br/>+32 (0)2/627 42 11</span>
+<br/><button onclick="goToMuseum('Musée des Sciences naturelles', 50.836665847667405, 4.376668871614852, '', 'images/musées/sciences.jpg')" data-translate="museums.sciences.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Train World" src="images/musées/train.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.train.name">Train World</strong><br/>
+<span data-translate="museums.train.address">Adresse : Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruxelles)</span><br/>
+<span data-translate="museums.train.description">Musée national du rail belge, combinant l’ancienne gare de Schaerbeek et des halls modernes, avec locomotives à vapeur emblématiques, trains d’époque et mise en scène immersive de l’histoire du chemin de fer. Second building au numéro 8 de la même Place</span>
+<span data-translate="museums.train.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi Fermé<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.train.coordonnees"><br/><br/>http://www.trainworld.be/<br/>+32 (0)2/607 13 13</span>
+<br/><button onclick="goToMuseum('Train World', 50.87776977921289, 4.379052816775861, '', 'images/musées/train.jpg')" data-translate="museums.train.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Autoworld Brussels " src="images/musées/autoworld.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.autoworld.name">Autoworld Brussels </strong><br/>
+<span data-translate="museums.autoworld.address">Adresse : Parc du Cinquantenaire 11, 1000 Bruxelles</span><br/>
+<span data-translate="museums.autoworld.description">Grand musée de l’automobile installé dans une halle monumentale du Cinquantenaire, avec environ 250 véhicules : voitures anciennes, voitures de course, carrosses, expo thématiques sur l’histoire de la mobilité.</span>
+<span data-translate="museums.autoworld.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–18:00<br/>dimanche 10:00–18:00</span>
+<span data-translate="museums.autoworld.coordonnees"><br/><br/>https://www.autoworld.be/<br/>+32 (0)2/736 41 65</span>
+<br/><button onclick="goToMuseum('Autoworld Brussels', 50.83933990463787, 4.393421095569629, '', 'images/musées/autoworld.jpg')" data-translate="museums.autoworld.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Choco-Story Brussels" src="images/musées/choco.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.choco.name">Choco-Story Brussels</strong><br/>
+<span data-translate="museums.choco.address">Adresse : Rue de l’Etuve 41 (Stoofstraat 41), 1000 Bruxelles</span><br/>
+<span data-translate="museums.choco.description">Musée immersif consacré à l’histoire du cacao et du chocolat, des civilisations précolombiennes jusqu’à la praline belge, avec démonstrations de chocolatiers et dégustations.</span>
+<span data-translate="museums.choco.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.choco.coordonnees"><br/><br/>http://choco-story-brussels.be/<br/>+32 (0)2/514 20 48</span>
+<br/><button onclick="goToMuseum('Choco-Story Brussels', 50.84531031846983, 4.350171567190983, '', 'images/musées/choco.jpg')" data-translate="museums.choco.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée des Instruments de Musique (MIM)" src="images/musées/MIM.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.MIM.name">Musée des Instruments de Musique (MIM)</strong><br/>
+<span data-translate="museums.MIM.address">Adresse : Rue Montagne de la Cour 2, 1000 Bruxelles</span><br/>
+<span data-translate="museums.MIM.description">Installé dans l'ancien magasin Art nouveau « Old England », le MIM expose plusieurs milliers d'instruments du monde entier, avec un audio-guide qui permet d'entendre leur son. Terrasse panoramique sur le toit avec vue sur Bruxelles.</span><br/>
+<span data-translate="museums.MIM.ouverture"><br/><br/>lundi Fermé<br/>mardi 09:30–17:00<br/>mercredi 09:30–17:00<br/>jeudi 09:30–17:00<br/>vendredi 09:30–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span><br/>
+<span data-translate="museums.MIM.coordonnees"><br/>https://www.mim.be/<br/>+32 (0)2/545 01 30</span>
+<br/><button onclick="goToMuseum('Musée des Instruments de Musique (MIM)', 50.842889514838035, 4.359003945602334, '', 'images/musées/MIM.jpg')" data-translate="museums.MIM.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="GardeRobe MannekenPis" src="images/musées/costumes.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.costumes.name">GardeRobe MannekenPis</strong><br/>
+<span data-translate="museums.costumes.address">Adresse : Rue du Chêne 19, 1000 Bruxelles</span><br/>
+<span data-translate="museums.costumes.description">Petit musée qui présente une sélection des centaines de costumes du Manneken Pis : tenues folkloriques, uniformes, costumes offerts par des pays ou associations du monde entier. Idéal à combiner avec la statue elle-même à deux pas.</span>
+<span data-translate="museums.costumes.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.costumes.coordonnees"><br/><br/>http://www.mannekenpis.brussels/<br/>+32 (0)2/514 53 97</span>
+<br/><button onclick="goToMuseum('GardeRobe MannekenPis', 50.844165598637964, 4.351046249203069, '', 'images/musées/costumes.jpg')" data-translate="museums.costumes.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum-category">
+<h2 data-translate="museums.insolite">Insolite / thématique</h2>
+<div class="museum">
+<img alt="Musée des Égouts de Bruxelles" src="images/musées/egouts.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.egouts.name">Musée des Égouts de Bruxelles</strong><br/>
+<span data-translate="museums.egouts.address">Adresse : Pavillons d’Octroi – Porte d’Anderlecht, Boulevard de l’Abattoir 1, 1000 Bruxelles</span><br/>
+<span data-translate="museums.egouts.description">Musée insolite qui fait découvrir le réseau d’égouts, le cours enterré de la Senne et l’histoire sanitaire de la ville. Visite partiellement souterraine, très pédagogique (maquettes, vidéos, odeur authentique 😅).</span>
+<span data-translate="museums.egouts.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.egouts.coordonnees"><br/><br/>https://www.sewermuseum.brussels/fr/<br/>+32 (0)2/279 43 83</span>
+<br/><button onclick="goToMuseum('Musée des Égouts de Bruxelles', 50.844643593073606, 4.338947204096457, '', 'images/musées/egouts.jpg')" data-translate="museums.egouts.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="GardeRobe MannekenPis" src="images/musées/costumes.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.costumes.name">GardeRobe MannekenPis</strong><br/>
+<span data-translate="museums.costumes.address">Adresse : Rue du Chêne 19, 1000 Bruxelles</span><br/>
+<span data-translate="museums.costumes.description">Petit musée qui présente une sélection des centaines de costumes du Manneken Pis : tenues folkloriques, uniformes, costumes offerts par des pays ou associations du monde entier. Idéal à combiner avec la statue elle-même à deux pas.</span>
+<span data-translate="museums.costumes.ouverture"><br/><br/>lundi Fermé<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.costumes.coordonnees"><br/><br/>http://www.mannekenpis.brussels/<br/>+32 (0)2/514 53 97</span>
+<br/><button onclick="goToMuseum('GardeRobe MannekenPis', 50.844165598637964, 4.351046249203069, '', 'images/musées/costumes.jpg')" data-translate="museums.costumes.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Choco-Story Brussels" src="images/musées/choco.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.choco.name">Choco-Story Brussels</strong><br/>
+<span data-translate="museums.choco.address">Adresse : Rue de l’Etuve 41 (Stoofstraat 41), 1000 Bruxelles</span><br/>
+<span data-translate="museums.choco.description">Musée immersif consacré à l’histoire du cacao et du chocolat, des civilisations précolombiennes jusqu’à la praline belge, avec démonstrations de chocolatiers et dégustations.</span>
+<span data-translate="museums.choco.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 10:00–17:00<br/>dimanche 10:00–17:00</span>
+<span data-translate="museums.choco.coordonnees"><br/><br/>http://choco-story-brussels.be/<br/>+32 (0)2/514 20 48</span>
+<br/><button onclick="goToMuseum('Choco-Story Brussels', 50.84531031846983, 4.350171567190983, '', 'images/musées/choco.jpg')" data-translate="museums.choco.button">Y aller ?</button>
+</div>
+</div>
+<div class="museum">
+<img alt="Musée belge de la Franc-maçonnerie" src="images/musées/franc.jpg"/>
+<div class="museum-info">
+<strong data-translate="museums.franc.name">Musée belge de la Franc-maçonnerie</strong><br/>
+<span data-translate="museums.franc.address">Adresse : Rue de Laeken 73, 1000 Bruxelles</span><br/>
+<span data-translate="museums.franc.description">Situé dans l’hôtel Dewez (bâtiment néoclassique XVIIIᵉ), le musée explique l’histoire, les symboles et les rites de la franc-maçonnerie en Belgique à travers objets, décorations, documents et œuvres.</span>
+<span data-translate="museums.franc.ouverture"><br/><br/>lundi 10:00–17:00<br/>mardi 10:00–17:00<br/>mercredi 10:00–17:00<br/>jeudi 10:00–17:00<br/>vendredi 10:00–17:00<br/>samedi 11:00–17:00<br/>dimanche Fermé</span>
+<span data-translate="museums.franc.coordonnees"><br/><br/>http://www.mbfm.be/<br/>+32 (0)2/223 06 04</span>
+<br/><button onclick="goToMuseum('Musée belge de la Franc-maçonnerie', 50.85298909613138, 4.351578390493821, '', 'images/musées/franc.jpg')" data-translate="museums.franc.button">Y aller ?</button>
+</div>
+</div>
+
 
 <script>
 // Charger les traductions depuis le fichier dédié
@@ -260,180 +538,453 @@ function applyTranslations() {
     const scienceTech = document.querySelector('h2[data-translate="museums.scienceTech"]');
     if (scienceTech) scienceTech.textContent = t.scienceTech;
     
-    const industrialHeritage = document.querySelector('h2[data-translate="museums.industrialHeritage"]');
-    if (industrialHeritage) industrialHeritage.textContent = t.industrialHeritage;
+    const icone = document.querySelector('h2[data-translate="museums.icone"]');
+    if (icone) icone.textContent = t.icone;
+
+    const famille = document.querySelector('h2[data-translate="museums.famille"]');
+    if (famille) famille.textContent = t.famille;
+
+    const insolite = document.querySelector('h2[data-translate="museums.insolite"]');
+    if (insolite) insolite.textContent = t.insolite;
     
     // Musées d'art et patrimoine
-    const bamName = document.querySelector('[data-translate="museums.bam.name"]');
-    if (bamName) bamName.textContent = t.bam.name;
+    const MRBABName = document.querySelector('[data-translate="museums.MRBAB.name"]');
+    if (MRBABName) MRBABName.textContent = t.MRBAB.name;
     
-    const bamAddress = document.querySelector('[data-translate="museums.bam.address"]');
-    if (bamAddress) bamAddress.textContent = t.bam.address;
+    const MRBABAddress = document.querySelector('[data-translate="museums.MRBAB.address"]');
+    if (MRBABAddress) MRBABAddress.textContent = t.MRBAB.address;
     
-    const bamDescription = document.querySelector('[data-translate="museums.bam.description"]');
-    if (bamDescription) bamDescription.textContent = t.bam.description;
-    
-    const bamButton = document.querySelector('[data-translate="museums.bam.button"]');
-    if (bamButton) bamButton.textContent = t.bam.button;
+    const MRBABDescription = document.querySelector('[data-translate="museums.MRBAB.description"]');
+    if (MRBABDescription) MRBABDescription.textContent = t.MRBAB.description;
+
+    const MRBABouverture = document.querySelector('[data-translate="museums.MRBAB.ouverture"]');
+    if (MRBABouverture) MRBABouverture.innerHTML = '<br/><br/>' + t.MRBAB.ouverture.replace(/\n/g, '<br/>');
+
+    const MRBABcoordonnees = document.querySelector('[data-translate="museums.MRBAB.coordonnees"]');
+    if (MRBABcoordonnees) MRBABcoordonnees.innerHTML = '<br/><br/>' + t.MRBAB.coordonnees.replace(/\n/g, '<br/>');
+
+    const MRBABButton = document.querySelector('[data-translate="museums.MRBAB.button"]');
+    if (MRBABButton) MRBABButton.textContent = t.MRBAB.button;
     
     // Continuer pour tous les autres musées...
-    const capName = document.querySelector('[data-translate="museums.cap.name"]');
-    if (capName) capName.textContent = t.cap.name;
+    const magName = document.querySelector('[data-translate="museums.mag.name"]');
+    if (magName) magName.textContent = t.mag.name;
     
-    const capAddress = document.querySelector('[data-translate="museums.cap.address"]');
-    if (capAddress) capAddress.textContent = t.cap.address;
+    const magAddress = document.querySelector('[data-translate="museums.mag.address"]');
+    if (magAddress) magAddress.textContent = t.mag.address;
     
-    const capDescription = document.querySelector('[data-translate="museums.cap.description"]');
-    if (capDescription) capDescription.textContent = t.cap.description;
+    const magDescription = document.querySelector('[data-translate="museums.mag.description"]');
+    if (magDescription) magDescription.textContent = t.mag.description;
     
-    const capButton = document.querySelector('[data-translate="museums.cap.button"]');
-    if (capButton) capButton.textContent = t.cap.button;
+    const magouverture = document.querySelector('[data-translate="museums.mag.ouverture"]');
+    if (magouverture) magouverture.innerHTML = '<br/><br/>' + t.mag.ouverture.replace(/\n/g, '<br/>');
+
+    const magcoordonnees = document.querySelector('[data-translate="museums.mag.coordonnees"]');
+    if (magcoordonnees) magcoordonnees.innerHTML = '<br/><br/>' + t.mag.coordonnees.replace(/\n/g, '<br/>');
+
+    const magButton = document.querySelector('[data-translate="museums.mag.button"]');
+    if (magButton) magButton.textContent = t.mag.button;
     
     // Continuer avec tous les autres musées
-    const maisonLosseauName = document.querySelector('[data-translate="museums.maisonLosseau.name"]');
-    if (maisonLosseauName) maisonLosseauName.textContent = t.maisonLosseau.name;
+    const art_histoireName = document.querySelector('[data-translate="museums.art_histoire.name"]');
+    if (art_histoireName) art_histoireName.textContent = t.art_histoire.name;
     
-    const maisonLosseauAddress = document.querySelector('[data-translate="museums.maisonLosseau.address"]');
-    if (maisonLosseauAddress) maisonLosseauAddress.textContent = t.maisonLosseau.address;
+    const art_histoireAddress = document.querySelector('[data-translate="museums.art_histoire.address"]');
+    if (art_histoireAddress) art_histoireAddress.textContent = t.art_histoire.address;
     
-    const maisonLosseauDescription = document.querySelector('[data-translate="museums.maisonLosseau.description"]');
-    if (maisonLosseauDescription) maisonLosseauDescription.textContent = t.maisonLosseau.description;
+    const art_histoireDescription = document.querySelector('[data-translate="museums.art_histoire.description"]');
+    if (art_histoireDescription) art_histoireDescription.textContent = t.art_histoire.description;
+
+    const art_histoireouverture = document.querySelector('[data-translate="museums.art_histoire.ouverture"]');
+    if (art_histoireouverture) art_histoireouverture.innerHTML = '<br/><br/>' + t.art_histoire.ouverture.replace(/\n/g, '<br/>');
+
+    const art_histoirecoordonnees = document.querySelector('[data-translate="museums.art_histoire.coordonnees"]');
+    if (art_histoirecoordonnees) art_histoirecoordonnees.innerHTML = '<br/><br/>' + t.art_histoire.coordonnees.replace(/\n/g, '<br/>');
     
-    const maisonLosseauButton = document.querySelector('[data-translate="museums.maisonLosseau.button"]');
-    if (maisonLosseauButton) maisonLosseauButton.textContent = t.maisonLosseau.button;
+    const art_histoireButton = document.querySelector('[data-translate="museums.art_histoire.button"]');
+    if (art_histoireButton) art_histoireButton.textContent = t.art_histoire.button;
     
-    const museeDoudouName = document.querySelector('[data-translate="museums.museeDoudou.name"]');
-    if (museeDoudouName) museeDoudouName.textContent = t.museeDoudou.name;
+    const MIMName = document.querySelector('[data-translate="museums.MIM.name"]');
+    if (MIMName) MIMName.textContent = t.MIM.name;
     
-    const museeDoudouAddress = document.querySelector('[data-translate="museums.museeDoudou.address"]');
-    if (museeDoudouAddress) museeDoudouAddress.textContent = t.museeDoudou.address;
+    const MIMAddress = document.querySelector('[data-translate="museums.MIM.address"]');
+    if (MIMAddress) MIMAddress.textContent = t.MIM.address;
     
-    const museeDoudouDescription = document.querySelector('[data-translate="museums.museeDoudou.description"]');
-    if (museeDoudouDescription) museeDoudouDescription.textContent = t.museeDoudou.description;
+    const MIMDescription = document.querySelector('[data-translate="museums.MIM.description"]');
+    if (MIMDescription) MIMDescription.textContent = t.MIM.description;
+
+    const MIMouverture = document.querySelector('[data-translate="museums.MIM.ouverture"]');
+    if (MIMouverture) MIMouverture.innerHTML = '<br/><br/>' + t.MIM.ouverture.replace(/\n/g, '<br/>');
+
+    const MIMcoordonnees = document.querySelector('[data-translate="museums.MIM.coordonnees"]');
+    if (MIMcoordonnees) MIMcoordonnees.innerHTML = '<br/><br/>' + t.MIM.coordonnees.replace(/\n/g, '<br/>');
     
-    const museeDoudouButton = document.querySelector('[data-translate="museums.museeDoudou.button"]');
-    if (museeDoudouButton) museeDoudouButton.textContent = t.museeDoudou.button;
+    const MIMButton = document.querySelector('[data-translate="museums.MIM.button"]');
+    if (MIMButton) MIMButton.textContent = t.MIM.button;
     
-    const anciensAbattoirsName = document.querySelector('[data-translate="museums.anciensAbattoirs.name"]');
-    if (anciensAbattoirsName) anciensAbattoirsName.textContent = t.anciensAbattoirs.name;
+    const art_margesName = document.querySelector('[data-translate="museums.art_marges.name"]');
+    if (art_margesName) art_margesName.textContent = t.art_marges.name;
     
-    const anciensAbattoirsAddress = document.querySelector('[data-translate="museums.anciensAbattoirs.address"]');
-    if (anciensAbattoirsAddress) anciensAbattoirsAddress.textContent = t.anciensAbattoirs.address;
+    const art_margesAddress = document.querySelector('[data-translate="museums.art_marges.address"]');
+    if (art_margesAddress) art_margesAddress.textContent = t.art_marges.address;
     
-    const anciensAbattoirsDescription = document.querySelector('[data-translate="museums.anciensAbattoirs.description"]');
-    if (anciensAbattoirsDescription) anciensAbattoirsDescription.textContent = t.anciensAbattoirs.description;
+    const art_margesDescription = document.querySelector('[data-translate="museums.art_marges.description"]');
+    if (art_margesDescription) art_margesDescription.textContent = t.art_marges.description;
+
+    const art_margesouverture = document.querySelector('[data-translate="museums.art_marges.ouverture"]');
+    if (art_margesouverture) art_margesouverture.innerHTML = '<br/><br/>' + t.art_marges.ouverture.replace(/\n/g, '<br/>');
+
+    const art_margescoordonnees = document.querySelector('[data-translate="museums.art_marges.coordonnees"]');
+    if (art_margescoordonnees) art_margescoordonnees.innerHTML = '<br/><br/>' + t.art_marges.coordonnees.replace(/\n/g, '<br/>');
     
-    const anciensAbattoirsButton = document.querySelector('[data-translate="museums.anciensAbattoirs.button"]');
-    if (anciensAbattoirsButton) anciensAbattoirsButton.textContent = t.anciensAbattoirs.button;
+    const art_margesButton = document.querySelector('[data-translate="museums.art_marges.button"]');
+    if (art_margesButton) art_margesButton.textContent = t.art_marges.button;
+        
+    const empainName = document.querySelector('[data-translate="museums.empain.name"]');
+    if (empainName) empainName.textContent = t.empain.name;
     
-    const artothequeName = document.querySelector('[data-translate="museums.artotheque.name"]');
-    if (artothequeName) artothequeName.textContent = t.artotheque.name;
+    const empainAddress = document.querySelector('[data-translate="museums.empain.address"]');
+    if (empainAddress) empainAddress.textContent = t.empain.address;
     
-    const artothequeAddress = document.querySelector('[data-translate="museums.artotheque.address"]');
-    if (artothequeAddress) artothequeAddress.textContent = t.artotheque.address;
+    const empainDescription = document.querySelector('[data-translate="museums.empain.description"]');
+    if (empainDescription) empainDescription.textContent = t.empain.description;
+
+    const empainouverture = document.querySelector('[data-translate="museums.empain.ouverture"]');
+    if (empainouverture) empainouverture.innerHTML = '<br/><br/>' + t.empain.ouverture.replace(/\n/g, '<br/>');
+
+    const empaincoordonnees = document.querySelector('[data-translate="museums.empain.coordonnees"]');
+    if (empaincoordonnees) empaincoordonnees.innerHTML = '<br/><br/>' + t.empain.coordonnees.replace(/\n/g, '<br/>');
     
-    const artothequeDescription = document.querySelector('[data-translate="museums.artotheque.description"]');
-    if (artothequeDescription) artothequeDescription.textContent = t.artotheque.description;
+    const empainButton = document.querySelector('[data-translate="museums.empain.button"]');
+    if (empainButton) empainButton.textContent = t.empain.button;
+
+    const hortaName = document.querySelector('[data-translate="museums.horta.name"]');
+    if (hortaName) hortaName.textContent = t.horta.name;
     
-    const artothequeButton = document.querySelector('[data-translate="museums.artotheque.button"]');
-    if (artothequeButton) artothequeButton.textContent = t.artotheque.button;
+    const hortaAddress = document.querySelector('[data-translate="museums.horta.address"]');
+    if (hortaAddress) hortaAddress.textContent = t.horta.address;
     
-    const mmmName = document.querySelector('[data-translate="museums.mmm.name"]');
-    if (mmmName) mmmName.textContent = t.mmm.name;
+    const hortaDescription = document.querySelector('[data-translate="museums.horta.description"]');
+    if (hortaDescription) hortaDescription.textContent = t.horta.description;
+
+    const hortaouverture = document.querySelector('[data-translate="museums.horta.ouverture"]');
+    if (hortaouverture) hortaouverture.innerHTML = '<br/><br/>' + t.horta.ouverture.replace(/\n/g, '<br/>');
+
+    const hortacoordonnees = document.querySelector('[data-translate="museums.horta.coordonnees"]');
+    if (hortacoordonnees) hortacoordonnees.innerHTML = '<br/><br/>' + t.horta.coordonnees.replace(/\n/g, '<br/>');
     
-    const mmmAddress = document.querySelector('[data-translate="museums.mmm.address"]');
-    if (mmmAddress) mmmAddress.textContent = t.mmm.address;
+    const hortaButton = document.querySelector('[data-translate="museums.horta.button"]');
+    if (hortaButton) hortaButton.textContent = t.horta.button;
+
+    const kbrName = document.querySelector('[data-translate="museums.kbr.name"]');
+    if (kbrName) kbrName.textContent = t.kbr.name;
     
-    const mmmDescription = document.querySelector('[data-translate="museums.mmm.description"]');
-    if (mmmDescription) mmmDescription.textContent = t.mmm.description;
+    const kbrAddress = document.querySelector('[data-translate="museums.kbr.address"]');
+    if (kbrAddress) kbrAddress.textContent = t.kbr.address;
     
-    const mmmButton = document.querySelector('[data-translate="museums.mmm.button"]');
-    if (mmmButton) mmmButton.textContent = t.mmm.button;
+    const kbrDescription = document.querySelector('[data-translate="museums.kbr.description"]');
+    if (kbrDescription) kbrDescription.textContent = t.kbr.description;
+
+    const kbroverture = document.querySelector('[data-translate="museums.kbr.ouverture"]');
+    if (kbroverture) kbroverture.innerHTML = '<br/><br/>' + t.kbr.ouverture.replace(/\n/g, '<br/>');
+
+    const kbrcoordonnees = document.querySelector('[data-translate="museums.kbr.coordonnees"]');
+    if (kbrcoordonnees) kbrcoordonnees.innerHTML = '<br/><br/>' + t.kbr.coordonnees.replace(/\n/g, '<br/>');
     
-    const maisonVanGoghName = document.querySelector('[data-translate="museums.maisonVanGogh.name"]');
-    if (maisonVanGoghName) maisonVanGoghName.textContent = t.maisonVanGogh.name;
+    const kbrButton = document.querySelector('[data-translate="museums.kbr.button"]');
+    if (kbrButton) kbrButton.textContent = t.kbr.button;
+
+    const ville_bruxellesName = document.querySelector('[data-translate="museums.ville_bruxelles.name"]');
+    if (ville_bruxellesName) ville_bruxellesName.textContent = t.ville_bruxelles.name;
     
-    const maisonVanGoghAddress = document.querySelector('[data-translate="museums.maisonVanGogh.address"]');
-    if (maisonVanGoghAddress) maisonVanGoghAddress.textContent = t.maisonVanGogh.address;
+    const ville_bruxellesAddress = document.querySelector('[data-translate="museums.ville_bruxelles.address"]');
+    if (ville_bruxellesAddress) ville_bruxellesAddress.textContent = t.ville_bruxelles.address;
     
-    const maisonVanGoghDescription = document.querySelector('[data-translate="museums.maisonVanGogh.description"]');
-    if (maisonVanGoghDescription) maisonVanGoghDescription.textContent = t.maisonVanGogh.description;
+    const ville_bruxellesDescription = document.querySelector('[data-translate="museums.ville_bruxelles.description"]');
+    if (ville_bruxellesDescription) ville_bruxellesDescription.textContent = t.ville_bruxelles.description;
+
+    const ville_bruxellesouverture = document.querySelector('[data-translate="museums.ville_bruxelles.ouverture"]');
+    if (ville_bruxellesouverture) ville_bruxellesouverture.innerHTML = '<br/><br/>' + t.ville_bruxelles.ouverture.replace(/\n/g, '<br/>');
+
+    const ville_bruxellescoordonnees = document.querySelector('[data-translate="museums.ville_bruxelles.coordonnees"]');
+    if (ville_bruxellescoordonnees) ville_bruxellescoordonnees.innerHTML = '<br/><br/>' + t.ville_bruxelles.coordonnees.replace(/\n/g, '<br/>');
     
-    const maisonVanGoghButton = document.querySelector('[data-translate="museums.maisonVanGogh.button"]');
-    if (maisonVanGoghButton) maisonVanGoghButton.textContent = t.maisonVanGogh.button;
+    const ville_bruxellesButton = document.querySelector('[data-translate="museums.ville_bruxelles.button"]');
+    if (ville_bruxellesButton) ville_bruxellesButton.textContent = t.ville_bruxelles.button;
     
-    const mundaneumName = document.querySelector('[data-translate="museums.mundaneum.name"]');
-    if (mundaneumName) mundaneumName.textContent = t.mundaneum.name;
+    const belvueName = document.querySelector('[data-translate="museums.belvue.name"]');
+    if (belvueName) belvueName.textContent = t.belvue.name;
     
-    const mundaneumAddress = document.querySelector('[data-translate="museums.mundaneum.address"]');
-    if (mundaneumAddress) mundaneumAddress.textContent = t.mundaneum.address;
+    const belvueAddress = document.querySelector('[data-translate="museums.belvue.address"]');
+    if (belvueAddress) belvueAddress.textContent = t.belvue.address;
     
-    const mundaneumDescription = document.querySelector('[data-translate="museums.mundaneum.description"]');
-    if (mundaneumDescription) mundaneumDescription.textContent = t.mundaneum.description;
+    const belvueDescription = document.querySelector('[data-translate="museums.belvue.description"]');
+    if (belvueDescription) belvueDescription.textContent = t.belvue.description;
+
+    const belvueouverture = document.querySelector('[data-translate="museums.belvue.ouverture"]');
+    if (belvueouverture) belvueouverture.innerHTML = '<br/><br/>' + t.belvue.ouverture.replace(/\n/g, '<br/>');
+
+    const belvuecoordonnees = document.querySelector('[data-translate="museums.belvue.coordonnees"]');
+    if (belvuecoordonnees) belvuecoordonnees.innerHTML = '<br/><br/>' + t.belvue.coordonnees.replace(/\n/g, '<br/>');
     
-    const mundaneumButton = document.querySelector('[data-translate="museums.mundaneum.button"]');
-    if (mundaneumButton) mundaneumButton.textContent = t.mundaneum.button;
+    const belvueButton = document.querySelector('[data-translate="museums.belvue.button"]');
+    if (belvueButton) belvueButton.textContent = t.belvue.button;
     
-    const maisonLescartName = document.querySelector('[data-translate="museums.maisonLescart.name"]');
-    if (maisonLescartName) maisonLescartName.textContent = t.maisonLescart.name;
+    const halName = document.querySelector('[data-translate="museums.hal.name"]');
+    if (halName) halName.textContent = t.hal.name;
     
-    const maisonLescartAddress = document.querySelector('[data-translate="museums.maisonLescart.address"]');
-    if (maisonLescartAddress) maisonLescartAddress.textContent = t.maisonLescart.address;
+    const halAddress = document.querySelector('[data-translate="museums.hal.address"]');
+    if (halAddress) halAddress.textContent = t.hal.address;
     
-    const maisonLescartDescription = document.querySelector('[data-translate="museums.maisonLescart.description"]');
-    if (maisonLescartDescription) maisonLescartDescription.textContent = t.maisonLescart.description;
+    const halDescription = document.querySelector('[data-translate="museums.hal.description"]');
+    if (halDescription) halDescription.textContent = t.hal.description;
+
+    const halouverture = document.querySelector('[data-translate="museums.hal.ouverture"]');
+    if (halouverture) halouverture.innerHTML = '<br/><br/>' + t.hal.ouverture.replace(/\n/g, '<br/>');
+
+    const halcoordonnees = document.querySelector('[data-translate="museums.hal.coordonnees"]');
+    if (halcoordonnees) halcoordonnees.innerHTML = '<br/><br/>' + t.hal.coordonnees.replace(/\n/g, '<br/>');
     
-    const maisonLescartButton = document.querySelector('[data-translate="museums.maisonLescart.button"]');
-    if (maisonLescartButton) maisonLescartButton.textContent = t.maisonLescart.button;
+    const halButton = document.querySelector('[data-translate="museums.hal.button"]');
+    if (halButton) halButton.textContent = t.hal.button;
     
-    const mumonsName = document.querySelector('[data-translate="museums.mumons.name"]');
-    if (mumonsName) mumonsName.textContent = t.mumons.name;
+    const juifName = document.querySelector('[data-translate="museums.juif.name"]');
+    if (juifName) juifName.textContent = t.juif.name;
     
-    const mumonsAddress = document.querySelector('[data-translate="museums.mumons.address"]');
-    if (mumonsAddress) mumonsAddress.textContent = t.mumons.address;
+    const juifAddress = document.querySelector('[data-translate="museums.juif.address"]');
+    if (juifAddress) juifAddress.textContent = t.juif.address;
     
-    const mumonsDescription = document.querySelector('[data-translate="museums.mumons.description"]');
-    if (mumonsDescription) mumonsDescription.textContent = t.mumons.description;
+    const juifDescription = document.querySelector('[data-translate="museums.juif.description"]');
+    if (juifDescription) juifDescription.textContent = t.juif.description;
+
+    const juifouverture = document.querySelector('[data-translate="museums.juif.ouverture"]');
+    if (juifouverture) juifouverture.innerHTML = '<br/><br/>' + t.juif.ouverture.replace(/\n/g, '<br/>');
+
+    const juifcoordonnees = document.querySelector('[data-translate="museums.juif.coordonnees"]');
+    if (juifcoordonnees) juifcoordonnees.innerHTML = '<br/><br/>' + t.juif.coordonnees.replace(/\n/g, '<br/>');
     
-    const mumonsButton = document.querySelector('[data-translate="museums.mumons.button"]');
-    if (mumonsButton) mumonsButton.textContent = t.mumons.button;
+    const juifButton = document.querySelector('[data-translate="museums.juif.button"]');
+    if (juifButton) juifButton.textContent = t.juif.button;
+
+    const francName = document.querySelector('[data-translate="museums.franc.name"]');
+    if (francName) francName.textContent = t.franc.name;
     
-    const scitechlabName = document.querySelector('[data-translate="museums.scitechlab.name"]');
-    if (scitechlabName) scitechlabName.textContent = t.scitechlab.name;
+    const francAddress = document.querySelector('[data-translate="museums.franc.address"]');
+    if (francAddress) francAddress.textContent = t.franc.address;
     
-    const scitechlabAddress = document.querySelector('[data-translate="museums.scitechlab.address"]');
-    if (scitechlabAddress) scitechlabAddress.textContent = t.scitechlab.address;
+    const francDescription = document.querySelector('[data-translate="museums.franc.description"]');
+    if (francDescription) francDescription.textContent = t.franc.description;
     
-    const scitechlabDescription = document.querySelector('[data-translate="museums.scitechlab.description"]');
-    if (scitechlabDescription) scitechlabDescription.textContent = t.scitechlab.description;
+    const francouverture = document.querySelector('[data-translate="museums.franc.ouverture"]');
+    if (francouverture) francouverture.innerHTML = '<br/><br/>' + t.franc.ouverture.replace(/\n/g, '<br/>');
+
+    const franccoordonnees = document.querySelector('[data-translate="museums.franc.coordonnees"]');
+    if (franccoordonnees) franccoordonnees.innerHTML = '<br/><br/>' + t.franc.coordonnees.replace(/\n/g, '<br/>');
     
-    const scitechlabButton = document.querySelector('[data-translate="museums.scitechlab.button"]');
-    if (scitechlabButton) scitechlabButton.textContent = t.scitechlab.button;
+    const francButton = document.querySelector('[data-translate="museums.franc.button"]');
+    if (francButton) francButton.textContent = t.franc.button;
     
-    const sciencesNaturellesName = document.querySelector('[data-translate="museums.sciencesNaturelles.name"]');
-    if (sciencesNaturellesName) sciencesNaturellesName.textContent = t.sciencesNaturelles.name;
+    const egoutsName = document.querySelector('[data-translate="museums.egouts.name"]');
+    if (egoutsName) egoutsName.textContent = t.egouts.name;
     
-    const sciencesNaturellesAddress = document.querySelector('[data-translate="museums.sciencesNaturelles.address"]');
-    if (sciencesNaturellesAddress) sciencesNaturellesAddress.textContent = t.sciencesNaturelles.address;
+    const egoutsAddress = document.querySelector('[data-translate="museums.egouts.address"]');
+    if (egoutsAddress) egoutsAddress.textContent = t.egouts.address;
     
-    const sciencesNaturellesDescription = document.querySelector('[data-translate="museums.sciencesNaturelles.description"]');
-    if (sciencesNaturellesDescription) sciencesNaturellesDescription.textContent = t.sciencesNaturelles.description;
+    const egoutsDescription = document.querySelector('[data-translate="museums.egouts.description"]');
+    if (egoutsDescription) egoutsDescription.textContent = t.egouts.description;
     
-    const sciencesNaturellesButton = document.querySelector('[data-translate="museums.sciencesNaturelles.button"]');
-    if (sciencesNaturellesButton) sciencesNaturellesButton.textContent = t.sciencesNaturelles.button;
+    const egoutsouverture = document.querySelector('[data-translate="museums.egouts.ouverture"]');
+    if (egoutsouverture) egoutsouverture.innerHTML = '<br/><br/>' + t.egouts.ouverture.replace(/\n/g, '<br/>');
+
+    const egoutscoordonnees = document.querySelector('[data-translate="museums.egouts.coordonnees"]');
+    if (egoutscoordonnees) egoutscoordonnees.innerHTML = '<br/><br/>' + t.egouts.coordonnees.replace(/\n/g, '<br/>');
     
-    const museeRouteName = document.querySelector('[data-translate="museums.museeRoute.name"]');
-    if (museeRouteName) museeRouteName.textContent = t.museeRoute.name;
+    const egoutsButton = document.querySelector('[data-translate="museums.egouts.button"]');
+    if (egoutsButton) egoutsButton.textContent = t.egouts.button;
     
-    const museeRouteAddress = document.querySelector('[data-translate="museums.museeRoute.address"]');
-    if (museeRouteAddress) museeRouteAddress.textContent = t.museeRoute.address;
+
+    const sciencesName = document.querySelector('[data-translate="museums.sciences.name"]');
+    if (sciencesName) sciencesName.textContent = t.sciences.name;
     
-    const museeRouteDescription = document.querySelector('[data-translate="museums.museeRoute.description"]');
-    if (museeRouteDescription) museeRouteDescription.textContent = t.museeRoute.description;
+    const sciencesAddress = document.querySelector('[data-translate="museums.sciences.address"]');
+    if (sciencesAddress) sciencesAddress.textContent = t.sciences.address;
     
-    const museeRouteButton = document.querySelector('[data-translate="museums.museeRoute.button"]');
-    if (museeRouteButton) museeRouteButton.textContent = t.museeRoute.button;
+    const sciencesDescription = document.querySelector('[data-translate="museums.sciences.description"]');
+    if (sciencesDescription) sciencesDescription.textContent = t.sciences.description;
     
+    const sciencesouverture = document.querySelector('[data-translate="museums.sciences.ouverture"]');
+    if (sciencesouverture) sciencesouverture.innerHTML = '<br/><br/>' + t.sciences.ouverture.replace(/\n/g, '<br/>');
+
+    const sciencescoordonnees = document.querySelector('[data-translate="museums.sciences.coordonnees"]');
+    if (sciencescoordonnees) sciencescoordonnees.innerHTML = '<br/><br/>' + t.sciences.coordonnees.replace(/\n/g, '<br/>');
+    
+    const sciencesButton = document.querySelector('[data-translate="museums.sciences.button"]');
+    if (sciencesButton) sciencesButton.textContent = t.sciences.button;
+    
+    const autoworldName = document.querySelector('[data-translate="museums.autoworld.name"]');
+    if (autoworldName) autoworldName.textContent = t.autoworld.name;
+    
+    const autoworldAddress = document.querySelector('[data-translate="museums.autoworld.address"]');
+    if (autoworldAddress) autoworldAddress.textContent = t.autoworld.address;
+    
+    const autoworldDescription = document.querySelector('[data-translate="museums.autoworld.description"]');
+    if (autoworldDescription) autoworldDescription.textContent = t.autoworld.description;
+    
+    const autoworldouverture = document.querySelector('[data-translate="museums.autoworld.ouverture"]');
+    if (autoworldouverture) autoworldouverture.innerHTML = '<br/><br/>' + t.autoworld.ouverture.replace(/\n/g, '<br/>');
+
+    const autoworldcoordonnees = document.querySelector('[data-translate="museums.autoworld.coordonnees"]');
+    if (autoworldcoordonnees) autoworldcoordonnees.innerHTML = '<br/><br/>' + t.autoworld.coordonnees.replace(/\n/g, '<br/>');
+    
+    const autoworldButton = document.querySelector('[data-translate="museums.autoworld.button"]');
+    if (autoworldButton) autoworldButton.textContent = t.autoworld.button;
+    
+    const armeeName = document.querySelector('[data-translate="museums.armee.name"]');
+    if (armeeName) armeeName.textContent = t.armee.name;
+    
+    const armeeAddress = document.querySelector('[data-translate="museums.armee.address"]');
+    if (armeeAddress) armeeAddress.textContent = t.armee.address;
+    
+    const armeeDescription = document.querySelector('[data-translate="museums.armee.description"]');
+    if (armeeDescription) armeeDescription.textContent = t.armee.description;
+    
+    const armeeouverture = document.querySelector('[data-translate="museums.armee.ouverture"]');
+    if (armeeouverture) armeeouverture.innerHTML = '<br/><br/>' + t.armee.ouverture.replace(/\n/g, '<br/>');
+
+    const armeecoordonnees = document.querySelector('[data-translate="museums.armee.coordonnees"]');
+    if (armeecoordonnees) armeecoordonnees.innerHTML = '<br/><br/>' + t.armee.coordonnees.replace(/\n/g, '<br/>');
+    
+    const armeeButton = document.querySelector('[data-translate="museums.armee.button"]');
+    if (armeeButton) armeeButton.textContent = t.armee.button;
+    
+    const trainName = document.querySelector('[data-translate="museums.train.name"]');
+    if (trainName) trainName.textContent = t.train.name;
+    
+    const trainAddress = document.querySelector('[data-translate="museums.train.address"]');
+    if (trainAddress) trainAddress.textContent = t.train.address;
+    
+    const trainDescription = document.querySelector('[data-translate="museums.train.description"]');
+    if (trainDescription) trainDescription.textContent = t.train.description;
+    
+    const trainouverture = document.querySelector('[data-translate="museums.train.ouverture"]');
+    if (trainouverture) trainouverture.innerHTML = '<br/><br/>' + t.train.ouverture.replace(/\n/g, '<br/>');
+
+    const traincoordonnees = document.querySelector('[data-translate="museums.train.coordonnees"]');
+    if (traincoordonnees) traincoordonnees.innerHTML = '<br/><br/>' + t.train.coordonnees.replace(/\n/g, '<br/>');
+    
+    const trainButton = document.querySelector('[data-translate="museums.train.button"]');
+    if (trainButton) trainButton.textContent = t.train.button;
+      
+    const atomiumName = document.querySelector('[data-translate="museums.atomium.name"]');
+    if (atomiumName) atomiumName.textContent = t.atomium.name;
+    
+    const atomiumAddress = document.querySelector('[data-translate="museums.atomium.address"]');
+    if (atomiumAddress) atomiumAddress.textContent = t.atomium.address;
+    
+    const atomiumDescription = document.querySelector('[data-translate="museums.atomium.description"]');
+    if (atomiumDescription) atomiumDescription.textContent = t.atomium.description;
+    
+    const atomiumouverture = document.querySelector('[data-translate="museums.atomium.ouverture"]');
+    if (atomiumouverture) atomiumouverture.innerHTML = '<br/><br/>' + t.atomium.ouverture.replace(/\n/g, '<br/>');
+
+    const atomiumcoordonnees = document.querySelector('[data-translate="museums.atomium.coordonnees"]');
+    if (atomiumcoordonnees) atomiumcoordonnees.innerHTML = '<br/><br/>' + t.atomium.coordonnees.replace(/\n/g, '<br/>');
+    
+    const atomiumButton = document.querySelector('[data-translate="museums.atomium.button"]');
+    if (atomiumButton) atomiumButton.textContent = t.atomium.button;
+      
+    const designName = document.querySelector('[data-translate="museums.design.name"]');
+    if (designName) designName.textContent = t.design.name;
+    
+    const designAddress = document.querySelector('[data-translate="museums.design.address"]');
+    if (designAddress) designAddress.textContent = t.design.address;
+    
+    const designDescription = document.querySelector('[data-translate="museums.design.description"]');
+    if (designDescription) designDescription.textContent = t.design.description;
+    
+    const designouverture = document.querySelector('[data-translate="museums.design.ouverture"]');
+    if (designouverture) designouverture.innerHTML = '<br/><br/>' + t.design.ouverture.replace(/\n/g, '<br/>');
+
+    const designcoordonnees = document.querySelector('[data-translate="museums.design.coordonnees"]');
+    if (designcoordonnees) designcoordonnees.innerHTML = '<br/><br/>' + t.design.coordonnees.replace(/\n/g, '<br/>');
+    
+    const designButton = document.querySelector('[data-translate="museums.design.button"]');
+    if (designButton) designButton.textContent = t.design.button;
+
+    const bdName = document.querySelector('[data-translate="museums.bd.name"]');
+    if (bdName) bdName.textContent = t.bd.name;
+    
+    const bdAddress = document.querySelector('[data-translate="museums.bd.address"]');
+    if (bdAddress) bdAddress.textContent = t.bd.address;
+    
+    const bdDescription = document.querySelector('[data-translate="museums.bd.description"]');
+    if (bdDescription) bdDescription.textContent = t.bd.description;
+    
+    const bdouverture = document.querySelector('[data-translate="museums.bd.ouverture"]');
+    if (bdouverture) bdouverture.innerHTML = '<br/><br/>' + t.bd.ouverture.replace(/\n/g, '<br/>');
+
+    const bdcoordonnees = document.querySelector('[data-translate="museums.bd.coordonnees"]');
+    if (bdcoordonnees) bdcoordonnees.innerHTML = '<br/><br/>' + t.bd.coordonnees.replace(/\n/g, '<br/>');
+    
+    const bdButton = document.querySelector('[data-translate="museums.bd.button"]');
+    if (bdButton) bdButton.textContent = t.bd.button;
+ 
+    const chocoName = document.querySelector('[data-translate="museums.choco.name"]');
+    if (chocoName) chocoName.textContent = t.choco.name;
+    
+    const chocoAddress = document.querySelector('[data-translate="museums.choco.address"]');
+    if (chocoAddress) chocoAddress.textContent = t.choco.address;
+    
+    const chocoDescription = document.querySelector('[data-translate="museums.choco.description"]');
+    if (chocoDescription) chocoDescription.textContent = t.choco.description;
+    
+    const chocoouverture = document.querySelector('[data-translate="museums.choco.ouverture"]');
+    if (chocoouverture) chocoouverture.innerHTML = '<br/><br/>' + t.choco.ouverture.replace(/\n/g, '<br/>');
+
+    const chococoordonnees = document.querySelector('[data-translate="museums.choco.coordonnees"]');
+    if (chococoordonnees) chococoordonnees.innerHTML = '<br/><br/>' + t.choco.coordonnees.replace(/\n/g, '<br/>');
+    
+    const chocoButton = document.querySelector('[data-translate="museums.choco.button"]');
+    if (chocoButton) chocoButton.textContent = t.choco.button;
+
+    const costumesName = document.querySelector('[data-translate="museums.costumes.name"]');
+    if (costumesName) costumesName.textContent = t.costumes.name;
+    
+    const costumesAddress = document.querySelector('[data-translate="museums.costumes.address"]');
+    if (costumesAddress) costumesAddress.textContent = t.costumes.address;
+    
+    const costumesDescription = document.querySelector('[data-translate="museums.costumes.description"]');
+    if (costumesDescription) costumesDescription.textContent = t.costumes.description;
+    
+    const costumesouverture = document.querySelector('[data-translate="museums.costumes.ouverture"]');
+    if (costumesouverture) costumesouverture.innerHTML = '<br/><br/>' + t.costumes.ouverture.replace(/\n/g, '<br/>');
+
+    const costumescoordonnees = document.querySelector('[data-translate="museums.costumes.coordonnees"]');
+    if (costumescoordonnees) costumescoordonnees.innerHTML = '<br/><br/>' + t.costumes.coordonnees.replace(/\n/g, '<br/>');
+    
+    const costumesButton = document.querySelector('[data-translate="museums.costumes.button"]');
+    if (costumesButton) costumesButton.textContent = t.costumes.button;
+    
+    const enfantsName = document.querySelector('[data-translate="museums.enfants.name"]');
+    if (enfantsName) enfantsName.textContent = t.enfants.name;
+    
+    const enfantsAddress = document.querySelector('[data-translate="museums.enfants.address"]');
+    if (enfantsAddress) enfantsAddress.textContent = t.enfants.address;
+    
+    const enfantsDescription = document.querySelector('[data-translate="museums.enfants.description"]');
+    if (enfantsDescription) enfantsDescription.textContent = t.enfants.description;
+    
+    const enfantsouverture = document.querySelector('[data-translate="museums.enfants.ouverture"]');
+    if (enfantsouverture) enfantsouverture.innerHTML = '<br/><br/>' + t.enfants.ouverture.replace(/\n/g, '<br/>');
+
+    const enfantscoordonnees = document.querySelector('[data-translate="museums.enfants.coordonnees"]');
+    if (enfantscoordonnees) enfantscoordonnees.innerHTML = '<br/><br/>' + t.enfants.coordonnees.replace(/\n/g, '<br/>');
+    
+    const enfantsButton = document.querySelector('[data-translate="museums.enfants.button"]');
+    if (enfantsButton) enfantsButton.textContent = t.enfants.button;
+    
+ 
+ 
     // Bouton retour
     const backButton = document.getElementById('back-button');
     if (backButton) {
@@ -512,7 +1063,7 @@ function showMuseumConfirmPopup(name, lat, lng, audio, image, museumInfo) {
   btnYes.style.cursor = 'pointer';
   btnYes.addEventListener('click', () => {
     document.body.removeChild(overlay);
-    localStorage.setItem("mons_forceTarget", JSON.stringify({ 
+    localStorage.setItem("bruxelles_forceTarget", JSON.stringify({ 
       name, 
       lat, 
       lng, 

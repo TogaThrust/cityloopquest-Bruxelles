@@ -1,94 +1,204 @@
 {
   "fr": {
     "mainTitle": "CityLoop Quest Bruxelles- Au cœur de l’Europe",
-    "title": "🏛️ Musées à visiter à Mons",
-    "artHeritage": "Musées d'art et patrimoine",
-    "historyMemory": "Musées d'histoire et mémoire",
-    "scienceTech": "Musées sciences et techniques",
-    "industrialHeritage": "Musées patrimoine industriel et technique",
-    "bam": {
-      "name": "Musée des Beaux-Arts (BAM)",
-      "address": "Adresse : Rue Neuve 8, 7000 Mons",
-      "description": "Le BAM (Beaux-Arts Mons) est un musée d'art moderne et contemporain proposant des expositions temporaires prestigieuses dans un cadre architectural contemporain.",
-      "button": "Y aller ?"
+    "title": "🏛️ Musées à visiter à Bruxelles",
+    "artHeritage": "Art, beaux-arts & architecture",
+    "historyMemory": "Histoire, ville & société",
+    "scienceTech": "Sciences & techniques / mobilité",
+    "icone": "BD, pop culture, chocolat & icônes bruxelloises",
+    "famille": "Enfants & familles (fort potentiel ludique)",
+    "insolite": "Insolite / thématique",
+    "MRBAB": {
+      "name": "Musées royaux des Beaux-Arts de Belgique (MRBAB)",
+      "address": "Adresse : Rue de la Régence 3, 1000 Bruxelles",
+      "description": "Grand complexe fédéral qui regroupe plusieurs musées (Old Masters, Fin-de-Siècle, etc.) avec plus de 20 000 œuvres de peinture, sculpture et dessin du XVe au XXIe siècle, dont Bruegel, Rubens, Ensor, Magritte…",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 11:00–18:00\ndimanche 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
     },
-    "cap": {
-      "name": "Musée des Collections (CAP)",
-      "address": "Adresse : Rue Neuve 8, 7000 Mons",
-      "description": "Le Musée des Collections (CAP) de Mons présente les riches collections permanentes de la ville, mêlant arts anciens, modernes et contemporains dans un parcours thématique.",
-      "button": "Y aller ?"
+    "mag": {
+      "name": "Musée Magritte",
+      "address": "Adresse : Place Royale 1, 1000 Bruxelles (intégré aux MRBAB, côté place)",
+      "description": "Musée entièrement dédié à René Magritte, présentant plus de 200 œuvres (peintures, gouaches, dessins, affiches…) et retraçant l’évolution de son surréalisme, de ses débuts aux icônes mondialement connues.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 11:00–18:00\ndimanche 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
     },
-    "maisonLosseau": {
-      "name": "Maison Losseau",
-      "address": "Adresse : Rue de Nimy 37, 7000 Mons",
-      "description": "La Maison Losseau à Mons est un joyau de l'Art nouveau, abritant un centre littéraire et une maison-musée dédiée à l'œuvre du bibliophile Léon Losseau.",
-      "button": "Y aller ?"
+    "art_histoire": {
+      "name": "Musée Art & Histoire",
+      "address": "Adresse : Parc du Cinquantenaire 10, 1000 Bruxelles",
+      "description": "Un des plus grands musées d’art et d’archéologie d’Europe : antiquités égyptiennes, grecques et romaines, art précolombien, arts décoratifs européens, collections d’arts extra-européens, etc.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 09:30–17:00\nmercredi 09:30–17:00\njeudi 09:30–17:00\nvendredi 09:30–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
     },
-    "museeDoudou": {
-      "name": "Musée du Doudou",
-      "address": "Adresse : Jardin du Mayeur, 7000 Mons",
-      "description": "Le Musée du Doudou à Mons est consacré à la Ducasse rituelle, mettant en valeur son histoire, ses traditions et son inscription au patrimoine immatériel de l'UNESCO.",
-      "button": "Y aller ?"
+    "MIM": {
+      "name": "Musée des Instruments de Musique (MIM)",
+      "address": "Adresse : Rue Montagne de la Cour 2, 1000 Bruxelles",
+      "description": "Installé dans l’ancien magasin Art nouveau « Old England », le MIM expose plusieurs milliers d’instruments du monde entier, avec un audio-guide qui permet d’entendre leur son. Terrasse panoramique sur le toit avec vue sur Bruxelles.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 09:30–17:00\nmercredi 09:30–17:00\njeudi 09:30–17:00\nvendredi 09:30–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
     },
-    "anciensAbattoirs": {
-      "name": "Anciens abattoirs",
-      "address": "Adresse : Rue de la Trouille 17, 7000 Mons",
-      "description": "Le musée des Anciens Abattoirs de Mons est un espace d'art contemporain installé dans un remarquable site industriel du XIXe siècle rénové.",
-      "button": "Y aller ?"
+    "art_marges": {
+      "name": "Art et marges musée",
+      "address": "Adresse : Rue Haute 312–314, 1000 Bruxelles",
+      "description": "Musée dédié à l’art brut et outsider (créateurs hors des circuits artistiques classiques). Collections très fortes, expos souvent engagées et poétiques, dans le quartier des Marolles.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 11:00–18:00\nmercredi 11:00–18:00\njeudi 11:00–18:00\nvendredi 11:00–18:00\nsamedi 11:00–18:00\ndimanche 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
     },
-    "artotheque": {
-      "name": "Artothèque",
-      "address": "Adresse :  Rue Claude de Bettignies 1, 7000 Mons",
-      "description": "L'Artothèque de Mons est un centre de conservation et de recherche dédié aux collections muséales de la ville, situé dans une ancienne chapelle rénovée.",
-      "button": "Y aller ?"
+    "empain": {
+      "name": "Villa Empain – Fondation Boghossian",
+      "address": "Adresse :  Rue Claude de Bettignies 1, 1000 Bruxelles",
+      "description": "Musée dédié à l’art moderne et contemporain, avec une collection exceptionnelle de peintures, sculptures, objets décoratifs et installations.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 11:00–18:00\nmercredi 11:00–18:00\njeudi 11:00–18:00\nvendredi 11:00–18:00\nsamedi 11:00–18:00\ndimanche 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
     },
-    "mmm": {
-      "name": "Mons Memorial Museum (MMM)",
-      "address": "Adresse :  Boulevard Dolez 51, 7000 Mons",
-      "description": "Le Mons Memorial Museum retrace l'histoire militaire de Mons à travers les conflits du XXe siècle, en mettant l'accent sur les expériences humaines des civils et des soldats.",
-      "button": "Y aller ?"
+    "horta": {
+      "name": "Musée Horta",
+      "address": "Adresse : Rue Américaine 25, 1060 Saint-Gilles (Bruxelles)",
+      "description": "Ancienne maison et atelier de l’architecte Victor Horta, figure majeure de l’Art nouveau. Intérieurs d’origine (mobilier, vitraux, ferronneries) conservés, donnant une vision très complète de son style.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 14:00–17:30\nmercredi 14:00–17:30\njeudi 14:00–17:30\nvendredi 14:00–17:30\nsamedi 11:00–17:30\ndimanche 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
     },
-    "maisonVanGogh": {
-      "name": "Maison Van Gogh",
-      "address": "Adresse :  Rue du Pavillon 3, 7033 Cuesmes (Voiture nécessaire)",
-      "description": "La Maison Van Gogh à Mons évoque le séjour du peintre à Cuesmes et présente son évolution artistique à travers une scénographie immersive.",
-      "button": "Y aller ?"
+    "kbr": {
+      "name": "KBR Museum (Trésors de la Bibliothèque royale)",
+      "address": "Adresse : Mont des Arts 28, 1000 Bruxelles",
+      "description": "Musée installé au sein de la Bibliothèque royale, dédié notamment aux manuscrits des ducs de Bourgogne. Manuscrits enluminés, livres rares, plongée dans l’Europe des cours princières et l’histoire du livre.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
     },
-    "mundaneum": {
-      "name": "Mundaneum",
-      "address": "Adresse : Rue de Nimy 76, 7000 Mons",
-      "description": "Archives de la connaissance mondiale, musée et centre d'exposition autour des utopies documentaires.",
-      "button": "Y aller ?"
+    "ville_bruxelles": {
+      "name": "Musée de la Ville de Bruxelles (Maison du Roi)",
+      "address": "Adresse : Grand-Place 30–32, 1000 Bruxelles",
+      "description": "Situé dans la Maison du Roi sur la Grand-Place, ce musée raconte l’histoire de Bruxelles à travers peintures, tapisseries, maquettes, documents… On y voit notamment une des versions originales du Manneken Pis.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
     },
-    "maisonLescart": {
-      "name": "Maison Jean Lescart",
-      "address": "Adresse : Rue Neuve 8, 7000 Mons",
-      "description": "La Maison Jean Lescart à Mons est un musée du folklore local retraçant la vie montoise à travers objets, traditions et scènes reconstituées. Hélas fermé définitivement.",
-      "button": "Y aller ?"
+    "belvue": {
+      "name": "Musée BELvue",
+      "address": "Adresse : Place des Palais 7, 1000 Bruxelles",
+      "description": "Musée consacré à l’histoire de la Belgique (monarchie, démocratie, société, période coloniale…) avec une scénographie interactive, installé dans un ancien hôtel de prestige jouxtant le Palais royal.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 09:30–17:00\nmercredi 09:30–17:00\njeudi 09:30–17:00\nvendredi 09:30–17:00\nsamedi 10:00–18:00\ndimanche 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
     },
-    "mumons": {
-      "name": "MUMONS",
-      "address": "Adresse : Place du Parc 24, 7000 Mons",
-      "description": "Le Musée MUMONS est le musée universitaire de l'UMONS, explorant les liens entre science, art et société à travers des expositions originales.",
-      "button": "Y aller ?"
+    "hal": {
+      "name": "Porte de Hal",
+      "address": "Adresse : Rue du Marché au Charbon 10, 1000 Bruxelles",
+      "description": "Porte de l’ancienne enceinte de la ville, reconstruite en 1880 et édifiée sur les ruines de l’enceinte romaine. Monument historique classé depuis 1921.",
+      "button": "Y aller ?",
+      "ouverture": "lundi 09:30–17:00\nmardi 09:30–17:00\nmercredi 09:30–17:00\njeudi 09:30–17:00\nvendredi Fermé\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
     },
-    "scitechlab": {
-      "name": "SciTechLab",
-      "address": "Adresse : Rue de Houdain 9, 7000 Mons",
-      "description": "Le SciTechLab est un espace muséal interactif de l'UMONS dédié à la découverte des sciences et des technologies de manière ludique et immersive.",
-      "button": "Y aller ?"
+    "juif": {
+      "name": "Musée Juif de Belgique",
+      "address": "Adresse : Rue des Minimes 21, 1000 Bruxelles",
+      "description": "Musée dédié à l’histoire des Juifs en Belgique, avec une collection de documents, d’objets et d’œuvres d’art liés à cette histoire.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi Fermé\nmercredi Fermé\njeudi 11:00–18:00\nvendredi 11:00–18:00\nsamedi 11:00–18:00\ndimanche 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
     },
-    "sciencesNaturelles": {
-      "name": "Muséum régional des Sciences naturelles de Mons",
-      "address": "Adresse : Rue des Gailliers 7, 7000 Mons",
-      "description": "Le Musée régional des Sciences naturelles de Mons présente une riche collection de spécimens zoologiques, botaniques et géologiques pour explorer la biodiversité.",
-      "button": "Y aller ?"
+    "franc": {
+      "name": "Musée belge de la Franc-maçonnerie",
+      "address": "Adresse : Rue de Laeken 73, 1000 Bruxelles",
+      "description": "Situé dans l’hôtel Dewez (bâtiment néoclassique XVIIIᵉ), le musée explique l’histoire, les symboles et les rites de la franc-maçonnerie en Belgique à travers objets, décorations, documents et œuvres.",
+      "button": "Y aller ?",
+      "ouverture": "lundi 10:00–17:00\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 11:00–17:00\ndimanche Fermé",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
     },
-    "museeRoute": {
-      "name": "Musée de la Route de Mons",
-      "address": "Adresse : Rue des Canonniers (Place Nervienne), Casemates 3, 4 et 5, 7000 Mons",
-      "description": "Le Musée de la Route de Mons retrace l'histoire des infrastructures routières et des métiers liés à la voirie en Wallonie. Hélas fermé définitievement.",
-      "button": "Y aller ?"
+    "egouts": {
+      "name": "Musée des Égouts de Bruxelles",
+      "address": "Adresse : Pavillons d’Octroi – Porte d’Anderlecht, Boulevard de l’Abattoir 1, 1000 Bruxelles",
+      "description": "Musée insolite qui fait découvrir le réseau d’égouts, le cours enterré de la Senne et l’histoire sanitaire de la ville. Visite partiellement souterraine, très pédagogique (maquettes, vidéos, odeur authentique 😅).",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Musée des Sciences naturelles",
+      "address": "Adresse : Rue Vautier 29, 1000 Bruxelles",
+      "description": "Le grand musée de sciences naturelles de Belgique, célèbre pour sa galerie des dinosaures (iguanodons de Bernissart), ses collections de biodiversité, de géologie et d’évolution humaine.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 09:30–17:00\nmercredi 09:30–17:00\njeudi 09:30–17:00\nvendredi 09:30–17:00\nsamedi 10:00–18:00\ndimanche 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels ",
+      "address": "Adresse : Parc du Cinquantenaire 11, 1000 Bruxelles",
+      "description": "Grand musée de l’automobile installé dans une halle monumentale du Cinquantenaire, avec environ 250 véhicules : voitures anciennes, voitures de course, carrosses, expo thématiques sur l’histoire de la mobilité.",
+      "button": "Y aller ?",
+      "ouverture": "lundi 10:00–17:00\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 10:00–18:00\ndimanche 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Musée royal de l’Armée et d’Histoire militaire ",
+      "address": "Adresse : Parc du Cinquantenaire 3, 1000 Bruxelles",
+      "description": "Musée géré par le War Heritage Institute, dédié à l’histoire militaire belge et internationale, avec collections d’uniformes, armes, blindés et une spectaculaire halle de l’aviation remplie d’avions historiques.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 09:00–17:00\nmercredi 09:00–17:00\njeudi 09:00–17:00\nvendredi 09:00–17:00\nsamedi 09:00–17:00\ndimanche 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Adresse : Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruxelles)",
+      "description": "Musée national du rail belge, combinant l’ancienne gare de Schaerbeek et des halls modernes, avec locomotives à vapeur emblématiques, trains d’époque et mise en scène immersive de l’histoire du chemin de fer. Second building au numéro 8 de la même Place",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi Fermé\ndimanche 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Adresse : Square de l’Atomium / Atomiumplein 1, 1020 Bruxelles (Laeken)",
+      "description": "Icône absolue de Bruxelles, construite pour l’Expo 58 : une structure de 102 m représentant un cristal de fer agrandi 165 milliards de fois, avec boules accessibles, expositions et restaurant panoramique.",
+      "button": "Y aller ?",
+      "ouverture": "lundi 10:00–18:00\nmardi 10:00–18:00\nmercredi 10:00–18:00\njeudi 10:00–18:00\nvendredi 10:00–18:00\nsamedi 10:00–18:00\ndimanche 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "Adresse : Place de Belgique 1, 1020 Bruxelles (plateau du Heysel, près de l’Atomium)",
+      "description": "Musée consacré au design des XXᵉ–XXIᵉ siècles, avec notamment une grande collection autour du plastique et du design industriel. Expositions sur le design belge et international, mobilier, objets du quotidien, installations.",
+      "button": "Y aller ?",
+      "ouverture": "lundi 11:00–19:00\nmardi 11:00–19:00\nmercredi 11:00–19:00\njeudi 11:00–19:00\nvendredi 11:00–19:00\nsamedi 11:00–19:00\ndimanche 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Centre Belge de la Bande Dessinée",
+      "address": "Adresse : Rue des Sables 20, 1000 Bruxelles",
+      "description": "Musée de référence dédié à la BD belge, installé dans un superbe bâtiment Art nouveau de Victor Horta (anciens magasins Waucquez). Expositions sur Tintin, les Schtroumpfs et de nombreux auteurs classiques et contemporains.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–18:00\nmercredi 10:00–18:00\njeudi 10:00–18:00\nvendredi 10:00–18:00\nsamedi 10:00–18:00\ndimanche 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "Adresse : Rue de l’Etuve 41 (Stoofstraat 41), 1000 Bruxelles",
+      "description": "Musée immersif consacré à l’histoire du cacao et du chocolat, des civilisations précolombiennes jusqu’à la praline belge, avec démonstrations de chocolatiers et dégustations.",
+      "button": "Y aller ?",
+      "ouverture": "lundi 10:00–17:00\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Adresse : Rue du Chêne 19, 1000 Bruxelles",
+      "description": "Petit musée qui présente une sélection des centaines de costumes du Manneken Pis : tenues folkloriques, uniformes, costumes offerts par des pays ou associations du monde entier. Idéal à combiner avec la statue elle-même à deux pas.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi 10:00–17:00\nmercredi 10:00–17:00\njeudi 10:00–17:00\nvendredi 10:00–17:00\nsamedi 10:00–17:00\ndimanche 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Musée des Enfants",
+      "address": "Adresse : Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "Musée interactif pensé pour les enfants (et les accompagnants) avec des espaces de jeu éducatifs, ateliers créatifs et installations participatives. L’accent est mis sur l’expérimentation plutôt que sur des vitrines classiques.",
+      "button": "Y aller ?",
+      "ouverture": "lundi Fermé\nmardi Fermé\nmercredi 14:30–17:00\njeudi Fermé\nvendredi Fermé\nsamedi 14:30–17:00\ndimanche 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
     },
     "backButton": "RETOUR",
     "popupTitle": "Avertissement !",
@@ -97,871 +207,1861 @@
     "popupNo": "NON"
   },
   "en": {
-    "mainTitle": "CityLoop Quest Mons - The Ride of Saint George",
-    "title": "🏛️ Museums to visit in Mons",
-    "artHeritage": "Art and heritage museums",
-    "historyMemory": "History and memory museums",
-    "scienceTech": "Science and technology museums",
-    "industrialHeritage": "Industrial and technical heritage museums",
-    "bam": {
-      "name": "Fine Arts Museum (BAM)",
-      "address": "Address: Rue Neuve 8, 7000 Mons",
-      "description": "The BAM (Beaux-Arts Mons) is a modern and contemporary art museum offering prestigious temporary exhibitions in a contemporary architectural setting.",
-      "button": "Go there?"
+    "mainTitle": "CityLoop Quest Bruxelles - In the heart of Europe",
+    "title": "🏛️ Museums to visit in Brussels",
+    "artHeritage": "Art, fine arts & architecture",
+    "historyMemory": "History, city & society",
+    "scienceTech": "Sciences & technology / mobility",
+    "icone": "Comics, pop culture, chocolate & Brussels icons",
+    "famille": "Children & families (high entertainment potential)",
+    "insolite": "Unusual / thematic",
+    "MRBAB": {
+      "name": "Royal Museums of Fine Arts of Belgium (MRBAB)",
+      "address": "Address: Rue de la Régence 3, 1000 Brussels",
+      "description": "Large federal complex grouping several museums (Old Masters, Fin-de-Siècle, etc.) with over 20,000 works of painting, sculpture and drawing from the 15th to the 21st century, including Bruegel, Rubens, Ensor, Magritte…",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 11:00–18:00\nSunday 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
     },
-    "cap": {
-      "name": "Collections Museum (CAP)",
-      "address": "Address: Rue Neuve 8, 7000 Mons",
-      "description": "The Collections Museum (CAP) in Mons presents the city's rich permanent collections, mixing ancient, modern and contemporary arts in a thematic journey.",
-      "button": "Go there?"
+    "mag": {
+      "name": "Magritte Museum",
+      "address": "Address: Place Royale 1, 1000 Brussels (integrated into MRBAB, square side)",
+      "description": "Museum entirely dedicated to René Magritte, presenting over 200 works (paintings, gouaches, drawings, posters…) and tracing the evolution of his surrealism, from his beginnings to world-famous icons.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 11:00–18:00\nSunday 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
     },
-    "maisonLosseau": {
-      "name": "Maison Losseau",
-      "address": "Address: Rue de Nimy 37, 7000 Mons",
-      "description": "The Maison Losseau in Mons is a jewel of Art Nouveau, housing a literary center and a house-museum dedicated to the work of bibliophile Léon Losseau.",
-      "button": "Go there?"
+    "art_histoire": {
+      "name": "Art & History Museum",
+      "address": "Address: Parc du Cinquantenaire 10, 1000 Brussels",
+      "description": "One of the largest art and archaeology museums in Europe: Egyptian, Greek and Roman antiquities, Pre-Columbian art, European decorative arts, collections of extra-European arts, etc.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 09:30–17:00\nWednesday 09:30–17:00\nThursday 09:30–17:00\nFriday 09:30–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
     },
-    "museeDoudou": {
-      "name": "Doudou Museum",
-      "address": "Address: Jardin du Mayeur, 7000 Mons",
-      "description": "The Doudou Museum in Mons is dedicated to the ritual Ducasse, highlighting its history, traditions and inscription on UNESCO's intangible heritage.",
-      "button": "Go there?"
+    "MIM": {
+      "name": "Musical Instruments Museum (MIM)",
+      "address": "Address: Rue Montagne de la Cour 2, 1000 Brussels",
+      "description": "Housed in the former Art Nouveau store \"Old England\", the MIM displays several thousand instruments from around the world, with an audio guide that allows you to hear their sound. Panoramic rooftop terrace with views of Brussels.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 09:30–17:00\nWednesday 09:30–17:00\nThursday 09:30–17:00\nFriday 09:30–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
     },
-    "anciensAbattoirs": {
-      "name": "Old Slaughterhouses",
-      "address": "Address: Rue de la Trouille 17, 7000 Mons",
-      "description": "The Old Slaughterhouses Museum in Mons is a contemporary art space installed in a remarkable renovated 19th century industrial site.",
-      "button": "Go there?"
+    "art_marges": {
+      "name": "Art et marges museum",
+      "address": "Address: Rue Haute 312–314, 1000 Brussels",
+      "description": "Museum dedicated to raw and outsider art (creators outside classical artistic circuits). Very strong collections, often committed and poetic exhibitions, in the Marolles district.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 11:00–18:00\nWednesday 11:00–18:00\nThursday 11:00–18:00\nFriday 11:00–18:00\nSaturday 11:00–18:00\nSunday 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
     },
-    "artotheque": {
-      "name": "Artothèque",
-      "address": "Address: Rue Claude de Bettignies 1, 7000 Mons",
-      "description": "The Artothèque in Mons is a conservation and research center dedicated to the city's museum collections, located in a renovated old chapel.",
-      "button": "Go there?"
+    "empain": {
+      "name": "Villa Empain – Boghossian Foundation",
+      "address": "Address: Rue Claude de Bettignies 1, 1000 Brussels",
+      "description": "Museum dedicated to modern and contemporary art, with an exceptional collection of paintings, sculptures, decorative objects and installations.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 11:00–18:00\nWednesday 11:00–18:00\nThursday 11:00–18:00\nFriday 11:00–18:00\nSaturday 11:00–18:00\nSunday 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
     },
-    "mmm": {
-      "name": "Mons Memorial Museum (MMM)",
-      "address": "Address: Boulevard Dolez 51, 7000 Mons",
-      "description": "The Mons Memorial Museum traces the military history of Mons through the conflicts of the 20th century, focusing on the human experiences of civilians and soldiers.",
-      "button": "Go there?"
+    "horta": {
+      "name": "Horta Museum",
+      "address": "Address: Rue Américaine 25, 1060 Saint-Gilles (Brussels)",
+      "description": "Former home and workshop of architect Victor Horta, a major figure of Art Nouveau. Original interiors (furniture, stained glass, ironwork) preserved, giving a very complete vision of his style.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 14:00–17:30\nWednesday 14:00–17:30\nThursday 14:00–17:30\nFriday 14:00–17:30\nSaturday 11:00–17:30\nSunday 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
     },
-    "maisonVanGogh": {
-      "name": "Van Gogh House",
-      "address": "Address: Rue du Pavillon 3, 7033 Cuesmes (Car required)",
-      "description": "The Van Gogh House in Mons evokes the painter's stay in Cuesmes and presents his artistic evolution through an immersive scenography.",
-      "button": "Go there?"
+    "kbr": {
+      "name": "KBR Museum (Treasures of the Royal Library)",
+      "address": "Address: Mont des Arts 28, 1000 Brussels",
+      "description": "Museum located within the Royal Library, dedicated in particular to manuscripts of the Dukes of Burgundy. Illuminated manuscripts, rare books, immersion in princely court Europe and the history of the book.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
     },
-    "mundaneum": {
-      "name": "Mundaneum",
-      "address": "Address: Rue de Nimy 76, 7000 Mons",
-      "description": "Archives of world knowledge, museum and exhibition center around documentary utopias.",
-      "button": "Go there?"
+    "ville_bruxelles": {
+      "name": "Museum of the City of Brussels (King's House)",
+      "address": "Address: Grand-Place 30–32, 1000 Brussels",
+      "description": "Located in the King's House on the Grand-Place, this museum tells the history of Brussels through paintings, tapestries, models, documents… You can see one of the original versions of the Manneken Pis.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
     },
-    "maisonLescart": {
-      "name": "Jean Lescart House",
-      "address": "Address: Rue Neuve 8, 7000 Mons",
-      "description": "The Jean Lescart House in Mons is a local folklore museum tracing Mons life through objects, traditions and reconstructed scenes. Sadly permanently closed.",
-      "button": "Go there?"
+    "belvue": {
+      "name": "BELvue Museum",
+      "address": "Address: Place des Palais 7, 1000 Brussels",
+      "description": "Museum dedicated to the history of Belgium (monarchy, democracy, society, colonial period…) with interactive scenography, housed in a former prestigious hotel adjacent to the Royal Palace.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 09:30–17:00\nWednesday 09:30–17:00\nThursday 09:30–17:00\nFriday 09:30–17:00\nSaturday 10:00–18:00\nSunday 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
     },
-    "mumons": {
-      "name": "MUMONS",
-      "address": "Address: Place du Parc 24, 7000 Mons",
-      "description": "The MUMONS Museum is the university museum of UMONS, exploring the links between science, art and society through original exhibitions.",
-      "button": "Go there?"
+    "hal": {
+      "name": "Halle Gate",
+      "address": "Address: Rue du Marché au Charbon 10, 1000 Brussels",
+      "description": "Gate of the old city wall, rebuilt in 1880 and built on the ruins of the Roman wall. Listed historic monument since 1921.",
+      "button": "Go there?",
+      "ouverture": "Monday 09:30–17:00\nTuesday 09:30–17:00\nWednesday 09:30–17:00\nThursday 09:30–17:00\nFriday Closed\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
     },
-    "scitechlab": {
-      "name": "SciTechLab",
-      "address": "Address: Rue de Houdain 9, 7000 Mons",
-      "description": "The SciTechLab is an interactive museum space of UMONS dedicated to discovering sciences and technologies in a fun and immersive way.",
-      "button": "Go there?"
+    "juif": {
+      "name": "Jewish Museum of Belgium",
+      "address": "Address: Rue des Minimes 21, 1000 Brussels",
+      "description": "Museum dedicated to the history of Jews in Belgium, with a collection of documents, objects and works of art related to this history.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday Closed\nWednesday Closed\nThursday 11:00–18:00\nFriday 11:00–18:00\nSaturday 11:00–18:00\nSunday 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
     },
-    "sciencesNaturelles": {
-      "name": "Regional Museum of Natural Sciences of Mons",
-      "address": "Address: Rue des Gailliers 7, 7000 Mons",
-      "description": "The Regional Museum of Natural Sciences of Mons presents a rich collection of zoological, botanical and geological specimens to explore biodiversity.",
-      "button": "Go there?"
+    "franc": {
+      "name": "Belgian Museum of Freemasonry",
+      "address": "Address: Rue de Laeken 73, 1000 Brussels",
+      "description": "Located in the Hôtel Dewez (18th-century neoclassical building), the museum explains the history, symbols and rites of Freemasonry in Belgium through objects, decorations, documents and works.",
+      "button": "Go there?",
+      "ouverture": "Monday 10:00–17:00\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 11:00–17:00\nSunday Closed",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
     },
-    "museeRoute": {
-      "name": "Mons Road Museum",
-      "address": "Address: Rue des Canonniers (Place Nervienne), Casemates 3, 4 and 5, 7000 Mons",
-      "description": "The Mons Road Museum traces the history of road infrastructure and road-related trades in Wallonia. Sadly permanently closed.",
-      "button": "Go there?"
+    "egouts": {
+      "name": "Brussels Sewers Museum",
+      "address": "Address: Pavillons d'Octroi – Porte d'Anderlecht, Boulevard de l'Abattoir 1, 1000 Brussels",
+      "description": "Unusual museum that explores the sewer network, the buried course of the Senne and the city's sanitary history. Partially underground visit, very educational (models, videos, authentic smell 😅).",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Natural Sciences Museum",
+      "address": "Address: Rue Vautier 29, 1000 Brussels",
+      "description": "Belgium's great natural sciences museum, famous for its dinosaur gallery (Bernissart iguanodons), its collections of biodiversity, geology and human evolution.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 09:30–17:00\nWednesday 09:30–17:00\nThursday 09:30–17:00\nFriday 09:30–17:00\nSaturday 10:00–18:00\nSunday 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "Address: Parc du Cinquantenaire 11, 1000 Brussels",
+      "description": "Large automobile museum housed in a monumental hall of the Cinquantenaire, with around 250 vehicles: vintage cars, racing cars, carriages, thematic exhibitions on the history of mobility.",
+      "button": "Go there?",
+      "ouverture": "Monday 10:00–17:00\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 10:00–18:00\nSunday 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Royal Museum of the Armed Forces and Military History",
+      "address": "Address: Parc du Cinquantenaire 3, 1000 Brussels",
+      "description": "Museum managed by the War Heritage Institute, dedicated to Belgian and international military history, with collections of uniforms, weapons, armored vehicles and a spectacular aviation hall filled with historic aircraft.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 09:00–17:00\nWednesday 09:00–17:00\nThursday 09:00–17:00\nFriday 09:00–17:00\nSaturday 09:00–17:00\nSunday 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Address: Place Princesse Elisabeth 5, 1030 Schaerbeek (Brussels)",
+      "description": "National museum of Belgian railways, combining the old Schaerbeek station and modern halls, with iconic steam locomotives, period trains and immersive staging of railway history. Second building at number 8 of the same Square",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday Closed\nSunday 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Address: Square de l'Atomium / Atomiumplein 1, 1020 Brussels (Laeken)",
+      "description": "Absolute icon of Brussels, built for Expo 58: a 102 m structure representing an iron crystal enlarged 165 billion times, with accessible spheres, exhibitions and panoramic restaurant.",
+      "button": "Go there?",
+      "ouverture": "Monday 10:00–18:00\nTuesday 10:00–18:00\nWednesday 10:00–18:00\nThursday 10:00–18:00\nFriday 10:00–18:00\nSaturday 10:00–18:00\nSunday 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "Address: Place de Belgique 1, 1020 Brussels (Heysel plateau, near the Atomium)",
+      "description": "Museum dedicated to 20th–21st century design, with notably a large collection around plastic and industrial design. Exhibitions on Belgian and international design, furniture, everyday objects, installations.",
+      "button": "Go there?",
+      "ouverture": "Monday 11:00–19:00\nTuesday 11:00–19:00\nWednesday 11:00–19:00\nThursday 11:00–19:00\nFriday 11:00–19:00\nSaturday 11:00–19:00\nSunday 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Belgian Comic Strip Center",
+      "address": "Address: Rue des Sables 20, 1000 Brussels",
+      "description": "Reference museum dedicated to Belgian comics, housed in a superb Art Nouveau building by Victor Horta (former Waucquez stores). Exhibitions on Tintin, the Smurfs and many classical and contemporary authors.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–18:00\nWednesday 10:00–18:00\nThursday 10:00–18:00\nFriday 10:00–18:00\nSaturday 10:00–18:00\nSunday 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "Address: Rue de l'Etuve 41 (Stoofstraat 41), 1000 Brussels",
+      "description": "Immersive museum dedicated to the history of cocoa and chocolate, from Pre-Columbian civilizations to the Belgian praline, with demonstrations by chocolatiers and tastings.",
+      "button": "Go there?",
+      "ouverture": "Monday 10:00–17:00\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Address: Rue du Chêne 19, 1000 Brussels",
+      "description": "Small museum presenting a selection of the hundreds of Manneken Pis costumes: folk outfits, uniforms, costumes offered by countries or associations from around the world. Ideal to combine with the statue itself just a few steps away.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday 10:00–17:00\nWednesday 10:00–17:00\nThursday 10:00–17:00\nFriday 10:00–17:00\nSaturday 10:00–17:00\nSunday 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Children's Museum",
+      "address": "Address: Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "Interactive museum designed for children (and accompanying adults) with educational play spaces, creative workshops and participatory installations. The emphasis is on experimentation rather than classic display cases.",
+      "button": "Go there?",
+      "ouverture": "Monday Closed\nTuesday Closed\nWednesday 14:30–17:00\nThursday Closed\nFriday Closed\nSaturday 14:30–17:00\nSunday 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
     },
     "backButton": "BACK",
     "popupTitle": "Warning!",
-    "popupMessage": "ATTENTION, this action will permanently stop the tourist route you have chosen. Are you sure you want to go to this museum? The guidance will take you there!",
+    "popupMessage": "ATTENTION, this action will stop the tourist route you have chosen. Are you sure you want to go to this museum? The guidance will take you there!",
     "popupYes": "YES",
     "popupNo": "NO"
   },
   "nl": {
-    "mainTitle": "CityLoop Quest Mons - De Ruiterstoet van Sint Georges",
-    "title": "🏛️ Musea om te bezoeken in Bergen",
-  "artHeritage": "Kunst- en erfgoedmusea",
-  "historyMemory": "Geschiedenis- en herinneringsmusea",
-  "scienceTech": "Wetenschaps- en technologiemusea",
-  "industrialHeritage": "Musea voor industrieel en technisch erfgoed",
-  "bam": {
-    "name": "Museum voor Schone Kunsten (BAM)",
-    "address": "Adres: Rue Neuve 8, 7000 Bergen",
-    "description": "Het BAM (Beaux-Arts Mons) is een museum voor moderne en hedendaagse kunst dat prestigieuze tijdelijke tentoonstellingen presenteert in een hedendaags architecturaal kader.",
-    "button": "Gaan?"
-  },
-  "cap": {
-    "name": "Museum van de Collecties (CAP)",
-    "address": "Adres: Rue Neuve 8, 7000 Bergen",
-    "description": "Het Museum van de Collecties (CAP) van Bergen toont de rijke permanente collecties van de stad, met een thematisch parcours door oude, moderne en hedendaagse kunst.",
-    "button": "Gaan?"
-  },
-  "maisonLosseau": {
-    "name": "Huis Losseau",
-    "address": "Adres: Rue de Nimy 37, 7000 Bergen",
-    "description": "Het Huis Losseau in Bergen is een parel van de art nouveau, met een literair centrum en een museumwoning gewijd aan het werk van bibliofiel Léon Losseau.",
-    "button": "Gaan?"
-  },
-  "museeDoudou": {
-    "name": "Doudoumuseum",
-    "address": "Adres: Jardin du Mayeur, 7000 Bergen",
-    "description": "Het Doudoumuseum in Bergen is gewijd aan de rituele Ducasse en belicht de geschiedenis, tradities en de opname op de lijst van immaterieel UNESCO-erfgoed.",
-    "button": "Gaan?"
-  },
-  "anciensAbattoirs": {
-    "name": "Voormalige slachthuizen",
-    "address": "Adres: Rue de la Trouille 17, 7000 Bergen",
-    "description": "Het museum van de Voormalige Slachthuizen van Bergen is een centrum voor hedendaagse kunst, gevestigd in een prachtig gerenoveerde industriële site uit de 19e eeuw.",
-    "button": "Gaan?"
-  },
-  "artotheque": {
-    "name": "Artotheek",
-    "address": "Adres: Rue Claude de Bettignies 1, 7000 Bergen",
-    "description": "De Artotheek van Bergen is een centrum voor behoud en onderzoek van de museale collecties van de stad, gevestigd in een gerenoveerde voormalige kapel.",
-    "button": "Gaan?"
-  },
-  "mmm": {
-    "name": "Mons Memorial Museum (MMM)",
-    "address": "Adres: Boulevard Dolez 51, 7000 Bergen",
-    "description": "Het Mons Memorial Museum vertelt de militaire geschiedenis van Bergen tijdens de conflicten van de 20e eeuw, met nadruk op de menselijke ervaringen van burgers en soldaten.",
-    "button": "Gaan?"
-  },
-  "maisonVanGogh": {
-    "name": "Huis van Van Gogh",
-    "address": "Adres: Rue du Pavillon 3, 7033 Cuesmes (Auto vereist)",
-    "description": "Het Huis van Van Gogh in Bergen belicht het verblijf van de schilder in Cuesmes en toont zijn artistieke evolutie via een meeslepende scenografie.",
-    "button": "Gaan?"
-  },
-  "mundaneum": {
-    "name": "Mundaneum",
-    "address": "Adres: Rue de Nimy 76, 7000 Bergen",
-    "description": "Archieven van wereldkennis, museum en tentoonstellingscentrum rond documentaire utopieën.",
-    "button": "Gaan?"
-  },
-  "maisonLescart": {
-    "name": "Huis Jean Lescart",
-    "address": "Adres: Rue Neuve 8, 7000 Bergen",
-    "description": "Het Huis Jean Lescart in Bergen is een museum over lokale folklore dat het leven in Bergen toont via objecten, tradities en gereconstrueerde taferelen. Helaas definitief gesloten.",
-    "button": "Gaan?"
-  },
-  "mumons": {
-    "name": "MUMONS",
-    "address": "Adres: Place du Parc 24, 7000 Bergen",
-    "description": "Het MUMONS-museum is het universitaire museum van de UMONS, dat de verbindingen tussen wetenschap, kunst en maatschappij onderzoekt via originele tentoonstellingen.",
-    "button": "Gaan?"
-  },
-  "scitechlab": {
-    "name": "SciTechLab",
-    "address": "Adres: Rue de Houdain 9, 7000 Bergen",
-    "description": "Het SciTechLab is een interactief museumruimte van de UMONS die op een speelse en meeslepende manier wetenschappen en technologieën laat ontdekken.",
-    "button": "Gaan?"
-  },
-  "sciencesNaturelles": {
-    "name": "Regionaal Museum voor Natuurwetenschappen van Bergen",
-    "address": "Adres: Rue des Gailliers 7, 7000 Bergen",
-    "description": "Het Regionaal Museum voor Natuurwetenschappen van Bergen toont een rijke verzameling zoölogische, botanische en geologische specimens ter ontdekking van de biodiversiteit.",
-    "button": "Gaan?"
-  },
-  "museeRoute": {
-    "name": "Museum van de Weg van Bergen",
-    "address": "Adres: Rue des Canonniers (Place Nervienne), Casemates 3, 4 en 5, 7000 Bergen",
-    "description": "Het Museum van de Weg van Bergen vertelt de geschiedenis van weginfrastructuren en beroepen in verband met wegenbouw in Wallonië. Helaas definitief gesloten.",
-    "button": "Gaan?"
-  },
-  "backButton": "TERUG",
-  "popupTitle": "Waarschuwing!",
-  "popupMessage": "OPGELET, deze actie zal de toeristische route die u gekozen hebt onderbreken. Weet u zeker dat u naar dit museum wilt gaan? De navigatie zal u daarheen leiden!",
-  "popupYes": "JA",
-  "popupNo": "NEE"
+    "mainTitle": "CityLoop Quest Bruxelles - In het hart van Europa",
+    "title": "🏛️ Musea om te bezoeken in Brussel",
+    "artHeritage": "Kunst, schone kunsten & architectuur",
+    "historyMemory": "Geschiedenis, stad & samenleving",
+    "scienceTech": "Wetenschappen & techniek / mobiliteit",
+    "icone": "Stripverhalen, popcultuur, chocolade & Brusselse iconen",
+    "famille": "Kinderen & gezinnen (groot speelpotentieel)",
+    "insolite": "Ongewoon / thematisch",
+    "MRBAB": {
+      "name": "Koninklijke Musea voor Schone Kunsten van België (KMSKB)",
+      "address": "Adres: Regentschapsstraat 3, 1000 Brussel",
+      "description": "Groot federaal complex dat verschillende musea groepeert (Oude Meesters, Fin-de-Siècle, enz.) met meer dan 20.000 werken van schilderkunst, beeldhouwkunst en tekenkunst van de 15e tot de 21e eeuw, waaronder Bruegel, Rubens, Ensor, Magritte…",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 11:00–18:00\nzondag 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "Magritte Museum",
+      "address": "Adres: Koningsplein 1, 1000 Brussel (geïntegreerd in KMSKB, pleinzijde)",
+      "description": "Museum volledig gewijd aan René Magritte, met meer dan 200 werken (schilderijen, gouaches, tekeningen, affiches…) en volgt de evolutie van zijn surrealisme, van zijn begin tot wereldwijd bekende iconen.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 11:00–18:00\nzondag 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "Museum Kunst & Geschiedenis",
+      "address": "Adres: Jubelpark 10, 1000 Brussel",
+      "description": "Een van de grootste musea voor kunst en archeologie in Europa: Egyptische, Griekse en Romeinse oudheden, precolumbiaanse kunst, Europese decoratieve kunsten, collecties van buiteneuropese kunsten, enz.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 09:30–17:00\nwoensdag 09:30–17:00\ndonderdag 09:30–17:00\nvrijdag 09:30–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "Muziekinstrumentenmuseum (MIM)",
+      "address": "Adres: Hofberg 2, 1000 Brussel",
+      "description": "Gevestigd in de voormalige Art Nouveau-winkel \"Old England\", toont het MIM duizenden instrumenten van over de hele wereld, met een audiogids waarmee je hun geluid kunt horen. Panoramisch dakterras met uitzicht op Brussel.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 09:30–17:00\nwoensdag 09:30–17:00\ndonderdag 09:30–17:00\nvrijdag 09:30–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "Art et marges museum",
+      "address": "Adres: Hoogstraat 312–314, 1000 Brussel",
+      "description": "Museum gewijd aan art brut en outsider art (creatoren buiten de klassieke artistieke circuits). Zeer sterke collecties, vaak geëngageerde en poëtische tentoonstellingen, in de Marollenwijk.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 11:00–18:00\nwoensdag 11:00–18:00\ndonderdag 11:00–18:00\nvrijdag 11:00–18:00\nzaterdag 11:00–18:00\nzondag 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "Villa Empain – Boghossian Stichting",
+      "address": "Adres: Rue Claude de Bettignies 1, 1000 Brussel",
+      "description": "Museum gewijd aan moderne en hedendaagse kunst, met een uitzonderlijke collectie schilderijen, sculpturen, decoratieve objecten en installaties.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 11:00–18:00\nwoensdag 11:00–18:00\ndonderdag 11:00–18:00\nvrijdag 11:00–18:00\nzaterdag 11:00–18:00\nzondag 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "Horta Museum",
+      "address": "Adres: Amerikaansestraat 25, 1060 Sint-Gillis (Brussel)",
+      "description": "Voormalig huis en atelier van architect Victor Horta, een belangrijke figuur van de Art Nouveau. Oorspronkelijke interieurs (meubilair, glas-in-lood, smeedwerk) bewaard, wat een zeer volledig beeld van zijn stijl geeft.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 14:00–17:30\nwoensdag 14:00–17:30\ndonderdag 14:00–17:30\nvrijdag 14:00–17:30\nzaterdag 11:00–17:30\nzondag 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "KBR Museum (Schatten van de Koninklijke Bibliotheek)",
+      "address": "Adres: Kunstberg 28, 1000 Brussel",
+      "description": "Museum gevestigd in de Koninklijke Bibliotheek, gewijd aan met name de handschriften van de hertogen van Bourgondië. Geïllumineerde handschriften, zeldzame boeken, duik in het Europa van de vorstelijke hoven en de geschiedenis van het boek.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "Museum van de Stad Brussel (Broodhuis)",
+      "address": "Adres: Grote Markt 30–32, 1000 Brussel",
+      "description": "Gelegen in het Broodhuis op de Grote Markt, vertelt dit museum de geschiedenis van Brussel door middel van schilderijen, wandtapijten, maquettes, documenten… Je ziet er onder meer een van de originele versies van het Manneken Pis.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "BELvue Museum",
+      "address": "Adres: Paleizenplein 7, 1000 Brussel",
+      "description": "Museum gewijd aan de geschiedenis van België (monarchie, democratie, samenleving, koloniale periode…) met interactieve scenografie, gevestigd in een voormalig prestigieus hotel naast het Koninklijk Paleis.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 09:30–17:00\nwoensdag 09:30–17:00\ndonderdag 09:30–17:00\nvrijdag 09:30–17:00\nzaterdag 10:00–18:00\nzondag 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "Hallepoort",
+      "address": "Adres: Kolenmarkt 10, 1000 Brussel",
+      "description": "Poort van de oude stadsmuur, herbouwd in 1880 en gebouwd op de ruïnes van de Romeinse muur. Sinds 1921 geklasseerd historisch monument.",
+      "button": "Gaan?",
+      "ouverture": "maandag 09:30–17:00\ndinsdag 09:30–17:00\nwoensdag 09:30–17:00\ndonderdag 09:30–17:00\nvrijdag Gesloten\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "Joods Museum van België",
+      "address": "Adres: Miniemenstraat 21, 1000 Brussel",
+      "description": "Museum gewijd aan de geschiedenis van de Joden in België, met een collectie documenten, objecten en kunstwerken gerelateerd aan deze geschiedenis.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag Gesloten\nwoensdag Gesloten\ndonderdag 11:00–18:00\nvrijdag 11:00–18:00\nzaterdag 11:00–18:00\nzondag 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "Belgisch Museum van de Vrijmetselarij",
+      "address": "Adres: Lakensestraat 73, 1000 Brussel",
+      "description": "Gelegen in het Hôtel Dewez (18e-eeuws neoclassicistisch gebouw), legt het museum de geschiedenis, symbolen en rituelen van de vrijmetselarij in België uit door middel van objecten, decoraties, documenten en werken.",
+      "button": "Gaan?",
+      "ouverture": "maandag 10:00–17:00\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 11:00–17:00\nzondag Gesloten",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "Museum van de Brusselse Riolen",
+      "address": "Adres: Octrooipaviljoenen – Anderlechtsepoort, Slachthuislaan 1, 1000 Brussel",
+      "description": "Ongewoon museum dat het rioolnetwerk, de begraven loop van de Zenne en de sanitaire geschiedenis van de stad ontdekt. Gedeeltelijk ondergronds bezoek, zeer educatief (maquettes, video's, authentieke geur 😅).",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Museum voor Natuurwetenschappen",
+      "address": "Adres: Vautierstraat 29, 1000 Brussel",
+      "description": "Het grote museum voor natuurwetenschappen van België, beroemd om zijn dinosaurusgalerij (iguanodons van Bernissart), zijn collecties biodiversiteit, geologie en menselijke evolutie.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 09:30–17:00\nwoensdag 09:30–17:00\ndonderdag 09:30–17:00\nvrijdag 09:30–17:00\nzaterdag 10:00–18:00\nzondag 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussel",
+      "address": "Adres: Jubelpark 11, 1000 Brussel",
+      "description": "Groot automobielmuseum gevestigd in een monumentale hal van het Jubelpark, met ongeveer 250 voertuigen: oldtimers, racewagens, koetsen, thematische tentoonstellingen over de geschiedenis van mobiliteit.",
+      "button": "Gaan?",
+      "ouverture": "maandag 10:00–17:00\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 10:00–18:00\nzondag 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Koninklijk Museum van het Leger en de Krijgsgeschiedenis",
+      "address": "Adres: Jubelpark 3, 1000 Brussel",
+      "description": "Museum beheerd door het War Heritage Institute, gewijd aan de Belgische en internationale militaire geschiedenis, met collecties uniformen, wapens, pantservoertuigen en een spectaculaire luchthavenhal gevuld met historische vliegtuigen.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 09:00–17:00\nwoensdag 09:00–17:00\ndonderdag 09:00–17:00\nvrijdag 09:00–17:00\nzaterdag 09:00–17:00\nzondag 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Adres: Prinses Elisabethplein 5, 1030 Schaarbeek (Brussel)",
+      "description": "Nationaal museum van de Belgische spoorwegen, combineert het oude station van Schaarbeek en moderne hallen, met iconische stoomlocomotieven, periodetreinen en meeslepende enscenering van de spoorweggeschiedenis. Tweede gebouw op nummer 8 van hetzelfde plein",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag Gesloten\nzondag 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Adres: Atomiumplein 1, 1020 Brussel (Laken)",
+      "description": "Absolute icoon van Brussel, gebouwd voor Expo 58: een structuur van 102 m die een ijzerkristal voorstelt, 165 miljard keer vergroot, met toegankelijke bollen, tentoonstellingen en panoramisch restaurant.",
+      "button": "Gaan?",
+      "ouverture": "maandag 10:00–18:00\ndinsdag 10:00–18:00\nwoensdag 10:00–18:00\ndonderdag 10:00–18:00\nvrijdag 10:00–18:00\nzaterdag 10:00–18:00\nzondag 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussel",
+      "address": "Adres: Belgiëplein 1, 1020 Brussel (Heizelplateau, nabij het Atomium)",
+      "description": "Museum gewijd aan design van de 20e–21e eeuw, met name een grote collectie rond plastic en industrieel design. Tentoonstellingen over Belgisch en internationaal design, meubilair, alledaagse objecten, installaties.",
+      "button": "Gaan?",
+      "ouverture": "maandag 11:00–19:00\ndinsdag 11:00–19:00\nwoensdag 11:00–19:00\ndonderdag 11:00–19:00\nvrijdag 11:00–19:00\nzaterdag 11:00–19:00\nzondag 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Belgisch Centrum voor het Beeldverhaal",
+      "address": "Adres: Zandstraat 20, 1000 Brussel",
+      "description": "Referentiemuseum gewijd aan de Belgische strip, gevestigd in een prachtig Art Nouveau-gebouw van Victor Horta (voormalige Waucquez-winkels). Tentoonstellingen over Kuifje, de Smurfen en vele klassieke en hedendaagse auteurs.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–18:00\nwoensdag 10:00–18:00\ndonderdag 10:00–18:00\nvrijdag 10:00–18:00\nzaterdag 10:00–18:00\nzondag 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussel",
+      "address": "Adres: Stoofstraat 41, 1000 Brussel",
+      "description": "Meeslepend museum gewijd aan de geschiedenis van cacao en chocolade, van precolumbiaanse beschavingen tot de Belgische praline, met demonstraties van chocolatiers en proeverijen.",
+      "button": "Gaan?",
+      "ouverture": "maandag 10:00–17:00\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Adres: Eikstraat 19, 1000 Brussel",
+      "description": "Klein museum dat een selectie presenteert van de honderden kostuums van het Manneken Pis: folkloristische outfits, uniformen, kostuums aangeboden door landen of verenigingen van over de hele wereld. Ideaal te combineren met het standbeeld zelf op een steenworp afstand.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag 10:00–17:00\nwoensdag 10:00–17:00\ndonderdag 10:00–17:00\nvrijdag 10:00–17:00\nzaterdag 10:00–17:00\nzondag 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Kindermuseum",
+      "address": "Adres: Burgemeestersstraat 15, 1050 Elsene",
+      "description": "Interactief museum ontworpen voor kinderen (en begeleidende volwassenen) met educatieve speelruimtes, creatieve workshops en participatieve installaties. De nadruk ligt op experimenteren in plaats van klassieke vitrines.",
+      "button": "Gaan?",
+      "ouverture": "maandag Gesloten\ndinsdag Gesloten\nwoensdag 14:30–17:00\ndonderdag Gesloten\nvrijdag Gesloten\nzaterdag 14:30–17:00\nzondag 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "TERUG",
+    "popupTitle": "Waarschuwing!",
+    "popupMessage": "OPGELET, deze actie zal de toeristische route die u gekozen hebt onderbreken. Weet u zeker dat u naar dit museum wilt gaan? De navigatie zal u daarheen leiden!",
+    "popupYes": "JA",
+    "popupNo": "NEE"
   },
   "de": {
-"mainTitle": "CityLoop Quest Mons – Der Ritt des heiligen Georg",
-"title": "🏛️ Museen in Mons",
-"artHeritage": "Kunst- und Kulturerbemuseen",
-"historyMemory": "Geschichts- und Erinnerungsmuseen",
-"scienceTech": "Museen für Wissenschaft und Technik",
-"industrialHeritage": "Museen des industriellen und technischen Erbes",
-"bam": {
-"name": "Musée des Beaux-Arts (BAM)",
-"address": "Adresse: Rue Neuve 8, 7000 Mons",
-"description": "Das BAM (Beaux-Arts Mons) ist ein Museum für moderne und zeitgenössische Kunst, das in zeitgenössischer Architektur hochkarätige Wechselausstellungen präsentiert.",
-"button": "Dorthin?"
-},
-"cap": {
-"name": "Musée des Collections (CAP)",
-"address": "Adresse: Rue Neuve 8, 7000 Mons",
-"description": "Das Musée des Collections (CAP) in Mons zeigt die reichen ständigen Sammlungen der Stadt und verbindet alte, moderne und zeitgenössische Kunst in einem thematischen Rundgang.",
-"button": "Dorthin?"
-},
-"maisonLosseau": {
-"name": "Maison Losseau",
-"address": "Adresse: Rue de Nimy 37, 7000 Mons",
-"description": "Das Maison Losseau in Mons ist ein Juwel des Jugendstils und beherbergt ein Literaturzentrum sowie ein Hausmuseum, das dem Werk des Bibliophilen Léon Losseau gewidmet ist.",
-"button": "Dorthin?"
-},
-"museeDoudou": {
-"name": "Musée du Doudou",
-"address": "Adresse: Jardin du Mayeur, 7000 Mons",
-"description": "Das Musée du Doudou in Mons ist der rituellen Ducasse gewidmet und beleuchtet ihre Geschichte, ihre Traditionen sowie ihre Anerkennung als immaterielles Kulturerbe der UNESCO.",
-"button": "Dorthin?"
-},
-"anciensAbattoirs": {
-"name": "Anciens abattoirs",
-"address": "Adresse: Rue de la Trouille 17, 7000 Mons",
-"description": "Das Museum der Anciens Abattoirs in Mons ist ein Zentrum für zeitgenössische Kunst in einem renovierten, bemerkenswerten Industrieensemble des 19. Jahrhunderts.",
-"button": "Dorthin?"
-},
-"artotheque": {
-"name": "Artothèque",
-"address": "Adresse: Rue Claude de Bettignies 1, 7000 Mons",
-"description": "Die Artothèque von Mons ist ein Zentrum für Konservierung und Forschung zu den Museumssammlungen der Stadt und befindet sich in einer renovierten ehemaligen Kapelle.",
-"button": "Dorthin?"
-},
-"mmm": {
-"name": "Mons Memorial Museum (MMM)",
-"address": "Adresse: Boulevard Dolez 51, 7000 Mons",
-"description": "Das Mons Memorial Museum zeichnet die Militärgeschichte von Mons durch die Konflikte des 20. Jahrhunderts nach und legt den Schwerpunkt auf die menschlichen Erfahrungen von Zivilisten und Soldaten.",
-"button": "Dorthin?"
-},
-"maisonVanGogh": {
-"name": "Maison Van Gogh",
-"address": "Adresse: Rue du Pavillon 3, 7033 Cuesmes (Auto erforderlich)",
-"description": "Das Maison Van Gogh in Mons erinnert an den Aufenthalt des Malers in Cuesmes und zeigt seine künstlerische Entwicklung in einer immersiven Szenografie.",
-"button": "Dorthin?"
-},
-"mundaneum": {
-"name": "Mundaneum",
-"address": "Adresse: Rue de Nimy 76, 7000 Mons",
-"description": "Archive des Weltwissens, Museum und Ausstellungszentrum zu dokumentarischen Utopien.",
-"button": "Dorthin?"
-},
-"maisonLescart": {
-"name": "Maison Jean Lescart",
-"address": "Adresse: Rue Neuve 8, 7000 Mons",
-"description": "Das Maison Jean Lescart in Mons ist ein Museum des lokalen Volkstums, das das Montoiser Leben durch Objekte, Traditionen und nachgestellte Szenen nachzeichnet. Leider dauerhaft geschlossen.",
-"button": "Dorthin?"
-},
-"mumons": {
-"name": "MUMONS",
-"address": "Adresse: Place du Parc 24, 7000 Mons",
-"description": "Das MUMONS ist das Universitätsmuseum der UMons und erforscht die Verbindungen zwischen Wissenschaft, Kunst und Gesellschaft durch originelle Ausstellungen.",
-"button": "Dorthin?"
-},
-"scitechlab": {
-"name": "SciTechLab",
-"address": "Adresse: Rue de Houdain 9, 7000 Mons",
-"description": "Das SciTechLab ist ein interaktiver Museumsraum der UMons, der Wissenschaft und Technik spielerisch und immersiv vermittelt.",
-"button": "Dorthin?"
-},
-"sciencesNaturelles": {
-"name": "Muséum régional des Sciences naturelles de Mons",
-"address": "Adresse: Rue des Gailliers 7, 7000 Mons",
-"description": "Das Regionale Museum für Naturwissenschaften in Mons präsentiert eine reiche Sammlung zoologischer, botanischer und geologischer Exponate zur Erkundung der Biodiversität.",
-"button": "Dorthin?"
-},
-"museeRoute": {
-"name": "Musée de la Route de Mons",
-"address": "Adresse: Rue des Canonniers (Place Nervienne), Kasematten 3, 4 und 5, 7000 Mons",
-"description": "Das Straßenmuseum von Mons zeichnet die Geschichte der Straßeninfrastruktur und der damit verbundenen Berufe in Wallonien nach. Leider endgültig geschlossen.",
-"button": "Dorthin?"
-},
-"backButton": "ZURÜCK",
-"popupTitle": "Warnung!",
-"popupMessage": "ACHTUNG, diese Aktion beendet die von Ihnen gewählte Tour. Sind Sie sicher, dass Sie zu diesem Museum wechseln möchten? Die Navigation führt Sie dorthin!",
-"popupYes": "JA",
-"popupNo": "NEIN"
-},
-"it": {
-  "mainTitle": "CityLoop Quest Mons - La Cavalcata di San Giorgio",
-  "title": "🏛️ Musei da visitare a Mons",
-  "artHeritage": "Musei d'arte e patrimonio",
-  "historyMemory": "Musei di storia e memoria",
-  "scienceTech": "Musei di scienze e tecniche",
-  "industrialHeritage": "Musei di patrimonio industriale e tecnico",
-  "bam": {
-    "name": "Museo delle Belle Arti (BAM)",
-    "address": "Indirizzo: Rue Neuve 8, 7000 Mons",
-    "description": "Il BAM (Beaux-Arts Mons) è un museo di arte moderna e contemporanea che propone prestigiose mostre temporanee in un contesto architettonico contemporaneo.",
-    "button": "Andarci?"
-  },
-  "cap": {
-    "name": "Museo delle Collezioni (CAP)",
-    "address": "Indirizzo: Rue Neuve 8, 7000 Mons",
-    "description": "Il Museo delle Collezioni (CAP) di Mons presenta le ricche collezioni permanenti della città, mescolando arti antiche, moderne e contemporanee in un percorso tematico.",
-    "button": "Andarci?"
-  },
-  "maisonLosseau": {
-    "name": "Maison Losseau",
-    "address": "Indirizzo: Rue de Nimy 37, 7000 Mons",
-    "description": "La Maison Losseau a Mons è un gioiello dell'Art nouveau, che ospita un centro letterario e una casa-museo dedicata all'opera del bibliofilo Léon Losseau.",
-    "button": "Andarci?"
-  },
-  "museeDoudou": {
-    "name": "Museo del Doudou",
-    "address": "Indirizzo: Jardin du Mayeur, 7000 Mons",
-    "description": "Il Museo del Doudou a Mons è dedicato alla Ducasse rituale, mettendo in risalto la sua storia, le sue tradizioni e la sua iscrizione al patrimonio immateriale dell'UNESCO.",
-    "button": "Andarci?"
-  },
-  "anciensAbattoirs": {
-    "name": "Antichi Macelli",
-    "address": "Indirizzo: Rue de la Trouille 17, 7000 Mons",
-    "description": "Il museo degli Antichi Macelli di Mons è uno spazio di arte contemporanea situato in un notevole sito industriale del XIX secolo rinnovato.",
-    "button": "Andarci?"
-  },
-  "artotheque": {
-    "name": "Artoteca",
-    "address": "Indirizzo: Rue Claude de Bettignies 1, 7000 Mons",
-    "description": "L'Artoteca di Mons è un centro di conservazione e ricerca dedicato alle collezioni museali della città, situato in un'antica cappella rinnovata.",
-    "button": "Andarci?"
-  },
-  "mmm": {
-    "name": "Mons Memorial Museum (MMM)",
-    "address": "Indirizzo: Boulevard Dolez 51, 7000 Mons",
-    "description": "Il Mons Memorial Museum ripercorre la storia militare di Mons attraverso i conflitti del XX secolo, mettendo in risalto le esperienze umane dei civili e dei soldati.",
-    "button": "Andarci?"
-  },
-  "maisonVanGogh": {
-    "name": "Maison Van Gogh",
-    "address": "Indirizzo: Rue du Pavillon 3, 7033 Cuesmes (Auto necessaria)",
-    "description": "La Maison Van Gogh a Mons evoca il soggiorno del pittore a Cuesmes e presenta la sua evoluzione artistica attraverso una scenografia immersiva.",
-    "button": "Andarci?"
-  },
-  "mundaneum": {
-    "name": "Mundaneum",
-    "address": "Indirizzo: Rue de Nimy 76, 7000 Mons",
-    "description": "Archivi della conoscenza mondiale, museo e centro espositivo dedicato alle utopie documentarie.",
-    "button": "Andarci?"
-  },
-  "maisonLescart": {
-    "name": "Maison Jean Lescart",
-    "address": "Indirizzo: Rue Neuve 8, 7000 Mons",
-    "description": "La Maison Jean Lescart a Mons è un museo del folklore locale che ripercorre la vita di Mons attraverso oggetti, tradizioni e scene ricostruite. Purtroppo chiuso definitivamente.",
-    "button": "Andarci?"
-  },
-  "mumons": {
-    "name": "MUMONS",
-    "address": "Indirizzo: Place du Parc 24, 7000 Mons",
-    "description": "Il Museo MUMONS è il museo universitario dell'UMONS, che esplora i legami tra scienza, arte e società attraverso mostre originali.",
-    "button": "Andarci?"
-  },
-  "scitechlab": {
-    "name": "SciTechLab",
-    "address": "Indirizzo: Rue de Houdain 9, 7000 Mons",
-    "description": "Lo SciTechLab è uno spazio museale interattivo dell'UMONS dedicato alla scoperta delle scienze e delle tecnologie in modo ludico e immersivo.",
-    "button": "Andarci?"
-  },
-  "sciencesNaturelles": {
-    "name": "Museo regionale delle Scienze naturali di Mons",
-    "address": "Indirizzo: Rue des Gailliers 7, 7000 Mons",
-    "description": "Il Museo regionale delle Scienze naturali di Mons presenta una ricca collezione di esemplari zoologici, botanici e geologici per esplorare la biodiversità.",
-    "button": "Andarci?"
-  },
-  "museeRoute": {
-    "name": "Museo della Strada di Mons",
-    "address": "Indirizzo: Rue des Canonniers (Place Nervienne), Casemates 3, 4 et 5, 7000 Mons",
-    "description": "Il Museo della Strada di Mons ripercorre la storia delle infrastrutture stradali e dei mestieri legati alla viabilità in Vallonia. Purtroppo chiuso definitivamente.",
-    "button": "Andarci?"
-  },
-  "backButton": "INDIETRO",
-  "popupTitle": "Avvertimento!",
-  "popupMessage": "ATTENZIONE, questa azione comporterà l'interruzione del percorso turistico che avete scelto. Siete sicuri di voler andare a questo museo? La guida vi porterà lì!",
-  "popupYes": "SÌ",
-  "popupNo": "NO"
-},
-"es": {
-  "mainTitle": "CityLoop Quest Mons - La Cabalgata de San Jorge",
-  "title": "🏛️ Museos para visitar en Mons",
-  "artHeritage": "Museos de arte y patrimonio",
-  "historyMemory": "Museos de historia y memoria",
-  "scienceTech": "Museos de ciencias y técnicas",
-  "industrialHeritage": "Museos de patrimonio industrial y técnico",
-  "bam": {
-    "name": "Museo de Bellas Artes (BAM)",
-    "address": "Dirección: Rue Neuve 8, 7000 Mons",
-    "description": "El BAM (Beaux-Arts Mons) es un museo de arte moderno y contemporáneo que ofrece prestigiosas exposiciones temporales en un entorno arquitectónico contemporáneo.",
-    "button": "¿Ir allí?"
-  },
-  "cap": {
-    "name": "Museo de las Colecciones (CAP)",
-    "address": "Dirección: Rue Neuve 8, 7000 Mons",
-    "description": "El Museo de las Colecciones (CAP) de Mons presenta las ricas colecciones permanentes de la ciudad, combinando artes antiguas, modernas y contemporáneas en un recorrido temático.",
-    "button": "¿Ir allí?"
-  },
-  "maisonLosseau": {
-    "name": "Casa Losseau",
-    "address": "Dirección: Rue de Nimy 37, 7000 Mons",
-    "description": "La Casa Losseau en Mons es una joya del Art Nouveau que alberga un centro literario y una casa-museo dedicada a la obra del bibliófilo Léon Losseau.",
-    "button": "¿Ir allí?"
-  },
-  "museeDoudou": {
-    "name": "Museo del Doudou",
-    "address": "Dirección: Jardin du Mayeur, 7000 Mons",
-    "description": "El Museo del Doudou en Mons está dedicado a la Ducasse ritual, destacando su historia, tradiciones y su inscripción en el patrimonio inmaterial de la UNESCO.",
-    "button": "¿Ir allí?"
-  },
-  "anciensAbattoirs": {
-    "name": "Antiguos Mataderos",
-    "address": "Dirección: Rue de la Trouille 17, 7000 Mons",
-    "description": "El museo de los Antiguos Mataderos de Mons es un espacio de arte contemporáneo ubicado en un notable sitio industrial renovado del siglo XIX.",
-    "button": "¿Ir allí?"
-  },
-  "artotheque": {
-    "name": "Artoteca",
-    "address": "Dirección: Rue Claude de Bettignies 1, 7000 Mons",
-    "description": "La Artoteca de Mons es un centro de conservación e investigación dedicado a las colecciones museísticas de la ciudad, situado en una antigua capilla renovada.",
-    "button": "¿Ir allí?"
-  },
-  "mmm": {
-    "name": "Museo Memorial de Mons (MMM)",
-    "address": "Dirección: Boulevard Dolez 51, 7000 Mons",
-    "description": "El Museo Memorial de Mons narra la historia militar de la ciudad a través de los conflictos del siglo XX, destacando las experiencias humanas de civiles y soldados.",
-    "button": "¿Ir allí?"
-  },
-  "maisonVanGogh": {
-    "name": "Casa Van Gogh",
-    "address": "Dirección: Rue du Pavillon 3, 7033 Cuesmes (Se necesita coche)",
-    "description": "La Casa Van Gogh en Mons evoca la estancia del pintor en Cuesmes y presenta su evolución artística a través de una escenografía inmersiva.",
-    "button": "¿Ir allí?"
-  },
-  "mundaneum": {
-    "name": "Mundaneum",
-    "address": "Dirección: Rue de Nimy 76, 7000 Mons",
-    "description": "Archivo del conocimiento mundial, museo y centro de exposiciones sobre las utopías documentales.",
-    "button": "¿Ir allí?"
-  },
-  "maisonLescart": {
-    "name": "Casa Jean Lescart",
-    "address": "Dirección: Rue Neuve 8, 7000 Mons",
-    "description": "La Casa Jean Lescart en Mons es un museo del folclore local que muestra la vida de Mons a través de objetos, tradiciones y escenas reconstruidas. Lamentablemente cerrado definitivamente.",
-    "button": "¿Ir allí?"
-  },
-  "mumons": {
-    "name": "MUMONS",
-    "address": "Dirección: Place du Parc 24, 7000 Mons",
-    "description": "El Museo MUMONS es el museo universitario de la UMONS, que explora los vínculos entre ciencia, arte y sociedad a través de exposiciones originales.",
-    "button": "¿Ir allí?"
-  },
-  "scitechlab": {
-    "name": "SciTechLab",
-    "address": "Dirección: Rue de Houdain 9, 7000 Mons",
-    "description": "El SciTechLab es un espacio museístico interactivo de la UMONS dedicado al descubrimiento de las ciencias y las tecnologías de forma lúdica e inmersiva.",
-    "button": "¿Ir allí?"
-  },
-  "sciencesNaturelles": {
-    "name": "Museo Regional de Ciencias Naturales de Mons",
-    "address": "Dirección: Rue des Gailliers 7, 7000 Mons",
-    "description": "El Museo Regional de Ciencias Naturales de Mons presenta una rica colección de especímenes zoológicos, botánicos y geológicos para explorar la biodiversidad.",
-    "button": "¿Ir allí?"
-  },
-  "museeRoute": {
-    "name": "Museo de la Carretera de Mons",
-    "address": "Dirección: Rue des Canonniers (Place Nervienne), Casemates 3, 4 y 5, 7000 Mons",
-    "description": "El Museo de la Carretera de Mons relata la historia de las infraestructuras viales y de los oficios relacionados con la carretera en Valonia. Lamentablemente cerrado definitivamente.",
-    "button": "¿Ir allí?"
-  },
-  "backButton": "VOLVER",
-  "popupTitle": "¡Advertencia!",
-  "popupMessage": "ATENCIÓN, esta acción provocará la interrupción del recorrido turístico que ha elegido. ¿Está seguro de querer ir a este museo? ¡La guía le llevará allí!",
-  "popupYes": "SÍ",
-  "popupNo": "NO"
-},
-"pl": {
-  "mainTitle": "CityLoop Quest Mons - Szarża świętego Jerzego",
-  "title": "🏛️ Muzea do odwiedzenia w Mons",
-  "artHeritage": "Muzea sztuki i dziedzictwa",
-  "historyMemory": "Muzea historii i pamięci",
-  "scienceTech": "Muzea nauki i techniki",
-  "industrialHeritage": "Muzea dziedzictwa przemysłowego i technicznego",
-  "bam": {
-    "name": "Muzeum Sztuk Pięknych (BAM)",
-    "address": "Adres: Rue Neuve 8, 7000 Mons",
-    "description": "BAM (Beaux-Arts Mons) to muzeum sztuki nowoczesnej i współczesnej, prezentujące prestiżowe wystawy czasowe w nowoczesnej oprawie architektonicznej.",
-    "button": "Iść tam?"
-  },
-  "cap": {
-    "name": "Muzeum Kolekcji (CAP)",
-    "address": "Adres: Rue Neuve 8, 7000 Mons",
-    "description": "Muzeum Kolekcji (CAP) w Mons pokazuje bogate zbiory miasta, łącząc sztukę dawną, nowoczesną i współczesną w tematycznym układzie zwiedzania.",
-    "button": "Iść tam?"
-  },
-  "maisonLosseau": {
-    "name": "Maison Losseau",
-    "address": "Adres: Rue de Nimy 37, 7000 Mons",
-    "description": "Maison Losseau w Mons to klejnot secesji; mieści centrum literackie i dom–muzeum poświęcony bibliofilowi Léonowi Losseau.",
-    "button": "Iść tam?"
-  },
-  "museeDoudou": {
-    "name": "Musée du Doudou",
-    "address": "Adres: Jardin du Mayeur, 7000 Mons",
-    "description": "Musée du Doudou w Mons poświęcone jest Ducasse rituelle; ukazuje jej historię, tradycje oraz wpis na listę niematerialnego dziedzictwa UNESCO.",
-    "button": "Iść tam?"
-  },
-  "anciensAbattoirs": {
-    "name": "Dawne Rzeźnie (Anciens Abattoirs)",
-    "address": "Adres: Rue de la Trouille 17, 7000 Mons",
-    "description": "Przestrzeń sztuki współczesnej ulokowana w imponującym, odnowionym zespole przemysłowym z XIX wieku.",
-    "button": "Iść tam?"
-  },
-  "artotheque": {
-    "name": "Artothèque",
-    "address": "Adres: Rue Claude de Bettignies 1, 7000 Mons",
-    "description": "Artothèque w Mons to centrum przechowywania i badań nad miejskimi zbiorami muzealnymi, mieszczące się w odnowionej dawnej kaplicy.",
-    "button": "Iść tam?"
-  },
-  "mmm": {
-    "name": "Mons Memorial Museum (MMM)",
-    "address": "Adres: Boulevard Dolez 51, 7000 Mons",
-    "description": "Mons Memorial Museum przedstawia historię militarną Mons przez pryzmat konfliktów XX wieku, kładąc nacisk na doświadczenia cywilów i żołnierzy.",
-    "button": "Iść tam?"
-  },
-  "maisonVanGogh": {
-    "name": "Maison Van Gogh",
-    "address": "Adres: Rue du Pavillon 3, 7033 Cuesmes (konieczny dojazd samochodem)",
-    "description": "Maison Van Gogh przywołuje pobyt malarza w Cuesmes i prezentuje jego rozwój artystyczny poprzez immersyjną scenografię.",
-    "button": "Iść tam?"
-  },
-  "mundaneum": {
-    "name": "Mundaneum",
-    "address": "Adres: Rue de Nimy 76, 7000 Mons",
-    "description": "Archiwa światowej wiedzy – muzeum i centrum wystaw poświęcone dokumentacyjnym utopiom.",
-    "button": "Iść tam?"
-  },
-  "maisonLescart": {
-    "name": "Maison Jean Lescart",
-    "address": "Adres: Rue Neuve 8, 7000 Mons",
-    "description": "Maison Jean Lescart w Mons to muzeum lokalnego folkloru, ukazujące życie mieszkańców poprzez obiekty, tradycje i inscenizacje. Niestety zamknięte na stałe.",
-    "button": "Iść tam?"
-  },
-  "mumons": {
-    "name": "MUMONS",
-    "address": "Adres: Place du Parc 24, 7000 Mons",
-    "description": "MUMONS to uniwersyteckie muzeum UMONS, które bada relacje między nauką, sztuką i społeczeństwem poprzez oryginalne wystawy.",
-    "button": "Iść tam?"
-  },
-  "scitechlab": {
-    "name": "SciTechLab",
-    "address": "Adres: Rue de Houdain 9, 7000 Mons",
-    "description": "SciTechLab to interaktywna przestrzeń muzealna UMONS, zachęcająca do odkrywania nauki i technologii w sposób przystępny i immersyjny.",
-    "button": "Iść tam?"
-  },
-  "sciencesNaturelles": {
-    "name": "Regionalne Muzeum Nauk Przyrodniczych w Mons",
-    "address": "Adres: Rue des Gailliers 7, 7000 Mons",
-    "description": "Muzeum prezentuje bogatą kolekcję okazów zoologicznych, botanicznych i geologicznych, umożliwiając poznanie bioróżnorodności.",
-    "button": "Iść tam?"
-  },
-  "museeRoute": {
-    "name": "Muzeum Dróg w Mons",
-    "address": "Adres: Rue des Canonniers (Place Nervienne), Kazamaty 3, 4 i 5, 7000 Mons",
-    "description": "Muzeum Dróg w Mons opowiada historię infrastruktury drogowej i zawodów związanych z utrzymaniem dróg w Walonii. Niestety zamknięte na stałe.",
-    "button": "Iść tam?"
-  },
-  "backButton": "POWRÓT",
-  "popupTitle": "Ostrzeżenie!",
-  "popupMessage": "UWAGA: ta akcja spowoduje zakończenie wybranej przez Ciebie trasy zwiedzania. Czy na pewno chcesz przejść do tego muzeum? Nawigacja poprowadzi Cię na miejsce!",
-  "popupYes": "TAK",
-  "popupNo": "NIE"
-},
-"ar": {
-"mainTitle": "سيتي لووب كويست مونس – صهوة القديس جورج",
-"title": "🏛️ متاحف للزيارة في مونس",
-"artHeritage": "متاحف الفن والتراث",
-"historyMemory": "متاحف التاريخ والذاكرة",
-"scienceTech": "متاحف العلوم والتقنيات",
-"industrialHeritage": "متاحف التراث الصناعي والتقني",
-"bam": {
-"name": "Musée des Beaux-Arts (BAM)",
-"address": "العنوان: Rue Neuve 8, 7000 Mons",
-"description": "BAM (Beaux-Arts Mons) متحف للفن الحديث والمعاصر يقدّم معارض مؤقتة مرموقة في إطار معماري معاصر.",
-"button": "الذهاب؟"
-},
-"cap": {
-"name": "Musée des Collections (CAP)",
-"address": "العنوان: Rue Neuve 8, 7000 Mons",
-"description": "يعرض متحف المجموعات (CAP) في مونس المقتنيات الدائمة الغنية للمدينة، جامعًا بين الفنون القديمة والحديثة والمعاصرة ضمن مسار موضوعي.",
-"button": "الذهاب؟"
-},
-"maisonLosseau": {
-"name": "Maison Losseau",
-"address": "العنوان: Rue de Nimy 37, 7000 Mons",
-"description": "منزل لوسو في مونس جوهرة على طراز الآرت نوفو، يضم مركزًا أدبيًا ومنزلًا-متحفًا مكرّسًا لأعمال الببليوفيلي ليون لوسو.",
-"button": "الذهاب؟"
-},
-"museeDoudou": {
-"name": "Musée du Doudou",
-"address": "العنوان: Jardin du Mayeur, 7000 Mons",
-"description": "متحف الدودو في مونس مكرّس للدُّكاس الطقسي، ويبرز تاريخه وتقاليده وإدراجه ضمن التراث غير المادي لليونسكو.",
-"button": "الذهاب؟"
-},
-"anciensAbattoirs": {
-"name": "Anciens abattoirs",
-"address": "العنوان: Rue de la Trouille 17, 7000 Mons",
-"description": "«المسالخ القديمة» فضاء للفن المعاصر مُقام داخل موقع صناعي مُجدَّد من القرن التاسع عشر.",
-"button": "الذهاب؟"
-},
-"artotheque": {
-"name": "Artothèque",
-"address": "العنوان: Rue Claude de Bettignies 1, 7000 Mons",
-"description": "الأرتوتيك في مونس مركز للحفظ والبحث مخصّص لمجموعات متاحف المدينة، يقع في كنيسة قديمة مجدَّدة.",
-"button": "الذهاب؟"
-},
-"mmm": {
-"name": "Mons Memorial Museum (MMM)",
-"address": "العنوان: Boulevard Dolez 51, 7000 Mons",
-"description": "يستعرض متحف ذكرى مونس التاريخ العسكري للمدينة عبر صراعات القرن العشرين، مع التركيز على التجارب الإنسانية للمدنيين والجنود.",
-"button": "الذهاب؟"
-},
-"maisonVanGogh": {
-"name": "Maison Van Gogh",
-"address": "العنوان: Rue du Pavillon 3, 7033 Cuesmes (بحاجة إلى سيارة)",
-"description": "يستحضر «منزل فان جوخ» في مونس إقامة الرسام في كوسم ويعرض تطوّره الفني عبر سردٍ غامر.",
-"button": "الذهاب؟"
-},
-"mundaneum": {
-"name": "Mundaneum",
-"address": "العنوان: Rue de Nimy 76, 7000 Mons",
-"description": "أرشيف «معرفة العالم»، متحف ومركز معارض حول الطوباويات الوثائقية وتنظيم المعرفة.",
-"button": "الذهاب؟"
-},
-"maisonLescart": {
-"name": "Maison Jean Lescart",
-"address": "العنوان: Rue Neuve 8, 7000 Mons",
-"description": "منزل جان ليسكار في مونس متحفٌ للفولكلور المحلي يروي الحياة المُنْتوازية عبر أشياء وتقاليد ومشاهد مُعاد تكوينها. للأسف أُغلق نهائيًا.",
-"button": "الذهاب؟"
-},
-"mumons": {
-"name": "MUMONS",
-"address": "العنوان: Place du Parc 24, 7000 Mons",
-"description": "متحف MUMONS الجامعي التابع لجامعة مونس يستكشف الروابط بين العلم والفن والمجتمع من خلال معارض مبتكرة.",
-"button": "الذهاب؟"
-},
-"scitechlab": {
-"name": "SciTechLab",
-"address": "العنوان: Rue de Houdain 9, 7000 Mons",
-"description": "«ساي تك لاب» فضاء متحفي تفاعلي تابع لجامعة مونس، مخصّص لاكتشاف العلوم والتقنيات بطريقة مرحة وغامرة.",
-"button": "الذهاب؟"
-},
-"sciencesNaturelles": {
-"name": "Muséum régional des Sciences naturelles de Mons",
-"address": "العنوان: Rue des Gailliers 7, 7000 Mons",
-"description": "يعرض المتحف الإقليمي للعلوم الطبيعية في مونس مجموعة ثرية من العينات الحيوانية والنباتية والجيولوجية لاستكشاف التنوع الحيوي.",
-"button": "الذهاب؟"
-},
-"museeRoute": {
-"name": "Musée de la Route de Mons",
-"address": "العنوان: Rue des Canonniers (Place Nervienne), Casemates 3, 4 et 5, 7000 Mons",
-"description": "يروي متحف طريق مونس تاريخ البنى التحتية الطرقية والمهن المرتبطة بالطرقات في والونيا. للأسف أُغلق نهائيًا.",
-"button": "الذهاب؟"
-},
-"backButton": "رجوع",
-"popupTitle": "تحذير!",
-"popupMessage": "انتباه! هذا الإجراء سيؤدي إلى إيقاف المسار السياحي الذي اخترته. هل أنت متأكد من رغبتك في الذهاب إلى هذا المتحف؟ سيقودك نظام الإرشاد إليه!",
-"popupYes": "نعم",
-"popupNo": "لا"
-},
-"cn": {
-"mainTitle": "CityLoop Quest Mons - 圣乔治的骑行",
-"title": "🏛️ 蒙斯可参观的博物馆",
-"artHeritage": "艺术与遗产博物馆",
-"historyMemory": "历史与记忆博物馆",
-"scienceTech": "科学与技术博物馆",
-"industrialHeritage": "工业与技术遗产博物馆",
-"bam": {
-"name": "美术博物馆（BAM）",
-"address": "地址：Rue Neuve 8, 7000 Mons",
-"description": "BAM（蒙斯美术博物馆）是一座现代与当代艺术馆，在当代建筑空间中推出高规格的临时展览。",
-"button": "去那儿？"
-},
-"cap": {
-"name": "藏品博物馆（CAP）",
-"address": "地址：Rue Neuve 8, 7000 Mons",
-"description": "蒙斯藏品博物馆（CAP）展示城市丰富的常设藏品，以主题化路径串联古代、现代与当代艺术。",
-"button": "去那儿？"
-},
-"maisonLosseau": {
-"name": "洛索之家",
-"address": "地址：Rue de Nimy 37, 7000 Mons",
-"description": "蒙斯洛索之家是新艺术风格的瑰宝，内设文学中心与致敬藏书家莱昂·洛索的故居博物馆。",
-"button": "去那儿？"
-},
-"museeDoudou": {
-"name": "杜杜博物馆",
-"address": "地址：Jardin du Mayeur, 7000 Mons",
-"description": "蒙斯杜杜博物馆专注于仪式性盛会，展示其历史、传统以及列入联合国教科文组织非遗名录的历程。",
-"button": "去那儿？"
-},
-"anciensAbattoirs": {
-"name": "旧屠宰场",
-"address": "地址：Rue de la Trouille 17, 7000 Mons",
-"description": "蒙斯旧屠宰场博物馆位于翻新后的 19 世纪工业遗址中，是一处当代艺术空间。",
-"button": "去那儿？"
-},
-"artotheque": {
-"name": "艺术文献馆（Artothèque）",
-"address": "地址：Rue Claude de Bettignies 1, 7000 Mons",
-"description": "蒙斯艺术文献馆是城市馆藏的保存与研究中心，坐落于一座修复后的旧礼拜堂内。",
-"button": "去那儿？"
-},
-"mmm": {
-"name": "蒙斯纪念博物馆（MMM）",
-"address": "地址：Boulevard Dolez 51, 7000 Mons",
-"description": "蒙斯纪念博物馆通过 20 世纪的战争讲述蒙斯的军事史，重点呈现平民与士兵的亲身经历。",
-"button": "去那儿？"
-},
-"maisonVanGogh": {
-"name": "梵高之家",
-"address": "地址：Rue du Pavillon 3, 7033 Cuesmes（需自驾）",
-"description": "蒙斯梵高之家呈现画家在屈姆的居留与其艺术演变，并以沉浸式叙事加以展示。",
-"button": "去那儿？"
-},
-"mundaneum": {
-"name": "万代文献馆（Mundaneum）",
-"address": "地址：Rue de Nimy 76, 7000 Mons",
-"description": "“世界知识档案馆”，围绕文献乌托邦的博物馆与展览中心。",
-"button": "去那儿？"
-},
-"maisonLescart": {
-"name": "让·莱斯卡尔之家",
-"address": "地址：Rue Neuve 8, 7000 Mons",
-"description": "让·莱斯卡尔之家是蒙斯地方民俗博物馆，通过实物、传统与复原场景再现蒙斯人的生活。很遗憾，已永久闭馆。",
-"button": "去那儿？"
-},
-"mumons": {
-"name": "MUMONS",
-"address": "地址：Place du Parc 24, 7000 Mons",
-"description": "MUMONS 是蒙斯大学（UMONS）的大学博物馆，以原创展览探索科学、艺术与社会之间的关联。",
-"button": "去那儿？"
-},
-"scitechlab": {
-"name": "SciTechLab",
-"address": "地址：Rue de Houdain 9, 7000 Mons",
-"description": "SciTechLab 是蒙斯大学的互动式科普空间，以有趣沉浸的方式带你探索科学与技术。",
-"button": "去那儿？"
-},
-"sciencesNaturelles": {
-"name": "蒙斯地区自然科学博物馆",
-"address": "地址：Rue des Gailliers 7, 7000 Mons",
-"description": "蒙斯地区自然科学博物馆以丰富的动物、植物与地质标本，带你认识生物多样性。",
-"button": "去那儿？"
-},
-"museeRoute": {
-"name": "蒙斯公路博物馆",
-"address": "地址：Rue des Canonniers（Place Nervienne），Casemates 3、4 和 5，7000 Mons",
-"description": "蒙斯公路博物馆回顾瓦隆道路基础设施与道路相关行业的历史。很遗憾，已永久闭馆。",
-"button": "去那儿？"
-},
-"backButton": "返回",
-"popupTitle": "警告！",
-"popupMessage": "注意：此操作将停止你所选择的旅游路线。确定要前往该博物馆吗？导航将带你过去！",
-"popupYes": "是",
-"popupNo": "否"
-},
-"jp": {
-    "mainTitle": "CityLoop Quest Mons ― 聖ゲオルギウスの騎行",
-    "title": "🏛️ モンスで訪れたい博物館",
-    "artHeritage": "美術・文化遺産の博物館",
-    "historyMemory": "歴史・記憶の博物館",
-    "scienceTech": "科学・技術の博物館",
-    "industrialHeritage": "産業・技術遺産の博物館",
-    "bam": {
-      "name": "ベルギー・モンス美術館（BAM）",
-      "address": "住所：Rue Neuve 8, 7000 Mons",
-      "description": "BAM（Beaux-Arts Mons）は近現代美術を中心に、現代的な建築空間で一流の企画展を開催する美術館です。",
-      "button": "行ってみる？"
+    "mainTitle": "CityLoop Quest Bruxelles – Im Herzen Europas",
+    "title": "🏛️ Museen in Brüssel",
+    "artHeritage": "Kunst, bildende Kunst & Architektur",
+    "historyMemory": "Geschichte, Stadt & Gesellschaft",
+    "scienceTech": "Wissenschaften & Technik / Mobilität",
+    "icone": "Comics, Popkultur, Schokolade & Brüsseler Ikonen",
+    "famille": "Kinder & Familien (hohes Unterhaltungspotenzial)",
+    "insolite": "Ungewöhnlich / thematisch",
+    "MRBAB": {
+      "name": "Königliche Museen der Schönen Künste Belgiens (KMSKB)",
+      "address": "Adresse: Regentenstraße 3, 1000 Brüssel",
+      "description": "Großer föderaler Komplex, der mehrere Museen zusammenfasst (Alte Meister, Fin-de-Siècle usw.) mit über 20.000 Werken der Malerei, Bildhauerei und Zeichnung vom 15. bis zum 21. Jahrhundert, darunter Bruegel, Rubens, Ensor, Magritte…",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 11:00–18:00\nSonntag 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
     },
-    "cap": {
-      "name": "コレクション博物館（CAP）",
-      "address": "住所：Rue Neuve 8, 7000 Mons",
-      "description": "モンスの常設コレクションを、古美術から近現代までテーマ別に紹介する博物館です。",
-      "button": "行ってみる？"
+    "mag": {
+      "name": "Magritte Museum",
+      "address": "Adresse: Königsplatz 1, 1000 Brüssel (in die KMSKB integriert, Platzseite)",
+      "description": "Museum vollständig René Magritte gewidmet, präsentiert über 200 Werke (Gemälde, Gouachen, Zeichnungen, Plakate…) und zeichnet die Entwicklung seines Surrealismus nach, von seinen Anfängen bis zu weltbekannten Ikonen.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 11:00–18:00\nSonntag 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
     },
-    "maisonLosseau": {
-      "name": "メゾン・ロソー",
-      "address": "住所：Rue de Nimy 37, 7000 Mons",
-      "description": "アール・ヌーヴォーの傑作建築。蔵書家レオン・ロソーに捧げる文学センターと家屋博物館を併設。",
-      "button": "行ってみる？"
+    "art_histoire": {
+      "name": "Museum für Kunst & Geschichte",
+      "address": "Adresse: Jubelpark 10, 1000 Brüssel",
+      "description": "Eines der größten Kunst- und Archäologiemuseen Europas: ägyptische, griechische und römische Antiquitäten, präkolumbianische Kunst, europäische dekorative Künste, Sammlungen außereuropäischer Künste usw.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 09:30–17:00\nMittwoch 09:30–17:00\nDonnerstag 09:30–17:00\nFreitag 09:30–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
     },
-    "museeDoudou": {
-      "name": "ドゥドゥ博物館",
-      "address": "住所：Jardin du Mayeur, 7000 Mons",
-      "description": "モンスの〈ドゥカス儀礼（ドゥドゥ）〉に特化し、その歴史・伝統・ユネスコ無形文化遺産登録について紹介します。",
-      "button": "行ってみる？"
+    "MIM": {
+      "name": "Museum für Musikinstrumente (MIM)",
+      "address": "Adresse: Hofberg 2, 1000 Brüssel",
+      "description": "Untergebracht im ehemaligen Jugendstil-Geschäft \"Old England\", zeigt das MIM mehrere tausend Instrumente aus aller Welt, mit einem Audioguide, der es ermöglicht, ihren Klang zu hören. Panoramaterrasse auf dem Dach mit Blick auf Brüssel.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 09:30–17:00\nMittwoch 09:30–17:00\nDonnerstag 09:30–17:00\nFreitag 09:30–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
     },
-    "anciensAbattoirs": {
-      "name": "旧屠殺場",
-      "address": "住所：Rue de la Trouille 17, 7000 Mons",
-      "description": "19世紀の産業遺産を再生した空間で現代アートを展示するアートセンター。",
-      "button": "行ってみる？"
+    "art_marges": {
+      "name": "Art et marges Museum",
+      "address": "Adresse: Hoogstraat 312–314, 1000 Brüssel",
+      "description": "Museum für Art Brut und Outsider Art (Kreative außerhalb der klassischen künstlerischen Kreise). Sehr starke Sammlungen, oft engagierte und poetische Ausstellungen, im Marollenviertel.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 11:00–18:00\nMittwoch 11:00–18:00\nDonnerstag 11:00–18:00\nFreitag 11:00–18:00\nSamstag 11:00–18:00\nSonntag 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
     },
-    "artotheque": {
-      "name": "アルトテーク",
-      "address": "住所：Rue Claude de Bettignies 1, 7000 Mons",
-      "description": "旧礼拝堂を再生した、市のコレクション保存・研究センター。",
-      "button": "行ってみる？"
+    "empain": {
+      "name": "Villa Empain – Boghossian Stiftung",
+      "address": "Adresse: Rue Claude de Bettignies 1, 1000 Brüssel",
+      "description": "Museum für moderne und zeitgenössische Kunst mit einer außergewöhnlichen Sammlung von Gemälden, Skulpturen, dekorativen Objekten und Installationen.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 11:00–18:00\nMittwoch 11:00–18:00\nDonnerstag 11:00–18:00\nFreitag 11:00–18:00\nSamstag 11:00–18:00\nSonntag 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
     },
-    "mmm": {
-      "name": "モンス・メモリアル・ミュージアム（MMM）",
-      "address": "住所：Boulevard Dolez 51, 7000 Mons",
-      "description": "20世紀の諸戦争におけるモンスの軍事史を、市民と兵士の体験に焦点を当てて辿ります。",
-      "button": "行ってみる？"
+    "horta": {
+      "name": "Horta Museum",
+      "address": "Adresse: Amerikaansestraat 25, 1060 Sint-Gillis (Brüssel)",
+      "description": "Ehemaliges Haus und Atelier des Architekten Victor Horta, einer wichtigen Figur des Jugendstils. Originale Innenräume (Möbel, Buntglas, Schmiedearbeiten) erhalten, die einen sehr vollständigen Einblick in seinen Stil geben.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 14:00–17:30\nMittwoch 14:00–17:30\nDonnerstag 14:00–17:30\nFreitag 14:00–17:30\nSamstag 11:00–17:30\nSonntag 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
     },
-    "maisonVanGogh": {
-      "name": "ヴァン・ゴッホの家",
-      "address": "住所：Rue du Pavillon 3, 7033 Cuesmes（車が必要）",
-      "description": "キュスマでのゴッホの滞在を、没入型の展示で紹介する施設。",
-      "button": "行ってみる？"
+    "kbr": {
+      "name": "KBR Museum (Schätze der Königlichen Bibliothek)",
+      "address": "Adresse: Kunstberg 28, 1000 Brüssel",
+      "description": "Museum in der Königlichen Bibliothek, insbesondere den Handschriften der Herzöge von Burgund gewidmet. Illuminierte Handschriften, seltene Bücher, Eintauchen in das Europa der Fürstenhöfe und die Geschichte des Buches.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
     },
-    "mundaneum": {
-      "name": "マンデネウム",
-      "address": "住所：Rue de Nimy 76, 7000 Mons",
-      "description": "〈知の世界アーカイブ〉を掲げる、資料ユートピアに関する博物館・展示センター。",
-      "button": "行ってみる？"
+    "ville_bruxelles": {
+      "name": "Museum der Stadt Brüssel (Broodhuis)",
+      "address": "Adresse: Großer Markt 30–32, 1000 Brüssel",
+      "description": "Im Broodhuis auf dem Großen Markt gelegen, erzählt dieses Museum die Geschichte Brüssels durch Gemälde, Wandteppiche, Modelle, Dokumente… Man sieht dort unter anderem eine der Originalversionen des Manneken Pis.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
     },
-    "maisonLescart": {
-      "name": "メゾン・ジャン＝レスカー",
-      "address": "住所：Rue Neuve 8, 7000 Mons",
-      "description": "モンスの生活文化を、資料・伝統・再現展示で辿る郷土博物館――残念ながら恒久閉館となりました。",
-      "button": "行ってみる？"
+    "belvue": {
+      "name": "BELvue Museum",
+      "address": "Adresse: Palastplatz 7, 1000 Brüssel",
+      "description": "Museum der Geschichte Belgiens (Monarchie, Demokratie, Gesellschaft, Kolonialzeit…) mit interaktiver Szenografie, untergebracht in einem ehemaligen Prestigehotel neben dem Königspalast.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 09:30–17:00\nMittwoch 09:30–17:00\nDonnerstag 09:30–17:00\nFreitag 09:30–17:00\nSamstag 10:00–18:00\nSonntag 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
     },
-    "mumons": {
-      "name": "MUMONS",
-      "address": "住所：Place du Parc 24, 7000 Mons",
-      "description": "モンス大学（UMONS）の大学博物館。科学・芸術・社会の交差点を独創的な企画で探ります。",
-      "button": "行ってみる？"
+    "hal": {
+      "name": "Hallepoort",
+      "address": "Adresse: Kohlenmarkt 10, 1000 Brüssel",
+      "description": "Tor der alten Stadtmauer, 1880 wiederaufgebaut und auf den Ruinen der römischen Mauer errichtet. Seit 1921 denkmalgeschützt.",
+      "button": "Dorthin?",
+      "ouverture": "Montag 09:30–17:00\nDienstag 09:30–17:00\nMittwoch 09:30–17:00\nDonnerstag 09:30–17:00\nFreitag Geschlossen\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
     },
-    "scitechlab": {
-      "name": "サイテックラボ（SciTechLab）",
-      "address": "住所：Rue de Houdain 9, 7000 Mons",
-      "description": "UMONSによる体験型の科学技術ミュージアム。遊びながら学べるインタラクティブ展示が魅力。",
-      "button": "行ってみる？"
+    "juif": {
+      "name": "Jüdisches Museum Belgiens",
+      "address": "Adresse: Miniemenstraat 21, 1000 Brüssel",
+      "description": "Museum der Geschichte der Juden in Belgien mit einer Sammlung von Dokumenten, Objekten und Kunstwerken, die mit dieser Geschichte verbunden sind.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag Geschlossen\nMittwoch Geschlossen\nDonnerstag 11:00–18:00\nFreitag 11:00–18:00\nSamstag 11:00–18:00\nSonntag 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
     },
-    "sciencesNaturelles": {
-      "name": "モンス地域自然科学博物館",
-      "address": "住所：Rue des Gailliers 7, 7000 Mons",
-      "description": "動物・植物・地質の豊富な標本で生物多様性を学べる博物館。",
-      "button": "行ってみる？"
+    "franc": {
+      "name": "Belgisches Museum der Freimaurerei",
+      "address": "Adresse: Lakensestraat 73, 1000 Brüssel",
+      "description": "Im Hôtel Dewez (neoklassizistisches Gebäude aus dem 18. Jahrhundert) gelegen, erklärt das Museum die Geschichte, Symbole und Riten der Freimaurerei in Belgien durch Objekte, Dekorationen, Dokumente und Werke.",
+      "button": "Dorthin?",
+      "ouverture": "Montag 10:00–17:00\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 11:00–17:00\nSonntag Geschlossen",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
     },
-    "museeRoute": {
-      "name": "道路博物館（モンス）",
-      "address": "住所：Rue des Canonniers（Place Nervienne）、Casemates 3, 4, 5, 7000 Mons",
-      "description": "ワロン地域の道路インフラと関連職能の歴史を紹介――残念ながら恒久閉館となりました。",
-      "button": "行ってみる？"
+    "egouts": {
+      "name": "Museum der Brüsseler Kanalisation",
+      "address": "Adresse: Zollpavillons – Anderlechtsepoort, Schlachthausboulevard 1, 1000 Brüssel",
+      "description": "Ungewöhnliches Museum, das das Kanalisationsnetz, den unterirdischen Lauf der Senne und die Sanitärgeschichte der Stadt entdecken lässt. Teilweise unterirdischer Besuch, sehr pädagogisch (Modelle, Videos, authentischer Geruch 😅).",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Museum für Naturwissenschaften",
+      "address": "Adresse: Vautierstraße 29, 1000 Brüssel",
+      "description": "Das große Museum für Naturwissenschaften Belgiens, berühmt für seine Dinosauriergalerie (Iguanodons von Bernissart), seine Sammlungen zur Biodiversität, Geologie und menschlichen Evolution.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 09:30–17:00\nMittwoch 09:30–17:00\nDonnerstag 09:30–17:00\nFreitag 09:30–17:00\nSamstag 10:00–18:00\nSonntag 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brüssel",
+      "address": "Adresse: Jubelpark 11, 1000 Brüssel",
+      "description": "Großes Automobilmuseum in einer monumentalen Halle des Jubelparks mit etwa 250 Fahrzeugen: Oldtimer, Rennwagen, Kutschen, thematische Ausstellungen zur Geschichte der Mobilität.",
+      "button": "Dorthin?",
+      "ouverture": "Montag 10:00–17:00\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 10:00–18:00\nSonntag 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Königliches Museum der Armee und Militärgeschichte",
+      "address": "Adresse: Jubelpark 3, 1000 Brüssel",
+      "description": "Museum des War Heritage Institute, der belgischen und internationalen Militärgeschichte gewidmet, mit Sammlungen von Uniformen, Waffen, Panzerfahrzeugen und einer spektakulären Flughalle voller historischer Flugzeuge.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 09:00–17:00\nMittwoch 09:00–17:00\nDonnerstag 09:00–17:00\nFreitag 09:00–17:00\nSamstag 09:00–17:00\nSonntag 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Adresse: Prinzessin-Elisabeth-Platz 5, 1030 Schaerbeek (Brüssel)",
+      "description": "Nationales Museum der belgischen Eisenbahn, kombiniert den alten Bahnhof von Schaerbeek und moderne Hallen, mit ikonischen Dampflokomotiven, Zügen der Epoche und immersiver Inszenierung der Eisenbahngeschichte. Zweites Gebäude unter Nummer 8 desselben Platzes",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag Geschlossen\nSonntag 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Adresse: Atomiumplatz 1, 1020 Brüssel (Laken)",
+      "description": "Absolute Ikone Brüssels, gebaut für die Expo 58: eine 102 m hohe Struktur, die einen Eisenkristall darstellt, 165 Milliarden Mal vergrößert, mit zugänglichen Kugeln, Ausstellungen und Panoramarestaurant.",
+      "button": "Dorthin?",
+      "ouverture": "Montag 10:00–18:00\nDienstag 10:00–18:00\nMittwoch 10:00–18:00\nDonnerstag 10:00–18:00\nFreitag 10:00–18:00\nSamstag 10:00–18:00\nSonntag 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brüssel",
+      "address": "Adresse: Belgienplatz 1, 1020 Brüssel (Heizelplateau, in der Nähe des Atomiums)",
+      "description": "Museum des Designs des 20.–21. Jahrhunderts, mit insbesondere einer großen Sammlung rund um Kunststoff und Industriedesign. Ausstellungen über belgisches und internationales Design, Möbel, Alltagsgegenstände, Installationen.",
+      "button": "Dorthin?",
+      "ouverture": "Montag 11:00–19:00\nDienstag 11:00–19:00\nMittwoch 11:00–19:00\nDonnerstag 11:00–19:00\nFreitag 11:00–19:00\nSamstag 11:00–19:00\nSonntag 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Belgisches Zentrum für Comics",
+      "address": "Adresse: Zandstraat 20, 1000 Brüssel",
+      "description": "Referenzmuseum für belgische Comics, untergebracht in einem prächtigen Jugendstilgebäude von Victor Horta (ehemalige Waucquez-Geschäfte). Ausstellungen über Tim und Struppi, die Schlümpfe und viele klassische und zeitgenössische Autoren.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–18:00\nMittwoch 10:00–18:00\nDonnerstag 10:00–18:00\nFreitag 10:00–18:00\nSamstag 10:00–18:00\nSonntag 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brüssel",
+      "address": "Adresse: Stoofstraat 41, 1000 Brüssel",
+      "description": "Immersives Museum der Geschichte von Kakao und Schokolade, von präkolumbianischen Zivilisationen bis zur belgischen Praline, mit Vorführungen von Chocolatiers und Verkostungen.",
+      "button": "Dorthin?",
+      "ouverture": "Montag 10:00–17:00\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Adresse: Eichenstraße 19, 1000 Brüssel",
+      "description": "Kleines Museum, das eine Auswahl der Hunderte von Kostümen des Manneken Pis präsentiert: folkloristische Outfits, Uniformen, Kostüme, die von Ländern oder Vereinigungen aus aller Welt gespendet wurden. Ideal in Kombination mit der Statue selbst nur wenige Schritte entfernt.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag 10:00–17:00\nMittwoch 10:00–17:00\nDonnerstag 10:00–17:00\nFreitag 10:00–17:00\nSamstag 10:00–17:00\nSonntag 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Kindermuseum",
+      "address": "Adresse: Bürgermeisterstraße 15, 1050 Elsene",
+      "description": "Interaktives Museum für Kinder (und Begleitpersonen) mit pädagogischen Spielräumen, kreativen Workshops und partizipativen Installationen. Der Schwerpunkt liegt auf Experimentieren statt klassischer Vitrinen.",
+      "button": "Dorthin?",
+      "ouverture": "Montag Geschlossen\nDienstag Geschlossen\nMittwoch 14:30–17:00\nDonnerstag Geschlossen\nFreitag Geschlossen\nSamstag 14:30–17:00\nSonntag 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "ZURÜCK",
+    "popupTitle": "Warnung!",
+    "popupMessage": "ACHTUNG, diese Aktion wird die von Ihnen gewählte Touristenroute unterbrechen. Sind Sie sicher, dass Sie zu diesem Museum wechseln möchten? Die Navigation führt Sie dorthin!",
+    "popupYes": "JA",
+    "popupNo": "NEIN"
+  },
+  "it": {
+    "mainTitle": "CityLoop Quest Bruxelles - Nel cuore dell'Europa",
+    "title": "🏛️ Musei da visitare a Bruxelles",
+    "artHeritage": "Arte, belle arti & architettura",
+    "historyMemory": "Storia, città & società",
+    "scienceTech": "Scienze & tecniche / mobilità",
+    "icone": "Fumetti, pop culture, cioccolato & icone di Bruxelles",
+    "famille": "Bambini & famiglie (alto potenziale ludico)",
+    "insolite": "Insolito / tematico",
+    "MRBAB": {
+      "name": "Musei Reali delle Belle Arti del Belgio (MRBAB)",
+      "address": "Indirizzo: Rue de la Régence 3, 1000 Bruxelles",
+      "description": "Grande complesso federale che raggruppa diversi musei (Vecchi Maestri, Fin-de-Siècle, ecc.) con oltre 20.000 opere di pittura, scultura e disegno dal XV al XXI secolo, tra cui Bruegel, Rubens, Ensor, Magritte…",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 11:00–18:00\ndomenica 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "Museo Magritte",
+      "address": "Indirizzo: Place Royale 1, 1000 Bruxelles (integrato nei MRBAB, lato piazza)",
+      "description": "Museo interamente dedicato a René Magritte, presenta oltre 200 opere (dipinti, gouaches, disegni, manifesti…) e ripercorre l'evoluzione del suo surrealismo, dai suoi inizi alle icone mondialmente conosciute.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 11:00–18:00\ndomenica 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "Museo Arte & Storia",
+      "address": "Indirizzo: Parc du Cinquantenaire 10, 1000 Bruxelles",
+      "description": "Uno dei più grandi musei d'arte e archeologia d'Europa: antichità egiziane, greche e romane, arte precolombiana, arti decorative europee, collezioni di arti extraeuropee, ecc.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 09:30–17:00\nmercoledì 09:30–17:00\ngiovedì 09:30–17:00\nvenerdì 09:30–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "Museo degli Strumenti Musicali (MIM)",
+      "address": "Indirizzo: Rue Montagne de la Cour 2, 1000 Bruxelles",
+      "description": "Installato nell'ex negozio Art Nouveau \"Old England\", il MIM espone diverse migliaia di strumenti da tutto il mondo, con un'audioguida che permette di ascoltarne il suono. Terrazza panoramica sul tetto con vista su Bruxelles.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 09:30–17:00\nmercoledì 09:30–17:00\ngiovedì 09:30–17:00\nvenerdì 09:30–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "Museo Art et marges",
+      "address": "Indirizzo: Rue Haute 312–314, 1000 Bruxelles",
+      "description": "Museo dedicato all'arte brut e outsider (creatori fuori dai circuiti artistici classici). Collezioni molto forti, mostre spesso impegnate e poetiche, nel quartiere delle Marolles.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 11:00–18:00\nmercoledì 11:00–18:00\ngiovedì 11:00–18:00\nvenerdì 11:00–18:00\nsabato 11:00–18:00\ndomenica 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "Villa Empain – Fondazione Boghossian",
+      "address": "Indirizzo: Rue Claude de Bettignies 1, 1000 Bruxelles",
+      "description": "Museo dedicato all'arte moderna e contemporanea, con una collezione eccezionale di dipinti, sculture, oggetti decorativi e installazioni.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 11:00–18:00\nmercoledì 11:00–18:00\ngiovedì 11:00–18:00\nvenerdì 11:00–18:00\nsabato 11:00–18:00\ndomenica 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "Museo Horta",
+      "address": "Indirizzo: Rue Américaine 25, 1060 Saint-Gilles (Bruxelles)",
+      "description": "Ex casa e atelier dell'architetto Victor Horta, figura maggiore dell'Art Nouveau. Interni originali (mobili, vetrate, ferramenta) conservati, dando una visione molto completa del suo stile.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 14:00–17:30\nmercoledì 14:00–17:30\ngiovedì 14:00–17:30\nvenerdì 14:00–17:30\nsabato 11:00–17:30\ndomenica 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "Museo KBR (Tesori della Biblioteca Reale)",
+      "address": "Indirizzo: Mont des Arts 28, 1000 Bruxelles",
+      "description": "Museo installato all'interno della Biblioteca Reale, dedicato in particolare ai manoscritti dei duchi di Borgogna. Manoscritti miniati, libri rari, immersione nell'Europa delle corti principesche e nella storia del libro.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "Museo della Città di Bruxelles (Casa del Re)",
+      "address": "Indirizzo: Grand-Place 30–32, 1000 Bruxelles",
+      "description": "Situato nella Casa del Re sulla Grand-Place, questo museo racconta la storia di Bruxelles attraverso dipinti, arazzi, modellini, documenti… Vi si vede in particolare una delle versioni originali del Manneken Pis.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "Museo BELvue",
+      "address": "Indirizzo: Place des Palais 7, 1000 Bruxelles",
+      "description": "Museo dedicato alla storia del Belgio (monarchia, democrazia, società, periodo coloniale…) con una scenografia interattiva, installato in un ex hotel di prestigio adiacente al Palazzo Reale.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 09:30–17:00\nmercoledì 09:30–17:00\ngiovedì 09:30–17:00\nvenerdì 09:30–17:00\nsabato 10:00–18:00\ndomenica 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "Porta di Hal",
+      "address": "Indirizzo: Rue du Marché au Charbon 10, 1000 Bruxelles",
+      "description": "Porta dell'antica cinta muraria della città, ricostruita nel 1880 e edificata sulle rovine della cinta romana. Monumento storico classificato dal 1921.",
+      "button": "Andarci?",
+      "ouverture": "lunedì 09:30–17:00\nmartedì 09:30–17:00\nmercoledì 09:30–17:00\ngiovedì 09:30–17:00\nvenerdì Chiuso\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "Museo Ebraico del Belgio",
+      "address": "Indirizzo: Rue des Minimes 21, 1000 Bruxelles",
+      "description": "Museo dedicato alla storia degli ebrei in Belgio, con una collezione di documenti, oggetti e opere d'arte legati a questa storia.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì Chiuso\nmercoledì Chiuso\ngiovedì 11:00–18:00\nvenerdì 11:00–18:00\nsabato 11:00–18:00\ndomenica 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "Museo Belga della Massoneria",
+      "address": "Indirizzo: Rue de Laeken 73, 1000 Bruxelles",
+      "description": "Situato nell'hôtel Dewez (edificio neoclassico del XVIII secolo), il museo spiega la storia, i simboli e i riti della massoneria in Belgio attraverso oggetti, decorazioni, documenti e opere.",
+      "button": "Andarci?",
+      "ouverture": "lunedì 10:00–17:00\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 11:00–17:00\ndomenica Chiuso",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "Museo delle Fogne di Bruxelles",
+      "address": "Indirizzo: Padiglioni d'Octroi – Porta d'Anderlecht, Boulevard de l'Abattoir 1, 1000 Bruxelles",
+      "description": "Museo insolito che fa scoprire la rete fognaria, il corso sotterraneo della Senne e la storia sanitaria della città. Visita parzialmente sotterranea, molto pedagogica (modellini, video, odore autentico 😅).",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Museo delle Scienze Naturali",
+      "address": "Indirizzo: Rue Vautier 29, 1000 Bruxelles",
+      "description": "Il grande museo di scienze naturali del Belgio, famoso per la sua galleria dei dinosauri (iguanodonti di Bernissart), le sue collezioni di biodiversità, geologia ed evoluzione umana.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 09:30–17:00\nmercoledì 09:30–17:00\ngiovedì 09:30–17:00\nvenerdì 09:30–17:00\nsabato 10:00–18:00\ndomenica 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "Indirizzo: Parc du Cinquantenaire 11, 1000 Bruxelles",
+      "description": "Grande museo dell'automobile installato in una sala monumentale del Cinquantenaire, con circa 250 veicoli: auto d'epoca, auto da corsa, carrozze, mostre tematiche sulla storia della mobilità.",
+      "button": "Andarci?",
+      "ouverture": "lunedì 10:00–17:00\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 10:00–18:00\ndomenica 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Museo Reale dell'Esercito e della Storia Militare",
+      "address": "Indirizzo: Parc du Cinquantenaire 3, 1000 Bruxelles",
+      "description": "Museo gestito dal War Heritage Institute, dedicato alla storia militare belga e internazionale, con collezioni di uniformi, armi, veicoli blindati e una spettacolare sala dell'aviazione piena di aerei storici.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 09:00–17:00\nmercoledì 09:00–17:00\ngiovedì 09:00–17:00\nvenerdì 09:00–17:00\nsabato 09:00–17:00\ndomenica 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Indirizzo: Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruxelles)",
+      "description": "Museo nazionale delle ferrovie belghe, combinando l'ex stazione di Schaerbeek e sale moderne, con locomotive a vapore iconiche, treni d'epoca e messa in scena immersiva della storia delle ferrovie. Secondo edificio al numero 8 della stessa piazza",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato Chiuso\ndomenica 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Indirizzo: Square de l'Atomium / Atomiumplein 1, 1020 Bruxelles (Laeken)",
+      "description": "Icona assoluta di Bruxelles, costruita per l'Expo 58: una struttura di 102 m che rappresenta un cristallo di ferro ingrandito 165 miliardi di volte, con sfere accessibili, mostre e ristorante panoramico.",
+      "button": "Andarci?",
+      "ouverture": "lunedì 10:00–18:00\nmartedì 10:00–18:00\nmercoledì 10:00–18:00\ngiovedì 10:00–18:00\nvenerdì 10:00–18:00\nsabato 10:00–18:00\ndomenica 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "Indirizzo: Place de Belgique 1, 1020 Bruxelles (altopiano del Heysel, vicino all'Atomium)",
+      "description": "Museo dedicato al design dei secoli XX–XXI, con in particolare una grande collezione intorno alla plastica e al design industriale. Mostre sul design belga e internazionale, mobili, oggetti quotidiani, installazioni.",
+      "button": "Andarci?",
+      "ouverture": "lunedì 11:00–19:00\nmartedì 11:00–19:00\nmercoledì 11:00–19:00\ngiovedì 11:00–19:00\nvenerdì 11:00–19:00\nsabato 11:00–19:00\ndomenica 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Centro Belga del Fumetto",
+      "address": "Indirizzo: Rue des Sables 20, 1000 Bruxelles",
+      "description": "Museo di riferimento dedicato al fumetto belga, installato in un superbo edificio Art Nouveau di Victor Horta (ex negozi Waucquez). Mostre su Tintin, i Puffi e numerosi autori classici e contemporanei.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–18:00\nmercoledì 10:00–18:00\ngiovedì 10:00–18:00\nvenerdì 10:00–18:00\nsabato 10:00–18:00\ndomenica 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "Indirizzo: Rue de l'Etuve 41 (Stoofstraat 41), 1000 Bruxelles",
+      "description": "Museo immersivo dedicato alla storia del cacao e del cioccolato, dalle civiltà precolombiane fino alla pralina belga, con dimostrazioni di cioccolatieri e degustazioni.",
+      "button": "Andarci?",
+      "ouverture": "lunedì 10:00–17:00\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Indirizzo: Rue du Chêne 19, 1000 Bruxelles",
+      "description": "Piccolo museo che presenta una selezione delle centinaia di costumi del Manneken Pis: abiti folcloristici, uniformi, costumi offerti da paesi o associazioni di tutto il mondo. Ideale da combinare con la statua stessa a due passi.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì 10:00–17:00\nmercoledì 10:00–17:00\ngiovedì 10:00–17:00\nvenerdì 10:00–17:00\nsabato 10:00–17:00\ndomenica 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Museo dei Bambini",
+      "address": "Indirizzo: Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "Museo interattivo pensato per i bambini (e gli accompagnatori) con spazi di gioco educativi, laboratori creativi e installazioni partecipative. L'accento è posto sull'esperimentazione piuttosto che su vetrine classiche.",
+      "button": "Andarci?",
+      "ouverture": "lunedì Chiuso\nmartedì Chiuso\nmercoledì 14:30–17:00\ngiovedì Chiuso\nvenerdì Chiuso\nsabato 14:30–17:00\ndomenica 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "INDIETRO",
+    "popupTitle": "Avvertimento!",
+    "popupMessage": "ATTENZIONE, questa azione comporterà l'interruzione del percorso turistico che avete scelto. Siete sicuri di voler andare a questo museo? La guida vi porterà lì!",
+    "popupYes": "SÌ",
+    "popupNo": "NO"
+  },
+  "es": {
+    "mainTitle": "CityLoop Quest Bruxelles - En el corazón de Europa",
+    "title": "🏛️ Museos para visitar en Bruselas",
+    "artHeritage": "Arte, bellas artes & arquitectura",
+    "historyMemory": "Historia, ciudad & sociedad",
+    "scienceTech": "Ciencias & técnicas / movilidad",
+    "icone": "Cómic, cultura pop, chocolate & iconos de Bruselas",
+    "famille": "Niños & familias (alto potencial lúdico)",
+    "insolite": "Insólito / temático",
+    "MRBAB": {
+      "name": "Museos Reales de Bellas Artes de Bélgica (MRBAB)",
+      "address": "Dirección: Rue de la Régence 3, 1000 Bruselas",
+      "description": "Gran complejo federal que agrupa varios museos (Maestros Antiguos, Fin-de-Siècle, etc.) con más de 20.000 obras de pintura, escultura y dibujo del XV al XXI siglo, incluyendo Bruegel, Rubens, Ensor, Magritte…",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 11:00–18:00\ndomingo 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "Museo Magritte",
+      "address": "Dirección: Place Royale 1, 1000 Bruselas (integrado en los MRBAB, lado plaza)",
+      "description": "Museo enteramente dedicado a René Magritte, presenta más de 200 obras (pinturas, gouaches, dibujos, carteles…) y traza la evolución de su surrealismo, desde sus inicios hasta los iconos mundialmente conocidos.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 11:00–18:00\ndomingo 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "Museo Arte & Historia",
+      "address": "Dirección: Parc du Cinquantenaire 10, 1000 Bruselas",
+      "description": "Uno de los mayores museos de arte y arqueología de Europa: antigüedades egipcias, griegas y romanas, arte precolombino, artes decorativas europeas, colecciones de artes extraeuropeas, etc.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 09:30–17:00\nmiércoles 09:30–17:00\njueves 09:30–17:00\nviernes 09:30–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "Museo de los Instrumentos Musicales (MIM)",
+      "address": "Dirección: Rue Montagne de la Cour 2, 1000 Bruselas",
+      "description": "Instalado en la antigua tienda Art Nouveau \"Old England\", el MIM expone varios miles de instrumentos de todo el mundo, con una audioguía que permite escuchar su sonido. Terraza panorámica en la azotea con vistas a Bruselas.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 09:30–17:00\nmiércoles 09:30–17:00\njueves 09:30–17:00\nviernes 09:30–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "Museo Art et marges",
+      "address": "Dirección: Rue Haute 312–314, 1000 Bruselas",
+      "description": "Museo dedicado al arte bruto y outsider (creadores fuera de los circuitos artísticos clásicos). Colecciones muy fuertes, exposiciones a menudo comprometidas y poéticas, en el barrio de las Marolles.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 11:00–18:00\nmiércoles 11:00–18:00\njueves 11:00–18:00\nviernes 11:00–18:00\nsábado 11:00–18:00\ndomingo 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "Villa Empain – Fundación Boghossian",
+      "address": "Dirección: Rue Claude de Bettignies 1, 1000 Bruselas",
+      "description": "Museo dedicado al arte moderno y contemporáneo, con una colección excepcional de pinturas, esculturas, objetos decorativos e instalaciones.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 11:00–18:00\nmiércoles 11:00–18:00\njueves 11:00–18:00\nviernes 11:00–18:00\nsábado 11:00–18:00\ndomingo 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "Museo Horta",
+      "address": "Dirección: Rue Américaine 25, 1060 Saint-Gilles (Bruselas)",
+      "description": "Antigua casa y taller del arquitecto Victor Horta, figura mayor del Art Nouveau. Interiores originales (mobiliario, vitrales, herrería) conservados, dando una visión muy completa de su estilo.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 14:00–17:30\nmiércoles 14:00–17:30\njueves 14:00–17:30\nviernes 14:00–17:30\nsábado 11:00–17:30\ndomingo 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "Museo KBR (Tesoros de la Biblioteca Real)",
+      "address": "Dirección: Mont des Arts 28, 1000 Bruselas",
+      "description": "Museo instalado en la Biblioteca Real, dedicado en particular a los manuscritos de los duques de Borgoña. Manuscritos iluminados, libros raros, inmersión en la Europa de las cortes principescas y la historia del libro.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "Museo de la Ciudad de Bruselas (Casa del Rey)",
+      "address": "Dirección: Grand-Place 30–32, 1000 Bruselas",
+      "description": "Situado en la Casa del Rey en la Grand-Place, este museo cuenta la historia de Bruselas a través de pinturas, tapices, maquetas, documentos… Se puede ver en particular una de las versiones originales del Manneken Pis.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "Museo BELvue",
+      "address": "Dirección: Place des Palais 7, 1000 Bruselas",
+      "description": "Museo dedicado a la historia de Bélgica (monarquía, democracia, sociedad, período colonial…) con una escenografía interactiva, instalado en un antiguo hotel de prestigio junto al Palacio Real.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 09:30–17:00\nmiércoles 09:30–17:00\njueves 09:30–17:00\nviernes 09:30–17:00\nsábado 10:00–18:00\ndomingo 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "Puerta de Hal",
+      "address": "Dirección: Rue du Marché au Charbon 10, 1000 Bruselas",
+      "description": "Puerta de la antigua muralla de la ciudad, reconstruida en 1880 y edificada sobre las ruinas de la muralla romana. Monumento histórico clasificado desde 1921.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes 09:30–17:00\nmartes 09:30–17:00\nmiércoles 09:30–17:00\njueves 09:30–17:00\nviernes Cerrado\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "Museo Judío de Bélgica",
+      "address": "Dirección: Rue des Minimes 21, 1000 Bruselas",
+      "description": "Museo dedicado a la historia de los judíos en Bélgica, con una colección de documentos, objetos y obras de arte relacionados con esta historia.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes Cerrado\nmiércoles Cerrado\njueves 11:00–18:00\nviernes 11:00–18:00\nsábado 11:00–18:00\ndomingo 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "Museo Belga de la Francmasonería",
+      "address": "Dirección: Rue de Laeken 73, 1000 Bruselas",
+      "description": "Situado en el hôtel Dewez (edificio neoclásico del siglo XVIII), el museo explica la historia, los símbolos y los ritos de la francmasonería en Bélgica a través de objetos, decoraciones, documentos y obras.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes 10:00–17:00\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 11:00–17:00\ndomingo Cerrado",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "Museo de las Cloacas de Bruselas",
+      "address": "Dirección: Pabellones de Octroi – Puerta de Anderlecht, Boulevard de l'Abattoir 1, 1000 Bruselas",
+      "description": "Museo insólito que descubre la red de cloacas, el curso enterrado del Senne y la historia sanitaria de la ciudad. Visita parcialmente subterránea, muy pedagógica (maquetas, videos, olor auténtico 😅).",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Museo de Ciencias Naturales",
+      "address": "Dirección: Rue Vautier 29, 1000 Bruselas",
+      "description": "El gran museo de ciencias naturales de Bélgica, famoso por su galería de dinosaurios (iguanodones de Bernissart), sus colecciones de biodiversidad, geología y evolución humana.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 09:30–17:00\nmiércoles 09:30–17:00\njueves 09:30–17:00\nviernes 09:30–17:00\nsábado 10:00–18:00\ndomingo 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "Dirección: Parc du Cinquantenaire 11, 1000 Bruselas",
+      "description": "Gran museo del automóvil instalado en una sala monumental del Cinquantenaire, con alrededor de 250 vehículos: coches antiguos, coches de carreras, carruajes, exposiciones temáticas sobre la historia de la movilidad.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes 10:00–17:00\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 10:00–18:00\ndomingo 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Museo Real del Ejército y de Historia Militar",
+      "address": "Dirección: Parc du Cinquantenaire 3, 1000 Bruselas",
+      "description": "Museo gestionado por el War Heritage Institute, dedicado a la historia militar belga e internacional, con colecciones de uniformes, armas, vehículos blindados y una espectacular sala de aviación llena de aviones históricos.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 09:00–17:00\nmiércoles 09:00–17:00\njueves 09:00–17:00\nviernes 09:00–17:00\nsábado 09:00–17:00\ndomingo 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Dirección: Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruselas)",
+      "description": "Museo nacional del ferrocarril belga, combinando la antigua estación de Schaerbeek y salas modernas, con locomotoras de vapor icónicas, trenes de época y puesta en escena inmersiva de la historia del ferrocarril. Segundo edificio en el número 8 de la misma plaza",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado Cerrado\ndomingo 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Dirección: Square de l'Atomium / Atomiumplein 1, 1020 Bruselas (Laeken)",
+      "description": "Icono absoluto de Bruselas, construido para la Expo 58: una estructura de 102 m que representa un cristal de hierro ampliado 165 mil millones de veces, con esferas accesibles, exposiciones y restaurante panorámico.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes 10:00–18:00\nmartes 10:00–18:00\nmiércoles 10:00–18:00\njueves 10:00–18:00\nviernes 10:00–18:00\nsábado 10:00–18:00\ndomingo 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "Dirección: Place de Belgique 1, 1020 Bruselas (meseta del Heysel, cerca del Atomium)",
+      "description": "Museo dedicado al diseño de los siglos XX–XXI, con en particular una gran colección en torno al plástico y el diseño industrial. Exposiciones sobre diseño belga e internacional, mobiliario, objetos cotidianos, instalaciones.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes 11:00–19:00\nmartes 11:00–19:00\nmiércoles 11:00–19:00\njueves 11:00–19:00\nviernes 11:00–19:00\nsábado 11:00–19:00\ndomingo 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Centro Belga del Cómic",
+      "address": "Dirección: Rue des Sables 20, 1000 Bruselas",
+      "description": "Museo de referencia dedicado al cómic belga, instalado en un soberbio edificio Art Nouveau de Victor Horta (antiguas tiendas Waucquez). Exposiciones sobre Tintín, los Pitufos y numerosos autores clásicos y contemporáneos.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–18:00\nmiércoles 10:00–18:00\njueves 10:00–18:00\nviernes 10:00–18:00\nsábado 10:00–18:00\ndomingo 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "Dirección: Rue de l'Etuve 41 (Stoofstraat 41), 1000 Bruselas",
+      "description": "Museo inmersivo dedicado a la historia del cacao y del chocolate, desde las civilizaciones precolombinas hasta la praliné belga, con demostraciones de chocolateros y degustaciones.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes 10:00–17:00\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Dirección: Rue du Chêne 19, 1000 Bruselas",
+      "description": "Pequeño museo que presenta una selección de los cientos de trajes del Manneken Pis: atuendos folclóricos, uniformes, trajes ofrecidos por países o asociaciones de todo el mundo. Ideal para combinar con la estatua misma a dos pasos.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes 10:00–17:00\nmiércoles 10:00–17:00\njueves 10:00–17:00\nviernes 10:00–17:00\nsábado 10:00–17:00\ndomingo 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Museo de los Niños",
+      "address": "Dirección: Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "Museo interactivo pensado para niños (y acompañantes) con espacios de juego educativos, talleres creativos e instalaciones participativas. El énfasis está en la experimentación más que en vitrinas clásicas.",
+      "button": "¿Ir allí?",
+      "ouverture": "lunes Cerrado\nmartes Cerrado\nmiércoles 14:30–17:00\njueves Cerrado\nviernes Cerrado\nsábado 14:30–17:00\ndomingo 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "VOLVER",
+    "popupTitle": "¡Advertencia!",
+    "popupMessage": "ATENCIÓN, esta acción provocará la interrupción del recorrido turístico que ha elegido. ¿Está seguro de querer ir a este museo? ¡La guía le llevará allí!",
+    "popupYes": "SÍ",
+    "popupNo": "NO"
+  },
+  "pl": {
+    "mainTitle": "CityLoop Quest Bruxelles - W sercu Europy",
+    "title": "🏛️ Muzea do odwiedzenia w Brukseli",
+    "artHeritage": "Sztuka, sztuki piękne & architektura",
+    "historyMemory": "Historia, miasto & społeczeństwo",
+    "scienceTech": "Nauki & technika / mobilność",
+    "icone": "Komiksy, popkultura, czekolada & ikony brukselskie",
+    "famille": "Dzieci & rodziny (wysoki potencjał rozrywkowy)",
+    "insolite": "Niezwykłe / tematyczne",
+    "MRBAB": {
+      "name": "Królewskie Muzea Sztuk Pięknych Belgii (KMSKB)",
+      "address": "Adres: Rue de la Régence 3, 1000 Bruksela",
+      "description": "Wielki kompleks federalny grupujący kilka muzeów (Starożytni Mistrzowie, Fin-de-Siècle itd.) z ponad 20 000 dziełami malarstwa, rzeźby i rysunku od XV do XXI wieku, w tym Bruegel, Rubens, Ensor, Magritte…",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 11:00–18:00\nniedziela 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "Muzeum Magritte",
+      "address": "Adres: Place Royale 1, 1000 Bruksela (zintegrowane z KMSKB, strona placu)",
+      "description": "Muzeum w całości poświęcone René Magritte, prezentuje ponad 200 dzieł (obrazy, gwasze, rysunki, plakaty…) i śledzi ewolucję jego surrealizmu, od początków po światowo znane ikony.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 11:00–18:00\nniedziela 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "Muzeum Sztuki & Historii",
+      "address": "Adres: Parc du Cinquantenaire 10, 1000 Bruksela",
+      "description": "Jedno z największych muzeów sztuki i archeologii w Europie: starożytności egipskie, greckie i rzymskie, sztuka prekolumbijska, sztuki dekoracyjne europejskie, kolekcje sztuk pozaeuropejskich itd.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 09:30–17:00\nśroda 09:30–17:00\nczwartek 09:30–17:00\npiątek 09:30–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "Muzeum Instrumentów Muzycznych (MIM)",
+      "address": "Adres: Rue Montagne de la Cour 2, 1000 Bruksela",
+      "description": "Zainstalowane w dawnym sklepie Art Nouveau \"Old England\", MIM eksponuje kilka tysięcy instrumentów z całego świata, z audioguide'em pozwalającym usłyszeć ich dźwięk. Panoramiczny taras na dachu z widokiem na Brukselę.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 09:30–17:00\nśroda 09:30–17:00\nczwartek 09:30–17:00\npiątek 09:30–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "Muzeum Art et marges",
+      "address": "Adres: Rue Haute 312–314, 1000 Bruksela",
+      "description": "Muzeum poświęcone sztuce surowej i outsider (twórcy poza klasycznymi obiegami artystycznymi). Bardzo silne kolekcje, często zaangażowane i poetyckie wystawy, w dzielnicy Marolles.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 11:00–18:00\nśroda 11:00–18:00\nczwartek 11:00–18:00\npiątek 11:00–18:00\nsobota 11:00–18:00\nniedziela 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "Villa Empain – Fundacja Boghossian",
+      "address": "Adres: Rue Claude de Bettignies 1, 1000 Bruksela",
+      "description": "Muzeum poświęcone sztuce nowoczesnej i współczesnej, z wyjątkową kolekcją obrazów, rzeźb, przedmiotów dekoracyjnych i instalacji.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 11:00–18:00\nśroda 11:00–18:00\nczwartek 11:00–18:00\npiątek 11:00–18:00\nsobota 11:00–18:00\nniedziela 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "Muzeum Horta",
+      "address": "Adres: Rue Américaine 25, 1060 Saint-Gilles (Bruksela)",
+      "description": "Dawny dom i pracownia architekta Victora Horty, głównej postaci Art Nouveau. Zachowane oryginalne wnętrza (meble, witraże, kowalstwo artystyczne), dające bardzo pełny obraz jego stylu.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 14:00–17:30\nśroda 14:00–17:30\nczwartek 14:00–17:30\npiątek 14:00–17:30\nsobota 11:00–17:30\nniedziela 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "Muzeum KBR (Skarby Biblioteki Królewskiej)",
+      "address": "Adres: Mont des Arts 28, 1000 Bruksela",
+      "description": "Muzeum zainstalowane w Bibliotece Królewskiej, poświęcone w szczególności manuskryptom książąt Burgundii. Iluminowane manuskrypty, rzadkie książki, zanurzenie w Europie dworów książęcych i historii książki.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "Muzeum Miasta Brukseli (Dom Króla)",
+      "address": "Adres: Grand-Place 30–32, 1000 Bruksela",
+      "description": "Położone w Domu Króla na Grand-Place, to muzeum opowiada historię Brukseli poprzez obrazy, tapiserie, makiety, dokumenty… Można tam zobaczyć między innymi jedną z oryginalnych wersji Manneken Pis.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "Muzeum BELvue",
+      "address": "Adres: Place des Palais 7, 1000 Bruksela",
+      "description": "Muzeum poświęcone historii Belgii (monarchia, demokracja, społeczeństwo, okres kolonialny…) z interaktywną scenografią, zainstalowane w dawnym prestiżowym hotelu przylegającym do Pałacu Królewskiego.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 09:30–17:00\nśroda 09:30–17:00\nczwartek 09:30–17:00\npiątek 09:30–17:00\nsobota 10:00–18:00\nniedziela 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "Brama Hal",
+      "address": "Adres: Rue du Marché au Charbon 10, 1000 Bruksela",
+      "description": "Brama starego muru miejskiego, odbudowana w 1880 roku i wzniesiona na ruinach muru rzymskiego. Zabytkowy pomnik wpisany od 1921 roku.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek 09:30–17:00\nwtorek 09:30–17:00\nśroda 09:30–17:00\nczwartek 09:30–17:00\npiątek Zamknięte\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "Muzeum Żydowskie Belgii",
+      "address": "Adres: Rue des Minimes 21, 1000 Bruksela",
+      "description": "Muzeum poświęcone historii Żydów w Belgii, z kolekcją dokumentów, przedmiotów i dzieł sztuki związanych z tą historią.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek Zamknięte\nśroda Zamknięte\nczwartek 11:00–18:00\npiątek 11:00–18:00\nsobota 11:00–18:00\nniedziela 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "Belgijskie Muzeum Wolnomularstwa",
+      "address": "Adres: Rue de Laeken 73, 1000 Bruksela",
+      "description": "Położone w hôtel Dewez (budynek neoklasycystyczny z XVIII wieku), muzeum wyjaśnia historię, symbole i rytuały wolnomularstwa w Belgii poprzez przedmioty, dekoracje, dokumenty i dzieła.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek 10:00–17:00\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 11:00–17:00\nniedziela Zamknięte",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "Muzeum Kanalizacji Brukseli",
+      "address": "Adres: Pavillons d'Octroi – Porte d'Anderlecht, Boulevard de l'Abattoir 1, 1000 Bruksela",
+      "description": "Niezwykłe muzeum odkrywające sieć kanalizacji, zakopany bieg Senne i historię sanitarną miasta. Częściowo podziemna wizyta, bardzo edukacyjna (makiety, filmy, autentyczny zapach 😅).",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "Muzeum Nauk Przyrodniczych",
+      "address": "Adres: Rue Vautier 29, 1000 Bruksela",
+      "description": "Wielkie muzeum nauk przyrodniczych Belgii, słynne z galerii dinozaurów (iguanodony z Bernissart), swoich kolekcji bioróżnorodności, geologii i ewolucji człowieka.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 09:30–17:00\nśroda 09:30–17:00\nczwartek 09:30–17:00\npiątek 09:30–17:00\nsobota 10:00–18:00\nniedziela 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "Adres: Parc du Cinquantenaire 11, 1000 Bruksela",
+      "description": "Wielkie muzeum samochodów zainstalowane w monumentalnej hali Cinquantenaire, z około 250 pojazdami: stare samochody, samochody wyścigowe, powozy, tematyczne wystawy o historii mobilności.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek 10:00–17:00\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 10:00–18:00\nniedziela 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "Królewskie Muzeum Armii i Historii Wojskowej",
+      "address": "Adres: Parc du Cinquantenaire 3, 1000 Bruksela",
+      "description": "Muzeum zarządzane przez War Heritage Institute, poświęcone belgijskiej i międzynarodowej historii wojskowej, z kolekcjami mundurów, broni, pojazdów opancerzonych i spektakularną halą lotnictwa wypełnioną historycznymi samolotami.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 09:00–17:00\nśroda 09:00–17:00\nczwartek 09:00–17:00\npiątek 09:00–17:00\nsobota 09:00–17:00\nniedziela 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "Adres: Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruksela)",
+      "description": "Narodowe muzeum kolei belgijskich, łączące starą stację Schaerbeek i nowoczesne hale, z ikonicznymi lokomotywami parowymi, pociągami epoki i immersyjną inscenizacją historii kolei. Drugi budynek pod numerem 8 tego samego placu",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota Zamknięte\nniedziela 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "Atomium",
+      "address": "Adres: Square de l'Atomium / Atomiumplein 1, 1020 Bruksela (Laeken)",
+      "description": "Absolutna ikona Brukseli, zbudowana dla Expo 58: struktura o wysokości 102 m reprezentująca kryształ żelaza powiększony 165 miliardów razy, z dostępnymi kulami, wystawami i restauracją panoramiczną.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek 10:00–18:00\nwtorek 10:00–18:00\nśroda 10:00–18:00\nczwartek 10:00–18:00\npiątek 10:00–18:00\nsobota 10:00–18:00\nniedziela 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "Adres: Place de Belgique 1, 1020 Bruksela (płaskowyż Heysel, w pobliżu Atomium)",
+      "description": "Muzeum poświęcone designowi XX–XXI wieku, z w szczególności dużą kolekcją wokół plastiku i designu przemysłowego. Wystawy o designie belgijskim i międzynarodowym, meblach, przedmiotach codziennego użytku, instalacjach.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek 11:00–19:00\nwtorek 11:00–19:00\nśroda 11:00–19:00\nczwartek 11:00–19:00\npiątek 11:00–19:00\nsobota 11:00–19:00\nniedziela 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "Belgijskie Centrum Komiksu",
+      "address": "Adres: Rue des Sables 20, 1000 Bruksela",
+      "description": "Muzeum referencyjne poświęcone komiksowi belgijskiemu, zainstalowane w wspaniałym budynku Art Nouveau Victora Horty (dawne sklepy Waucquez). Wystawy o Tintinie, Smerfach i wielu klasycznych i współczesnych autorach.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–18:00\nśroda 10:00–18:00\nczwartek 10:00–18:00\npiątek 10:00–18:00\nsobota 10:00–18:00\nniedziela 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "Adres: Rue de l'Etuve 41 (Stoofstraat 41), 1000 Bruksela",
+      "description": "Immersyjne muzeum poświęcone historii kakao i czekolady, od cywilizacji prekolumbijskich do belgijskiej praliny, z pokazami czekoladników i degustacjami.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek 10:00–17:00\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "Adres: Rue du Chêne 19, 1000 Bruksela",
+      "description": "Małe muzeum prezentujące wybór setek kostiumów Manneken Pis: stroje folklorystyczne, mundury, kostiumy ofiarowane przez kraje lub stowarzyszenia z całego świata. Idealne do połączenia z samym posągiem o dwa kroki.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek 10:00–17:00\nśroda 10:00–17:00\nczwartek 10:00–17:00\npiątek 10:00–17:00\nsobota 10:00–17:00\nniedziela 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "Muzeum Dzieci",
+      "address": "Adres: Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "Interaktywne muzeum pomyślane dla dzieci (i opiekunów) z edukacyjnymi przestrzeniami zabaw, kreatywnymi warsztatami i partycypacyjnymi instalacjami. Nacisk kładzie się na eksperymentowanie raczej niż na klasyczne gabloty.",
+      "button": "Iść tam?",
+      "ouverture": "poniedziałek Zamknięte\nwtorek Zamknięte\nśroda 14:30–17:00\nczwartek Zamknięte\npiątek Zamknięte\nsobota 14:30–17:00\nniedziela 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "POWRÓT",
+    "popupTitle": "Ostrzeżenie!",
+    "popupMessage": "UWAGA, ta akcja spowoduje przerwanie wybranej przez Ciebie trasy turystycznej. Czy na pewno chcesz przejść do tego muzeum? Nawigacja poprowadzi Cię na miejsce!",
+    "popupYes": "TAK",
+    "popupNo": "NIE"
+  },
+  "ar": {
+    "mainTitle": "سيتي لووب كويست بروكسل – في قلب أوروبا",
+    "title": "🏛️ متاحف للزيارة في بروكسل",
+    "artHeritage": "الفن، الفنون الجميلة & العمارة",
+    "historyMemory": "التاريخ، المدينة & المجتمع",
+    "scienceTech": "العلوم & التقنيات / التنقل",
+    "icone": "القصص المصورة، الثقافة الشعبية، الشوكولاتة & رموز بروكسل",
+    "famille": "الأطفال & العائلات (إمكانات ترفيهية عالية)",
+    "insolite": "غير عادي / موضوعي",
+    "MRBAB": {
+      "name": "المتاحف الملكية للفنون الجميلة في بلجيكا (MRBAB)",
+      "address": "العنوان: Rue de la Régence 3, 1000 Bruxelles",
+      "description": "مجمع فيدرالي كبير يجمع عدة متاحف (الأساتذة القدامى، فن نهاية القرن، إلخ) مع أكثر من 20,000 عمل من الرسم والنحت والتصميم من القرن الخامس عشر إلى الحادي والعشرين، بما في ذلك بريغل، روبنز، إنسور، ماغريت…",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 11:00–18:00\nالأحد 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "متحف ماغريت",
+      "address": "العنوان: Place Royale 1, 1000 Bruxelles (مدمج في MRBAB، جانب الساحة)",
+      "description": "متحف مكرّس بالكامل لرينيه ماغريت، يعرض أكثر من 200 عمل (لوحات، ألوان مائية، رسومات، ملصقات…) ويتتبع تطور السريالية لديه، من بداياته إلى الرموز المعروفة عالميًا.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 11:00–18:00\nالأحد 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "متحف الفن & التاريخ",
+      "address": "العنوان: Parc du Cinquantenaire 10, 1000 Bruxelles",
+      "description": "واحد من أكبر متاحف الفن والآثار في أوروبا: آثار مصرية ويونانية ورومانية، فن ما قبل كولومبوس، فنون زخرفية أوروبية، مجموعات فنون خارج أوروبا، إلخ.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 09:30–17:00\nالأربعاء 09:30–17:00\nالخميس 09:30–17:00\nالجمعة 09:30–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "متحف الآلات الموسيقية (MIM)",
+      "address": "العنوان: Rue Montagne de la Cour 2, 1000 Bruxelles",
+      "description": "مُقام في المتجر القديم على طراز الآرت نوفو \"Old England\"، يعرض MIM عدة آلاف من الآلات من جميع أنحاء العالم، مع دليل صوتي يسمح بسماع صوتها. شرفة بانورامية على السطح مع إطلالة على بروكسل.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 09:30–17:00\nالأربعاء 09:30–17:00\nالخميس 09:30–17:00\nالجمعة 09:30–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "متحف Art et marges",
+      "address": "العنوان: Rue Haute 312–314, 1000 Bruxelles",
+      "description": "متحف مكرّس للفن الخام والآوتسايدر (مبدعون خارج الدوائر الفنية الكلاسيكية). مجموعات قوية جدًا، معارض غالبًا ما تكون ملتزمة وشعرية، في حي مارول.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 11:00–18:00\nالأربعاء 11:00–18:00\nالخميس 11:00–18:00\nالجمعة 11:00–18:00\nالسبت 11:00–18:00\nالأحد 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "فيلا إمبان – مؤسسة بوغوسيان",
+      "address": "العنوان: Rue Claude de Bettignies 1, 1000 Bruxelles",
+      "description": "متحف مكرّس للفن الحديث والمعاصر، مع مجموعة استثنائية من اللوحات والمنحوتات والأشياء الزخرفية والتركيبات.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 11:00–18:00\nالأربعاء 11:00–18:00\nالخميس 11:00–18:00\nالجمعة 11:00–18:00\nالسبت 11:00–18:00\nالأحد 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "متحف هورتا",
+      "address": "العنوان: Rue Américaine 25, 1060 Saint-Gilles (Bruxelles)",
+      "description": "المنزل والاستوديو السابقان للمهندس المعماري فيكتور هورتا، شخصية رئيسية في الآرت نوفو. الدواخل الأصلية (الأثاث، الزجاج المعشق، الحدادة) محفوظة، مما يعطي رؤية كاملة جدًا لأسلوبه.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 14:00–17:30\nالأربعاء 14:00–17:30\nالخميس 14:00–17:30\nالجمعة 14:00–17:30\nالسبت 11:00–17:30\nالأحد 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "متحف KBR (كنوز المكتبة الملكية)",
+      "address": "العنوان: Mont des Arts 28, 1000 Bruxelles",
+      "description": "متحف مُقام داخل المكتبة الملكية، مكرّس بشكل خاص لمخطوطات دوقات بورغوندي. مخطوطات مزخرفة، كتب نادرة، غوص في أوروبا البلاطات الأميرية وتاريخ الكتاب.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "متحف مدينة بروكسل (بيت الملك)",
+      "address": "العنوان: Grand-Place 30–32, 1000 Bruxelles",
+      "description": "واقع في بيت الملك في الساحة الكبرى، يروي هذا المتحف تاريخ بروكسل من خلال اللوحات والمنسوجات والنماذج والوثائق… يمكن رؤية إحدى النسخ الأصلية لمانكن بيس هناك.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "متحف BELvue",
+      "address": "العنوان: Place des Palais 7, 1000 Bruxelles",
+      "description": "متحف مكرّس لتاريخ بلجيكا (الملكية، الديمقراطية، المجتمع، الفترة الاستعمارية…) مع سرد تفاعلي، مُقام في فندق فاخر سابق مجاور للقصر الملكي.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 09:30–17:00\nالأربعاء 09:30–17:00\nالخميس 09:30–17:00\nالجمعة 09:30–17:00\nالسبت 10:00–18:00\nالأحد 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "بوابة هال",
+      "address": "العنوان: Rue du Marché au Charbon 10, 1000 Bruxelles",
+      "description": "بوابة السور القديم للمدينة، أعيد بناؤها في 1880 وأُنشئت على أنقاض السور الروماني. نصب تاريخي مصنّف منذ 1921.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين 09:30–17:00\nالثلاثاء 09:30–17:00\nالأربعاء 09:30–17:00\nالخميس 09:30–17:00\nالجمعة مغلق\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "المتحف اليهودي في بلجيكا",
+      "address": "العنوان: Rue des Minimes 21, 1000 Bruxelles",
+      "description": "متحف مكرّس لتاريخ اليهود في بلجيكا، مع مجموعة من الوثائق والأشياء والأعمال الفنية المتعلقة بهذا التاريخ.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء مغلق\nالأربعاء مغلق\nالخميس 11:00–18:00\nالجمعة 11:00–18:00\nالسبت 11:00–18:00\nالأحد 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "المتحف البلجيكي للماسونية",
+      "address": "العنوان: Rue de Laeken 73, 1000 Bruxelles",
+      "description": "واقع في فندق دويز (مبنى كلاسيكي جديد من القرن الثامن عشر)، يشرح المتحف تاريخ ورموز وطقوس الماسونية في بلجيكا من خلال الأشياء والزخارف والوثائق والأعمال.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين 10:00–17:00\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 11:00–17:00\nالأحد مغلق",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "متحف مجاري بروكسل",
+      "address": "العنوان: Pavillons d'Octroi – Porte d'Anderlecht, Boulevard de l'Abattoir 1, 1000 Bruxelles",
+      "description": "متحف غير عادي يكتشف شبكة المجاري، المجرى المدفون للسين وتاريخ الصحة في المدينة. زيارة جزئيًا تحت الأرض، تعليمية جدًا (نماذج، فيديوهات، رائحة أصيلة 😅).",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "متحف العلوم الطبيعية",
+      "address": "العنوان: Rue Vautier 29, 1000 Bruxelles",
+      "description": "المتحف الكبير للعلوم الطبيعية في بلجيكا، مشهور بمعرض الديناصورات (إغوانودونات برنيسار)، مجموعاته للتنوع البيولوجي والجيولوجيا وتطور الإنسان.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 09:30–17:00\nالأربعاء 09:30–17:00\nالخميس 09:30–17:00\nالجمعة 09:30–17:00\nالسبت 10:00–18:00\nالأحد 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "العنوان: Parc du Cinquantenaire 11, 1000 Bruxelles",
+      "description": "متحف كبير للسيارات مُقام في قاعة ضخمة في سينكانتينير، مع حوالي 250 مركبة: سيارات قديمة، سيارات سباق، عربات، معارض موضوعية عن تاريخ التنقل.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين 10:00–17:00\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 10:00–18:00\nالأحد 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "المتحف الملكي للجيش والتاريخ العسكري",
+      "address": "العنوان: Parc du Cinquantenaire 3, 1000 Bruxelles",
+      "description": "متحف يُدار من قبل معهد التراث الحربي، مكرّس للتاريخ العسكري البلجيكي والدولي، مع مجموعات من الزي الرسمي والأسلحة والمركبات المدرعة وقاعة طيران مذهلة مليئة بالطائرات التاريخية.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 09:00–17:00\nالأربعاء 09:00–17:00\nالخميس 09:00–17:00\nالجمعة 09:00–17:00\nالسبت 09:00–17:00\nالأحد 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "العنوان: Place Princesse Elisabeth 5, 1030 Schaerbeek (Bruxelles)",
+      "description": "المتحف الوطني للسكك الحديدية البلجيكية، يجمع بين محطة شيربيك القديمة وقاعات حديثة، مع قاطرات بخارية أيقونية، قطارات من العصر وتمثيل غامر لتاريخ السكك الحديدية. مبنى ثانٍ في الرقم 8 من نفس الساحة",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت مغلق\nالأحد 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "الأتوميوم",
+      "address": "العنوان: Square de l'Atomium / Atomiumplein 1, 1020 Bruxelles (Laeken)",
+      "description": "رمز مطلق لبروكسل، بُني لمعرض إكسبو 58: هيكل بارتفاع 102 م يمثل بلورة حديد مكبرة 165 مليار مرة، مع كرات قابلة للوصول ومعارض ومطعم بانورامي.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين 10:00–18:00\nالثلاثاء 10:00–18:00\nالأربعاء 10:00–18:00\nالخميس 10:00–18:00\nالجمعة 10:00–18:00\nالسبت 10:00–18:00\nالأحد 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "العنوان: Place de Belgique 1, 1020 Bruxelles (هضبة Heysel، قرب الأتوميوم)",
+      "description": "متحف مكرّس للتصميم في القرنين العشرين والحادي والعشرين، مع مجموعة كبيرة بشكل خاص حول البلاستيك والتصميم الصناعي. معارض عن التصميم البلجيكي والدولي، الأثاث، الأشياء اليومية، التركيبات.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين 11:00–19:00\nالثلاثاء 11:00–19:00\nالأربعاء 11:00–19:00\nالخميس 11:00–19:00\nالجمعة 11:00–19:00\nالسبت 11:00–19:00\nالأحد 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "المركز البلجيكي للقصص المصورة",
+      "address": "العنوان: Rue des Sables 20, 1000 Bruxelles",
+      "description": "متحف مرجعي مكرّس للقصص المصورة البلجيكية، مُقام في مبنى رائع على طراز الآرت نوفو لفيكتور هورتا (متاجر ووكيز القديمة). معارض عن تان تان، السنافر والعديد من المؤلفين الكلاسيكيين والمعاصرين.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–18:00\nالأربعاء 10:00–18:00\nالخميس 10:00–18:00\nالجمعة 10:00–18:00\nالسبت 10:00–18:00\nالأحد 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "العنوان: Rue de l'Etuve 41 (Stoofstraat 41), 1000 Bruxelles",
+      "description": "متحف غامر مكرّس لتاريخ الكاكاو والشوكولاتة، من الحضارات ما قبل كولومبوس حتى البرالين البلجيكي، مع عروض من صانعي الشوكولاتة وتذوقات.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين 10:00–17:00\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "العنوان: Rue du Chêne 19, 1000 Bruxelles",
+      "description": "متحف صغير يعرض مجموعة من مئات الأزياء لمانكن بيس: أزياء فولكلورية، زي رسمي، أزياء مقدمة من دول أو جمعيات من جميع أنحاء العالم. مثالي للجمع مع التمثال نفسه على بعد خطوات.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء 10:00–17:00\nالأربعاء 10:00–17:00\nالخميس 10:00–17:00\nالجمعة 10:00–17:00\nالسبت 10:00–17:00\nالأحد 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "متحف الأطفال",
+      "address": "العنوان: Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "متحف تفاعلي مصمم للأطفال (والمرافقين) مع مساحات لعب تعليمية وورش إبداعية وتركيبات تشاركية. التركيز على التجريب بدلاً من خزانات العرض الكلاسيكية.",
+      "button": "الذهاب؟",
+      "ouverture": "الاثنين مغلق\nالثلاثاء مغلق\nالأربعاء 14:30–17:00\nالخميس مغلق\nالجمعة مغلق\nالسبت 14:30–17:00\nالأحد 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "رجوع",
+    "popupTitle": "تحذير!",
+    "popupMessage": "انتباه! هذا الإجراء سيؤدي إلى إيقاف المسار السياحي الذي اخترته. هل أنت متأكد من رغبتك في الذهاب إلى هذا المتحف؟ سيقودك نظام الإرشاد إليه!",
+    "popupYes": "نعم",
+    "popupNo": "لا"
+  },
+  "cn": {
+    "mainTitle": "CityLoop Quest Bruxelles - 在欧洲中心",
+    "title": "🏛️ 布鲁塞尔可参观的博物馆",
+    "artHeritage": "艺术、美术 & 建筑",
+    "historyMemory": "历史、城市 & 社会",
+    "scienceTech": "科学与技术 / 交通出行",
+    "icone": "漫画、流行文化、巧克力 & 布鲁塞尔标志",
+    "famille": "儿童 & 家庭（高娱乐性）",
+    "insolite": "特色 / 主题",
+    "MRBAB": {
+      "name": "比利时皇家美术博物馆（MRBAB）",
+      "address": "地址：Rue de la Régence 3, 1000 Bruxelles",
+      "description": "大型联邦综合体，汇集多个博物馆（古代大师、世纪末艺术等），拥有超过 20,000 件从 15 世纪到 21 世纪的绘画、雕塑和素描作品，包括勃鲁盖尔、鲁本斯、恩索尔、马格利特……",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 11:00–18:00\n星期日 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "马格利特博物馆",
+      "address": "地址：Place Royale 1, 1000 Bruxelles（已并入 MRBAB，广场一侧）",
+      "description": "完全献给勒内·马格利特的博物馆，展出 200 多件作品（绘画、水粉画、素描、海报……），追溯其超现实主义的演变，从早期到世界知名的标志性作品。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 11:00–18:00\n星期日 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "艺术与历史博物馆",
+      "address": "地址：Parc du Cinquantenaire 10, 1000 Bruxelles",
+      "description": "欧洲最大的艺术与考古博物馆之一：埃及、希腊和罗马古物，前哥伦布艺术，欧洲装饰艺术，欧洲以外艺术收藏等。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 09:30–17:00\n星期三 09:30–17:00\n星期四 09:30–17:00\n星期五 09:30–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "乐器博物馆（MIM）",
+      "address": "地址：Rue Montagne de la Cour 2, 1000 Bruxelles",
+      "description": "位于前新艺术风格商店 \"Old England\"，MIM 展出数千件来自世界各地的乐器，配有音频导览可聆听其声音。屋顶全景露台，可俯瞰布鲁塞尔。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 09:30–17:00\n星期三 09:30–17:00\n星期四 09:30–17:00\n星期五 09:30–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "Art et marges 博物馆",
+      "address": "地址：Rue Haute 312–314, 1000 Bruxelles",
+      "description": "致力于原生艺术和局外人艺术的博物馆（脱离经典艺术圈的创作者）。收藏非常丰富，展览往往具有社会性和诗意，位于马罗勒区。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 11:00–18:00\n星期三 11:00–18:00\n星期四 11:00–18:00\n星期五 11:00–18:00\n星期六 11:00–18:00\n星期日 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "安潘别墅 – 博格西安基金会",
+      "address": "地址：Rue Claude de Bettignies 1, 1000 Bruxelles",
+      "description": "致力于现代和当代艺术的博物馆，拥有非凡的绘画、雕塑、装饰物品和装置收藏。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 11:00–18:00\n星期三 11:00–18:00\n星期四 11:00–18:00\n星期五 11:00–18:00\n星期六 11:00–18:00\n星期日 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "奥尔塔博物馆",
+      "address": "地址：Rue Américaine 25, 1060 Saint-Gilles（布鲁塞尔）",
+      "description": "建筑师维克多·奥尔塔的故居和工作室，新艺术运动的重要人物。保留原始内饰（家具、彩色玻璃、铁艺），全面展现其风格。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 14:00–17:30\n星期三 14:00–17:30\n星期四 14:00–17:30\n星期五 14:00–17:30\n星期六 11:00–17:30\n星期日 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "KBR 博物馆（皇家图书馆珍品）",
+      "address": "地址：Mont des Arts 28, 1000 Bruxelles",
+      "description": "位于皇家图书馆内的博物馆，特别致力于勃艮第公爵手稿。彩绘手稿、珍本图书，深入探索欧洲宫廷与书籍历史。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "布鲁塞尔城市博物馆（国王之家）",
+      "address": "地址：Grand-Place 30–32, 1000 Bruxelles",
+      "description": "位于大广场上的国王之家，通过绘画、挂毯、模型、文件……讲述布鲁塞尔的历史。可看到撒尿小童的原始版本之一。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "BELvue 博物馆",
+      "address": "地址：Place des Palais 7, 1000 Bruxelles",
+      "description": "致力于比利时历史的博物馆（君主制、民主、社会、殖民时期……），采用互动场景设计，位于毗邻王宫的昔日豪华酒店内。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 09:30–17:00\n星期三 09:30–17:00\n星期四 09:30–17:00\n星期五 09:30–17:00\n星期六 10:00–18:00\n星期日 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "哈勒门",
+      "address": "地址：Rue du Marché au Charbon 10, 1000 Bruxelles",
+      "description": "古城墙的城门，1880 年重建，建于罗马城墙废墟之上。自 1921 年起列为历史古迹。",
+      "button": "去那儿？",
+      "ouverture": "星期一 09:30–17:00\n星期二 09:30–17:00\n星期三 09:30–17:00\n星期四 09:30–17:00\n星期五 关闭\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "比利时犹太博物馆",
+      "address": "地址：Rue des Minimes 21, 1000 Bruxelles",
+      "description": "致力于比利时犹太人历史的博物馆，收藏与此历史相关的文件、物品和艺术品。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 关闭\n星期三 关闭\n星期四 11:00–18:00\n星期五 11:00–18:00\n星期六 11:00–18:00\n星期日 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "比利时共济会博物馆",
+      "address": "地址：Rue de Laeken 73, 1000 Bruxelles",
+      "description": "位于德韦兹酒店（18 世纪新古典主义建筑），通过物品、装饰、文件和作品，介绍比利时共济会的历史、符号和仪式。",
+      "button": "去那儿？",
+      "ouverture": "星期一 10:00–17:00\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 11:00–17:00\n星期日 关闭",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "布鲁塞尔下水道博物馆",
+      "address": "地址：Pavillons d'Octroi – Porte d'Anderlecht, Boulevard de l'Abattoir 1, 1000 Bruxelles",
+      "description": "特色博物馆，探索下水道网络、被掩埋的塞纳河河道和城市卫生史。部分地下参观，极具教育意义（模型、视频、真实气味 😅）。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "自然科学博物馆",
+      "address": "地址：Rue Vautier 29, 1000 Bruxelles",
+      "description": "比利时大型自然科学博物馆，以恐龙展厅（贝尔尼萨尔禽龙）而闻名，收藏生物多样性、地质学和人类进化相关展品。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 09:30–17:00\n星期三 09:30–17:00\n星期四 09:30–17:00\n星期五 09:30–17:00\n星期六 10:00–18:00\n星期日 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "地址：Parc du Cinquantenaire 11, 1000 Bruxelles",
+      "description": "大型汽车博物馆，位于五十周年纪念公园的纪念性大厅内，约有 250 辆车辆：老爷车、赛车、马车，以及关于交通出行历史的主题展览。",
+      "button": "去那儿？",
+      "ouverture": "星期一 10:00–17:00\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 10:00–18:00\n星期日 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "皇家军事与军事历史博物馆",
+      "address": "地址：Parc du Cinquantenaire 3, 1000 Bruxelles",
+      "description": "由战争遗产研究所管理的博物馆，致力于比利时和国际军事历史，收藏制服、武器、装甲车，以及一个充满历史飞机的壮观航空大厅。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 09:00–17:00\n星期三 09:00–17:00\n星期四 09:00–17:00\n星期五 09:00–17:00\n星期六 09:00–17:00\n星期日 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "地址：Place Princesse Elisabeth 5, 1030 Schaerbeek（布鲁塞尔）",
+      "description": "比利时国家铁路博物馆，结合了旧沙勒贝克车站和现代大厅，拥有标志性的蒸汽机车、时代列车，以及沉浸式呈现的铁路历史。同一广场 8 号的第二栋建筑",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 关闭\n星期日 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "原子球塔",
+      "address": "地址：Square de l'Atomium / Atomiumplein 1, 1020 Bruxelles（拉肯）",
+      "description": "布鲁塞尔的绝对标志，为 1958 年世博会而建：高 102 米的结构，代表一个被放大 1650 亿倍的铁晶体，设有可进入的球体、展览和全景餐厅。",
+      "button": "去那儿？",
+      "ouverture": "星期一 10:00–18:00\n星期二 10:00–18:00\n星期三 10:00–18:00\n星期四 10:00–18:00\n星期五 10:00–18:00\n星期六 10:00–18:00\n星期日 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "地址：Place de Belgique 1, 1020 Bruxelles（海瑟尔高地，靠近原子球塔）",
+      "description": "致力于 20–21 世纪设计的博物馆，特别拥有围绕塑料和工业设计的大型收藏。关于比利时和国际设计、家具、日常用品、装置的展览。",
+      "button": "去那儿？",
+      "ouverture": "星期一 11:00–19:00\n星期二 11:00–19:00\n星期三 11:00–19:00\n星期四 11:00–19:00\n星期五 11:00–19:00\n星期六 11:00–19:00\n星期日 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "比利时漫画中心",
+      "address": "地址：Rue des Sables 20, 1000 Bruxelles",
+      "description": "致力于比利时漫画的参考博物馆，位于维克多·奥尔塔的华丽新艺术风格建筑内（前沃克兹商店）。关于丁丁、蓝精灵以及众多经典和当代作者的展览。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–18:00\n星期三 10:00–18:00\n星期四 10:00–18:00\n星期五 10:00–18:00\n星期六 10:00–18:00\n星期日 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "地址：Rue de l'Etuve 41 (Stoofstraat 41), 1000 Bruxelles",
+      "description": "沉浸式博物馆，致力于可可和巧克力的历史，从前哥伦布文明到比利时果仁糖，配有巧克力师演示和品尝。",
+      "button": "去那儿？",
+      "ouverture": "星期一 10:00–17:00\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "地址：Rue du Chêne 19, 1000 Bruxelles",
+      "description": "小型博物馆，展示撒尿小童数百套服装的精选：民俗服装、制服、由世界各国或协会赠送的服装。非常适合与几步之遥的雕像本身一起参观。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 10:00–17:00\n星期三 10:00–17:00\n星期四 10:00–17:00\n星期五 10:00–17:00\n星期六 10:00–17:00\n星期日 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "儿童博物馆",
+      "address": "地址：Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "为儿童（和陪同者）设计的互动博物馆，设有教育游戏空间、创意工作坊和参与式装置。重点在于实验而非经典展柜。",
+      "button": "去那儿？",
+      "ouverture": "星期一 关闭\n星期二 关闭\n星期三 14:30–17:00\n星期四 关闭\n星期五 关闭\n星期六 14:30–17:00\n星期日 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
+    },
+    "backButton": "返回",
+    "popupTitle": "警告！",
+    "popupMessage": "注意：此操作将停止您选择的旅游路线。确定要前往该博物馆吗？导航将带您过去！",
+    "popupYes": "是",
+    "popupNo": "否"
+  },
+  "jp": {
+    "mainTitle": "CityLoop Quest Bruxelles ― ヨーロッパの中心",
+    "title": "🏛️ ブリュッセルで訪れたい博物館",
+    "artHeritage": "美術、芸術 & 建築",
+    "historyMemory": "歴史、都市 & 社会",
+    "scienceTech": "科学 & 技術 / モビリティ",
+    "icone": "コミックス、ポップカルチャー、チョコレート & ブリュッセルのアイコン",
+    "famille": "子ども & 家族（高いエンターテインメント性）",
+    "insolite": "珍しい / テーマ別",
+    "MRBAB": {
+      "name": "ベルギー王立美術館（MRBAB）",
+      "address": "住所：Rue de la Régence 3, 1000 Bruxelles",
+      "description": "複数の美術館（古典巨匠、世紀末芸術など）を統合する大規模な連邦複合施設。15世紀から21世紀にかけての絵画、彫刻、素描作品20,000点以上を所蔵。ブリューゲル、ルーベンス、アンソール、マグリットなど。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 11:00–18:00\n日曜日 11:00–18:00",
+      "coordonnees": "https://www.fine-arts-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "mag": {
+      "name": "マグリット美術館",
+      "address": "住所：Place Royale 1, 1000 Bruxelles（MRBABに統合、広場側）",
+      "description": "ルネ・マグリットに完全に捧げられた美術館。200点以上の作品（絵画、グワッシュ、素描、ポスターなど）を展示し、初期から世界的に知られるアイコンまで、そのシュルレアリスムの変遷をたどります。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 11:00–18:00\n日曜日 11:00–18:00",
+      "coordonnees": "https://www.musee-magritte-museum.be/\n+32 (0)2/508 32 11"
+    },
+    "art_histoire": {
+      "name": "美術・歴史博物館",
+      "address": "住所：Parc du Cinquantenaire 10, 1000 Bruxelles",
+      "description": "ヨーロッパ最大級の美術・考古学博物館の一つ。エジプト、ギリシャ、ローマの古代遺物、プレコロンビア美術、ヨーロッパ装飾美術、ヨーロッパ外の美術コレクションなど。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 09:30–17:00\n水曜日 09:30–17:00\n木曜日 09:30–17:00\n金曜日 09:30–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "https://artandhistory.museum/\n+32 (0)2/741 73 31"
+    },
+    "MIM": {
+      "name": "楽器博物館（MIM）",
+      "address": "住所：Rue Montagne de la Cour 2, 1000 Bruxelles",
+      "description": "かつてのアール・ヌーヴォー店舗「Old England」に設置。世界各地の楽器数千点を展示し、オーディオガイドで音色を聞くことができます。屋上にはブリュッセルを一望できるパノラマテラス。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 09:30–17:00\n水曜日 09:30–17:00\n木曜日 09:30–17:00\n金曜日 09:30–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "https://www.mim.be/\n+32 (0)2/545 01 30"
+    },
+    "art_marges": {
+      "name": "Art et marges 美術館",
+      "address": "住所：Rue Haute 312–314, 1000 Bruxelles",
+      "description": "アール・ブリュットとアウトサイダー・アート（古典的な芸術回路の外の創作者）に特化した美術館。非常に充実したコレクション、しばしば社会的で詩的な展示。マロル地区に位置。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 11:00–18:00\n水曜日 11:00–18:00\n木曜日 11:00–18:00\n金曜日 11:00–18:00\n土曜日 11:00–18:00\n日曜日 11:00–18:00",
+      "coordonnees": "http://www.artetmarges.be/\n+32 (0)2/533 94 90"
+    },
+    "empain": {
+      "name": "ヴィラ・アンパン – ボゴシアン財団",
+      "address": "住所：Rue Claude de Bettignies 1, 1000 Bruxelles",
+      "description": "近現代美術に特化した美術館。絵画、彫刻、装飾品、インスタレーションの優れたコレクションを所蔵。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 11:00–18:00\n水曜日 11:00–18:00\n木曜日 11:00–18:00\n金曜日 11:00–18:00\n土曜日 11:00–18:00\n日曜日 11:00–18:00",
+      "coordonnees": "http://www.villaempain.com/\n+32 (0)2/627 52 30"
+    },
+    "horta": {
+      "name": "オルタ美術館",
+      "address": "住所：Rue Américaine 25, 1060 Saint-Gilles（Bruxelles）",
+      "description": "アール・ヌーヴォーの重要人物、建築家ヴィクトル・オルタの旧邸兼アトリエ。オリジナルの内装（家具、ステンドグラス、鉄細工）が保存され、そのスタイルを非常に包括的に理解できます。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 14:00–17:30\n水曜日 14:00–17:30\n木曜日 14:00–17:30\n金曜日 14:00–17:30\n土曜日 11:00–17:30\n日曜日 11:00–17:30",
+      "coordonnees": "http://www.hortamuseum.be/"
+    },
+    "kbr": {
+      "name": "KBR美術館（王立図書館の至宝）",
+      "address": "住所：Mont des Arts 28, 1000 Bruxelles",
+      "description": "王立図書館内に設置された美術館。特にブルゴーニュ公の写本に焦点を当てます。装飾写本、稀覯書、ヨーロッパの宮廷と書籍の歴史への没入体験。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "http://www.kbr.be/museum\n+32 (0)2/519 53 11"
+    },
+    "ville_bruxelles": {
+      "name": "ブリュッセル市立博物館（王の家）",
+      "address": "住所：Grand-Place 30–32, 1000 Bruxelles",
+      "description": "グラン・プラスにある王の家に位置。絵画、タペストリー、模型、文書を通じてブリュッセルの歴史を語ります。マネケン・ピスのオリジナル版の一つも見られます。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "http://www.brusselscitymuseum.brussels/\n+32 (0)2/279 43 50"
+    },
+    "belvue": {
+      "name": "BELvue美術館",
+      "address": "住所：Place des Palais 7, 1000 Bruxelles",
+      "description": "ベルギーの歴史（君主制、民主主義、社会、植民地時代など）に特化した美術館。インタラクティブな展示設計。王宮に隣接する旧高級ホテルに設置。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 09:30–17:00\n水曜日 09:30–17:00\n木曜日 09:30–17:00\n金曜日 09:30–17:00\n土曜日 10:00–18:00\n日曜日 10:00–18:00",
+      "coordonnees": "http://belvue.be/\n+32 (0)2/500 45 54"
+    },
+    "hal": {
+      "name": "ハル門",
+      "address": "住所：Rue du Marché au Charbon 10, 1000 Bruxelles",
+      "description": "旧市壁の門。1880年に再建され、ローマ時代の城壁の遺構の上に建てられました。1921年から歴史的建造物に指定。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 09:30–17:00\n火曜日 09:30–17:00\n水曜日 09:30–17:00\n木曜日 09:30–17:00\n金曜日 休館\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "https://www.hallegatemuseum.be/\n+32 (0)2/534 15 18"
+    },
+    "juif": {
+      "name": "ベルギー・ユダヤ博物館",
+      "address": "住所：Rue des Minimes 21, 1000 Bruxelles",
+      "description": "ベルギーのユダヤ人の歴史に特化した美術館。関連する文書、物品、美術作品のコレクションを所蔵。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 休館\n水曜日 休館\n木曜日 11:00–18:00\n金曜日 11:00–18:00\n土曜日 11:00–18:00\n日曜日 11:00–18:00",
+      "coordonnees": "http://www.mjb-jmb.org/\n+32 (0)2/512 19 63"
+    },
+    "franc": {
+      "name": "ベルギー・フリーメイソン博物館",
+      "address": "住所：Rue de Laeken 73, 1000 Bruxelles",
+      "description": "デウェズ・ホテル（18世紀の新古典主義建築）内に位置。物品、装飾、文書、作品を通じて、ベルギーのフリーメイソンの歴史、シンボル、儀式を解説します。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 10:00–17:00\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 11:00–17:00\n日曜日 休館",
+      "coordonnees": "http://www.mbfm.be/\n+32 (0)2/223 06 04"
+    },
+    "egouts": {
+      "name": "ブリュッセル下水道博物館",
+      "address": "住所：Pavillons d'Octroi – Porte d'Anderlecht, Boulevard de l'Abattoir 1, 1000 Bruxelles",
+      "description": "下水道網、センヌ川の埋設された流路、都市の衛生史を発見できる珍しい博物館。部分的に地下見学、非常に教育的（模型、ビデオ、本物の匂い 😅）。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "https://www.sewermuseum.brussels/fr/\n+32 (0)2/279 43 83"
+    },
+    "sciences": {
+      "name": "自然科学博物館",
+      "address": "住所：Rue Vautier 29, 1000 Bruxelles",
+      "description": "ベルギーの大型自然科学博物館。恐竜ギャラリー（ベルニサールのイグアノドン）で有名。生物多様性、地質学、人類進化のコレクションを所蔵。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 09:30–17:00\n水曜日 09:30–17:00\n木曜日 09:30–17:00\n金曜日 09:30–17:00\n土曜日 10:00–18:00\n日曜日 10:00–18:00",
+      "coordonnees": "https://www.naturalsciences.be/\n+32 (0)2/627 42 11"
+    },
+    "autoworld": {
+      "name": "Autoworld Brussels",
+      "address": "住所：Parc du Cinquantenaire 11, 1000 Bruxelles",
+      "description": "シンカントネールの記念的なホールに設置された大型自動車博物館。約250台の車両：クラシックカー、レーシングカー、馬車、モビリティの歴史に関するテーマ展示。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 10:00–17:00\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 10:00–18:00\n日曜日 10:00–18:00",
+      "coordonnees": "https://www.autoworld.be/\n+32 (0)2/736 41 65"
+    },
+    "armee": {
+      "name": "王立軍事・軍事史博物館",
+      "address": "住所：Parc du Cinquantenaire 3, 1000 Bruxelles",
+      "description": "戦争遺産研究所が管理する博物館。ベルギーと国際的な軍事史に特化。制服、武器、装甲車のコレクション、歴史的な航空機で満たされた壮観な航空ホール。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 09:00–17:00\n水曜日 09:00–17:00\n木曜日 09:00–17:00\n金曜日 09:00–17:00\n土曜日 09:00–17:00\n日曜日 09:00–17:00",
+      "coordonnees": "http://www.klm-mra.be/\n+32 (0)2/737 78 33"
+    },
+    "train": {
+      "name": "Train World",
+      "address": "住所：Place Princesse Elisabeth 5, 1030 Schaerbeek（Bruxelles）",
+      "description": "ベルギー国立鉄道博物館。旧シェルベーク駅と現代的なホールを組み合わせ、象徴的な蒸気機関車、時代の列車、鉄道史の没入型演出。同じ広場8番の第二棟",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 休館\n日曜日 10:00–17:00",
+      "coordonnees": "http://www.trainworld.be/\n+32 (0)2/607 13 13"
+    },
+    "atomium": {
+      "name": "アトミウム",
+      "address": "住所：Square de l'Atomium / Atomiumplein 1, 1020 Bruxelles（Laeken）",
+      "description": "ブリュッセルの絶対的なアイコン。1958年万博のために建設。高さ102mの構造物は、鉄の結晶を1650億倍に拡大したもの。アクセス可能な球体、展示、パノラマレストラン。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 10:00–18:00\n火曜日 10:00–18:00\n水曜日 10:00–18:00\n木曜日 10:00–18:00\n金曜日 10:00–18:00\n土曜日 10:00–18:00\n日曜日 10:00–18:00",
+      "coordonnees": "https://www.atomium.be/\n+32 (0)2/475 47 75"
+    },
+    "design": {
+      "name": "Design Museum Brussels",
+      "address": "住所：Place de Belgique 1, 1020 Bruxelles（Heysel高原、アトミウム近く）",
+      "description": "20–21世紀のデザインに特化した美術館。特にプラスチックと工業デザインに関する大規模なコレクション。ベルギーと国際的なデザイン、家具、日常用品、インスタレーションの展示。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 11:00–19:00\n火曜日 11:00–19:00\n水曜日 11:00–19:00\n木曜日 11:00–19:00\n金曜日 11:00–19:00\n土曜日 11:00–19:00\n日曜日 11:00–19:00",
+      "coordonnees": "https://www.designmuseum.brussels/\n+32 (0)2/669 49 29"
+    },
+    "bd": {
+      "name": "ベルギー・コミックスセンター",
+      "address": "住所：Rue des Sables 20, 1000 Bruxelles",
+      "description": "ベルギー・コミックスに特化した参考美術館。ヴィクトル・オルタの優雅なアール・ヌーヴォー建築（旧ウォークエ商店）に設置。タンタン、スマーフ、多くの古典的・現代的作家の展示。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–18:00\n水曜日 10:00–18:00\n木曜日 10:00–18:00\n金曜日 10:00–18:00\n土曜日 10:00–18:00\n日曜日 10:00–18:00",
+      "coordonnees": "https://www.comicscenter.net/en/home\n+32 (0)2/219 19 80"
+    },
+    "choco": {
+      "name": "Choco-Story Brussels",
+      "address": "住所：Rue de l'Etuve 41 (Stoofstraat 41), 1000 Bruxelles",
+      "description": "カカオとチョコレートの歴史に特化した没入型博物館。プレコロンビア文明からベルギーのプラリネまで。チョコレート職人の実演と試食。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 10:00–17:00\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "http://choco-story-brussels.be/\n+32 (0)2/514 20 48"
+    },
+    "costumes": {
+      "name": "GardeRobe MannekenPis",
+      "address": "住所：Rue du Chêne 19, 1000 Bruxelles",
+      "description": "マネケン・ピスの数百着の衣装から選りすぐりを展示する小さな博物館。民俗衣装、制服、世界各国や団体から贈られた衣装。像そのものから数歩の距離で、組み合わせて訪れるのに最適。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 10:00–17:00\n水曜日 10:00–17:00\n木曜日 10:00–17:00\n金曜日 10:00–17:00\n土曜日 10:00–17:00\n日曜日 10:00–17:00",
+      "coordonnees": "http://www.mannekenpis.brussels/\n+32 (0)2/514 53 97"
+    },
+    "enfants": {
+      "name": "子ども博物館",
+      "address": "住所：Rue du Bourgmestre 15, 1050 Ixelles",
+      "description": "子ども（と付き添い）向けに設計されたインタラクティブ博物館。教育的な遊び空間、創造的なワークショップ、参加型インスタレーション。クラシックな展示ケースよりも実験に重点を置いています。",
+      "button": "行ってみる？",
+      "ouverture": "月曜日 休館\n火曜日 休館\n水曜日 14:30–17:00\n木曜日 休館\n金曜日 休館\n土曜日 14:30–17:00\n日曜日 14:30–17:00",
+      "coordonnees": "http://www.museedesenfants.be/\n+32 (0)2/640 01 07"
     },
     "backButton": "戻る",
     "popupTitle": "ご注意！",

@@ -1,0 +1,29 @@
+{
+  "name": "CityLoop Quest Bruxelles",
+  "short_name": "CLQ Bruxelles",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#b30000",
+  "theme_color": "#b30000",
+  "description": "Parcours ludique à Bruxelles sur les traces de Manneken Pis.",
+  "orientation": "landscape",
+  "scope": "./",
+  "categories": ["navigation", "travel"],
+  "lang": "fr",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "images/cityLoopQuest_Bruxelles_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/cityLoopQuest_Bruxelles_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

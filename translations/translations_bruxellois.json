@@ -1,0 +1,1176 @@
+{
+  "fr": {
+    "Bruxellois_title": "Parler Bruxellois",
+    "Bruxellois_subtitle": "Quelques phrases et dictons Bruxellois - Visitez le blog : https://www.lesBruxelloiscayaux.com/blog",
+    "Bruxellois_in_french": "En français :",
+    "Bruxellois_in_Bruxellois": "En Bruxellois :",
+    "Bruxellois_more_info": "Visitez le site https://www.beljike.be/mots-courants-wallon-lexique/ pour plus d'informations et de phrases en Bruxellois",
+    "phrases": [
+      {
+        "fr": "Bonjour, comment ça va ?",
+        "bx": "Bondjoû, comint qu'ça va ?"
+      },
+      {
+        "fr": "Il pleut beaucoup aujourd'hui.",
+        "bx": "I plouwe foûrt ojourd' hui."
+      },
+      {
+        "fr": "C'est la fête du Doudou !",
+        "bx": "C'est l'Doudou !"
+      },
+      {
+        "fr": "Tu es mon ami.",
+        "bx": "T'es mi copain."
+      },
+      {
+        "fr": "Aide toi et le ciel t'aidera.",
+        "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+      },
+      {
+        "fr": "Il faut avoir les moyens de ses ambitions.",
+        "bx": "I faut stinde leûs artoiles suivant leûs dras."
+      },
+      {
+        "fr": "Il ne faut pas se prendre pour ce qu'on est pas",
+        "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+      },
+      {
+        "fr": "Se dit d'une femme qui est bavarde",
+        "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+      },
+      {
+        "fr": "On traite moins bien sa belle famille.",
+        "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+      },
+      {
+        "fr": "On n'est pas chez les riches !",
+        "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+      },
+      {
+        "fr": "Il a toujours quelque chose à répondre.",
+        "bx": "Il a toudis ène pièce à mett' au trau."
+      },
+      {
+        "fr": "Etre abasourdi.",
+        "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+      },
+      {
+        "fr": "Il 'est pas très habile !",
+        "bx": "Il est alierpe comme ein princheux dins du sirop !"
+      },
+      {
+        "fr": "Il n'en fait qu'à sa tête.",
+        "bx": "Il aringe ça comme des gailles su ein bâton."
+      },
+      {
+        "fr": "Faire bonne chère.",
+        "bx": "Minger à bleffes dé kié."
+      },
+      {
+        "fr": "Il est avare.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "fr": "Il est exigeant.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "fr": "Cela se fait facilement.",
+        "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+      },
+      {
+        "fr": "Avoir un large derrière.",
+        "bx": "Avoi' ein cu comme ène mante à prones."
+      },
+      {
+        "fr": "Il a une belle vie.",
+        "bx": "l l’a belle comme ein kié d’madame."
+      },
+      {
+        "fr": "A Mons, les caisses sont toujours vides.",
+        "bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+      },
+      {
+        "fr": "Se dit d'un buveur.",
+        "bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+      },
+      {
+        "fr": "Vous avez un grief contre moi ?",
+        "bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+      },
+      {
+        "fr": "Tu n'as pas l'air bien",
+        "bx": "T’es pâle comme ein naviau pelé tois caups"
+      },
+      {
+        "fr": "Il a une figure toute fripée",
+        "bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+      },
+      {
+        "fr": "Se dit d'un homme chanceux",
+        "bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+      },
+      {
+        "fr": "Il pleut très fort",
+        "bx": "I pleut à dique-daque"
+      }
+    ]
+  },
+  
+  "en": {
+    "Bruxellois_title": "Speak Bruxellois",
+    "Bruxellois_subtitle": "Some Bruxellois phrases and sayings - Visit the blog : https://www.lesBruxelloiscayaux.com/blog",
+    "Bruxellois_in_french": "In English:",
+    "Bruxellois_in_Bruxellois": "In Bruxellois:",
+    "Bruxellois_more_info": "Visit the website https://www.beljike.be/mots-courants-wallon-lexique/ for more information and phrases in Bruxellois",
+    "phrases": [
+      {
+        "en": "Hello, how are you?",
+        "bx": "Bondjoû, comint qu'ça va ?"
+      },
+      {
+        "en": "It's raining a lot today.",
+        "bx": "I plouwe foûrt ojourd' hui."
+      },
+      {
+        "en": "It's the Doudou festival!",
+        "bx": "C'est l'Doudou !"
+      },
+      {
+        "en": "You are my friend.",
+        "bx": "T'es mi copain."
+      },
+      {
+        "en": "Help yourself and heaven will help you.",
+        "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+      },
+      {
+        "en": "You have to have the means to match your ambitions.",
+        "bx": "I faut stinde leûs artoiles suivant leûs dras."
+      },
+      {
+        "en": "We must not pretend to be what we are not.",
+        "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+      },
+      {
+        "en": "Said of a woman who is talkative",
+        "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+      },
+      {
+        "en": "We treat our in-laws less well.",
+        "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+      },
+      {
+        "en": "We are not among the rich !",
+        "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+      },
+      {
+        "en": "He always has something to say.",
+        "bx": "Il a toudis ène pièce à mett' au trau."
+      },
+      {
+        "en": "To be stunned.",
+        "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+      },
+      {
+        "en": "He's not very clever!",
+        "bx": "Il est alierpe comme ein princheux dins du sirop !"
+      },
+      {
+        "en": "He does what he wants.",
+        "bx": "Il aringe ça comme des gailles su ein bâton."
+      },
+      {
+        "en": "Make good cheer.",
+        "bx": "Minger à bleffes dé kié."
+      },
+      {
+        "en": "He's stingy.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "en": "He's demanding.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "en": "It's easy to do.",
+        "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+      },
+      {
+        "en": "Have a large rear.",
+        "bx": "Avoi' ein cu comme ène mante à prones."
+      },
+      {
+        "en": "He has a good life.",
+        "bx": "l l’a belle comme ein kié d’madame."
+      },
+      {
+        "en": "In Mons, the cash registers are always empty.",
+        "bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+      },
+      {
+        "en": "Said of a drinker.",
+        "bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+      },
+      {
+        "en": "Do you have a grievance against me?",
+        "bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+      },
+      {
+        "en": "You don't look good.",
+        "bx": "T’es pâle comme ein naviau pelé tois caups"
+      },
+      {
+        "en": "He has a funny face.",
+        "bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+      },
+      {
+        "en": "He's lucky.",
+        "bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+      },
+      {
+        "en": "It's raining very hard.",
+        "bx": "I pleut à dique-daque"
+      }
+    ]
+  },
+  
+  "nl": {
+    "Bruxellois_title": "Bergens dialect spreken",
+    "Bruxellois_subtitle": "Enkele Bergense zinnen en gezegden - - Bezoek de blog : https://www.lesBruxelloiscayaux.com/blog",
+    "Bruxellois_in_french": "In het Nederlands:",
+    "Bruxellois_in_Bruxellois": "In het Bergens:",
+    "Bruxellois_more_info": "Bezoek de website https://www.beljike.be/mots-courants-wallon-lexique/ voor meer informatie en zinnen in het Bergens",
+    "phrases": [
+      {
+        "nl": "Hallo, hoe gaat het?",
+        "bx": "Bondjoû, comint qu'ça va ?"
+      },
+      {
+        "nl": "Het regent veel vandaag.",
+        "bx": "I plouwe foûrt ojourd' hui."
+      },
+      {
+        "nl": "Het is het Doudou feest!",
+        "bx": "C'est l'Doudou !"
+      },
+      {
+        "nl": "Je bent mijn vriend.",
+        "bx": "T'es mi copain."
+      },
+      {
+        "nl": "Help uzelf en de hemel zal u helpen.",
+        "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+      },
+      {
+        "nl": "Je moet de middelen hebben om je ambities te volgen.",
+        "bx": "I faut stinde leûs artoiles suivant leûs dras."
+      },
+      {
+        "nl": "We moeten niet proberen om wat we niet zijn.",
+        "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+      },
+      {
+        "nl": "Zij heeft een lange tong, zoals een vrouw die een pot opent.",
+        "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+      },
+      {
+        "nl": "We behandelen onze schoonfamilie minder goed.",
+        "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+      },
+      {
+        "nl": "We zijn niet onder de rijken!",
+        "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+      },
+      {
+        "nl": "Hij heeft altijd iets te zeggen.",
+        "bx": "Il a toudis ène pièce à mett' au trau."
+      },
+      {
+        "nl": "Hij is versteld van hoe een bijenkorf opent.",
+        "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+      },
+      {
+        "nl": "Hij is niet erg slim !",
+        "bx": "Il est alierpe comme ein princheux dins du sirop !"
+      },
+      {
+        "nl": "Hij doet wat hij wil.",
+        "bx": "Il aringe ça comme des gailles su ein bâton."
+      },
+      {
+        "nl": "Maak goede smaak.",
+        "bx": "Minger à bleffes dé kié."
+      },
+      {
+        "nl": "hij is gierig",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "nl": "hij is veeleisend.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "nl": "Het is gemakkelijk te doen.",
+        "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+      },
+      {
+        "nl": "Hij heeft een goede leven.",
+        "bx": "Avoi' ein cu comme ène mante à prones."
+      },
+      {
+        "nl": "Hij heeft een goed leven.",
+        "bx": "l l’a belle comme ein kié d’madame."
+      },
+      {
+        "nl": "In Mons, de kassa's zijn altijd leeg.",
+        "bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+      },
+      {
+        "nl": "Hij is een drinker.",
+        "bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+      },
+      {
+        "nl": "Heb je een grieven tegen mij?",
+        "bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+      },
+      {
+        "nl": "Je ziet er niet goed uit",
+        "bx": "T’es pâle comme ein naviau pelé tois caups"
+      },
+      {
+        "nl": "Hij heeft een grappige gezicht",
+        "bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+      },
+      {
+        "nl": "Hij is gelukkig.",
+        "bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+      },
+      {
+        "nl": "Het regent erg hard.",
+        "bx": "I pleut à dique-daque"
+      }
+    ]
+  },
+  "de": {
+"Bruxellois_title": "Bruxellois-Dialekt",
+"Bruxellois_subtitle": "Einige Sätze und Sprichwörter aus dem Bruxellois – Besuchen Sie den Blog: [https://www.lesBruxelloiscayaux.com/blog](https://www.lesBruxelloiscayaux.com/blog)",
+    "Bruxellois_in_french": "Auf Deutsch :",
+"Bruxellois_in_Bruxellois": "Auf Bruxellois :",
+"Bruxellois_more_info": "Besuchen Sie die Website https://www.beljike.be/mots-courants-wallon-lexique/ für weitere Informationen und Sätze auf Bruxellois",
+"phrases": [
+{
+"de": "Guten Tag, wie geht’s?",
+"bx": "Bondjoû, comint qu'ça va ?"
+},
+{
+"de": "Heute regnet es stark.",
+"bx": "I plouwe foûrt ojourd' hui."
+},
+{
+"de": "Es ist das Doudou-Fest!",
+"bx": "C'est l'Doudou !"
+},
+{
+"de": "Du bist mein Freund.",
+"bx": "T'es mi copain."
+},
+{
+"de": "Hilf dir selbst, dann hilft dir der Himmel.",
+"bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+},
+{
+"de": "Man muss die Mittel für seine Ambitionen haben.",
+"bx": "I faut stinde leûs artoiles suivant leûs dras."
+},
+{
+"de": "Man sollte sich nicht für etwas halten, das man nicht ist.",
+"bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+},
+{
+"de": "Wird von einer Frau gesagt, die geschwätzig ist.",
+"bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+},
+{
+"de": "Man behandelt die Schwiegerfamilie weniger gut.",
+"bx": "R'passer su l'café pou les parints du côté d'l'homme."
+},
+{
+"de": "Wir sind hier nicht bei den Reichen!",
+"bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+},
+{
+"de": "Er hat immer etwas zu erwidern.",
+"bx": "Il a toudis ène pièce à mett' au trau."
+},
+{
+"de": "Benommen sein.",
+"bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+},
+{
+"de": "Er ist nicht sehr geschickt!",
+"bx": "Il 'est pas très habile !"
+},
+{
+"de": "Er macht nur, was er will.",
+"bx": "Il aringe ça comme des gailles su ein bâton."
+},
+{
+"de": "Gut speisen.",
+"bx": "Minger à bleffes dé kié."
+},
+{
+"de": "Er ist geizig.",
+"bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+},
+{
+"de": "Er ist anspruchsvoll.",
+"bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+},
+{
+"de": "Das geht leicht.",
+"bx": "Ça rinte comme ène esquète dins ein capiau buse."
+},
+{
+"de": "Einen breiten Hintern haben.",
+"bx": "Avoi' ein cu comme ène mante à prones."
+},
+{
+"de": "Er hat ein schönes Leben.",
+"bx": "l l’a belle comme ein kié d’madame."
+},
+{
+"de": "In Mons sind die Kassen immer leer.",
+"bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+},
+{
+"de": "Sagt man von einem Trinker.",
+"bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+},
+{
+"de": "Haben Sie etwas gegen mich?",
+"bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+},
+{
+"de": "Du siehst nicht gut aus.",
+"bx": "T’es pâle comme ein naviau pelé tois caups"
+},
+{
+"de": "Er hat ein ganz zerknittertes Gesicht.",
+"bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+},
+{
+"de": "Wird von einem Glückspilz gesagt.",
+"bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+},
+{
+"de": "Es regnet sehr stark.",
+"bx": "I pleut à dique-daque"
+}
+]
+},
+"it": {
+    "Bruxellois_title": "Parlare Bruxellois",
+    "Bruxellois_subtitle": "Alcune frasi e detti Bruxellois - Visita il blog: https://www.lesBruxelloiscayaux.com/blog",
+    "Bruxellois_in_french": "In italiano:",
+    "Bruxellois_in_Bruxellois": "In Bruxellois:",
+    "Bruxellois_more_info": "Visita il sito https://www.beljike.be/mots-courants-wallon-lexique/ per ulteriori informazioni e frasi in Bruxellois",
+    "phrases": [
+      {
+        "it": "Buongiorno, come va?",
+        "bx": "Bondjoû, comint qu'ça va ?"
+      },
+      {
+        "it": "Piove molto oggi.",
+        "bx": "I plouwe foûrt ojourd' hui."
+      },
+      {
+        "it": "È la festa del Doudou!",
+        "bx": "C'est l'Doudou !"
+      },
+      {
+        "it": "Sei mio amico.",
+        "bx": "T'es mi copain."
+      },
+      {
+        "it": "Aiutati e il cielo ti aiuterà.",
+        "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+      },
+      {
+        "it": "Bisogna avere i mezzi per le proprie ambizioni.",
+        "bx": "I faut stinde leûs artoiles suivant leûs dras."
+      },
+      {
+        "it": "Non bisogna prendersi per ciò che non si è.",
+        "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+      },
+      {
+        "it": "Si dice di una donna chiacchierona.",
+        "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+      },
+      {
+        "it": "Si tratta meno bene la famiglia acquisita.",
+        "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+      },
+      {
+        "it": "Non siamo dai ricchi!",
+        "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+      },
+      {
+        "it": "Ha sempre qualcosa da rispondere.",
+        "bx": "Il a toudis ène pièce à mett' au trau."
+      },
+      {
+        "it": "Essere stordito.",
+        "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+      },
+      {
+        "it": "Non è molto abile!",
+        "bx": "Il est alierpe comme ein princheux dins du sirop !"
+      },
+      {
+        "it": "Fa solo di testa sua.",
+        "bx": "Il aringe ça comme des gailles su ein bâton."
+      },
+      {
+        "it": "Fare buona tavola.",
+        "bx": "Minger à bleffes dé kié."
+      },
+      {
+        "it": "È avaro.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "it": "È esigente.",
+        "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+      },
+      {
+        "it": "Si fa facilmente.",
+        "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+      },
+      {
+        "it": "Avere un grosso sedere.",
+        "bx": "Avoi' ein cu comme ène mante à prones."
+      },
+      {
+        "it": "Ha una bella vita.",
+        "bx": "l l’a belle comme ein kié d’madame."
+      },
+      {
+        "it": "A Mons, le casse sono sempre vuote.",
+        "bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+      },
+      {
+        "it": "Si dice di un bevitore.",
+        "bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+      },
+      {
+        "it": "Avete un rancore contro di me?",
+        "bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+      },
+      {
+        "it": "Non sembri stare bene.",
+        "bx": "T’es pâle comme ein naviau pelé tois caups"
+      },
+      {
+        "it": "Ha il viso tutto rugoso.",
+        "bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+      },
+      {
+        "it": "Si dice di un uomo fortunato.",
+        "bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+      },
+      {
+        "it": "Piove molto forte.",
+        "bx": "I pleut à dique-daque"
+      }
+    ]
+  },
+  "es": {
+  "Bruxellois_title": "Hablar Bruxellois",
+  "Bruxellois_subtitle": "Algunas frases y dichos en Bruxellois - Visita el blog: https://www.lesBruxelloiscayaux.com/blog",
+  "Bruxellois_in_french": "En español:",
+  "Bruxellois_in_Bruxellois": "En Bruxellois:",
+  "Bruxellois_more_info": "Visita el sitio web https://www.beljike.be/mots-courants-wallon-lexique/ para más información y frases en Bruxellois",
+  "phrases": [
+    {
+      "es": "Buenos días, ¿cómo estás?",
+      "bx": "Bondjoû, comint qu'ça va ?"
+    },
+    {
+      "es": "Hoy llueve mucho.",
+      "bx": "I plouwe foûrt ojourd' hui."
+    },
+    {
+      "es": "¡Es la fiesta del Doudou!",
+      "bx": "C'est l'Doudou !"
+    },
+    {
+      "es": "Eres mi amigo.",
+      "bx": "T'es mi copain."
+    },
+    {
+      "es": "Ayúdate y el cielo te ayudará.",
+      "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+    },
+    {
+      "es": "Hay que tener los medios para cumplir con las ambiciones.",
+      "bx": "I faut stinde leûs artoiles suivant leûs dras."
+    },
+    {
+      "es": "No hay que creerse lo que no se es.",
+      "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+    },
+    {
+      "es": "Se dice de una mujer que es parlanchina.",
+      "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+    },
+    {
+      "es": "Se trata peor a la familia política.",
+      "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+    },
+    {
+      "es": "¡No estamos en casa de los ricos!",
+      "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+    },
+    {
+      "es": "Siempre tiene algo que responder.",
+      "bx": "Il a toudis ène pièce à mett' au trau."
+    },
+    {
+      "es": "Estar aturdido.",
+      "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+    },
+    {
+      "es": "¡No es muy hábil!",
+      "bx": "Il 'est pas très habile !"
+    },
+    {
+      "es": "Hace lo que le da la gana.",
+      "bx": "Il aringe ça comme des gailles su ein bâton."
+    },
+    {
+      "es": "Comer bien.",
+      "bx": "Minger à bleffes dé kié."
+    },
+    {
+      "es": "Es avaro.",
+      "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+    },
+    {
+      "es": "Es exigente.",
+      "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+    },
+    {
+      "es": "Eso se hace fácilmente.",
+      "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+    },
+    {
+      "es": "Tener un trasero grande.",
+      "bx": "Avoi' ein cu comme ène mante à prones."
+    },
+    {
+      "es": "Tiene una buena vida.",
+      "bx": "l l’a belle comme ein kié d’madame."
+    },
+    {
+      "es": "En Mons, las arcas siempre están vacías.",
+      "bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+    },
+    {
+      "es": "Se dice de un bebedor.",
+      "bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+    },
+    {
+      "es": "¿Tienes una queja contra mí?",
+      "bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+    },
+    {
+      "es": "No tienes buen aspecto.",
+      "bx": "T’es pâle comme ein naviau pelé tois caups"
+    },
+    {
+      "es": "Tiene la cara toda arrugada.",
+      "bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+    },
+    {
+      "es": "Se dice de un hombre con suerte.",
+      "bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+    },
+    {
+      "es": "Llueve muy fuerte.",
+      "bx": "I pleut à dique-daque"
+    }
+  ]
+},
+"pl": {
+  "Bruxellois_title": "Mowa Bruxellois",
+  "Bruxellois_subtitle": "Kilka zwrotów i powiedzeń w języku Bruxellois - Odwiedź blog: https://www.lesBruxelloiscayaux.com/blog",
+  "Bruxellois_in_french": "po polsku:",
+  "Bruxellois_in_Bruxellois": "W języku Bruxellois:",
+  "Bruxellois_more_info": "Odwiedź stronę https://www.beljike.be/mots-courants-wallon-lexique/ aby uzyskać więcej informacji i zwrotów w języku Bruxellois",
+  "phrases": [
+    {
+      "pl": "Dzień dobry, jak się masz?",
+      "bx": "Bondjoû, comint qu'ça va ?"
+    },
+    {
+      "pl": "Dzisiaj dużo pada.",
+      "bx": "I plouwe foûrt ojourd' hui."
+    },
+    {
+      "pl": "To święto Doudou!",
+      "bx": "C'est l'Doudou !"
+    },
+    {
+      "pl": "Jesteś moim przyjacielem.",
+      "bx": "T'es mi copain."
+    },
+    {
+      "pl": "Pomóż sobie, a niebo ci pomoże.",
+      "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+    },
+    {
+      "pl": "Trzeba mieć środki na swoje ambicje.",
+      "bx": "I faut stinde leûs artoiles suivant leûs dras."
+    },
+    {
+      "pl": "Nie należy udawać kogoś, kim się nie jest.",
+      "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+    },
+    {
+      "pl": "Mówi się o kobiecie, która jest gadatliwa",
+      "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+    },
+    {
+      "pl": "Rodzinę małżonka traktuje się gorzej.",
+      "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+    },
+    {
+      "pl": "To nie jest dom bogaczy!",
+      "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+    },
+    {
+      "pl": "On zawsze ma coś do powiedzenia.",
+      "bx": "Il a toudis ène pièce à mett' au trau."
+    },
+    {
+      "pl": "Być oszołomionym.",
+      "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+    },
+    {
+      "pl": "On jest niezgrabny jak książe w syropie!",
+      "bx": "Il 'est pas très habile !"
+    },
+    {
+      "pl": "Robi tylko to, co chce.",
+      "bx": "Il aringe ça comme des gailles su ein bâton."
+    },
+    {
+      "pl": "Dobrze ucztować.",
+      "bx": "Minger à bleffes dé kié."
+    },
+    {
+      "pl": "On jest skąpy.",
+      "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+    },
+    {
+      "pl": "On jest wymagający.",
+      "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+    },
+    {
+      "pl": "To robi się łatwo.",
+      "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+    },
+    {
+      "pl": "Mieć szeroki tyłek.",
+      "bx": "Avoi' ein cu comme ène mante à prones."
+    },
+    {
+      "pl": "On ma dobre życie.",
+      "bx": "l l'a belle comme ein kié d'madame."
+    },
+    {
+      "pl": "W Mons kasa zawsze jest pusta.",
+      "bx": "A l'ville dé Mons, i manque toudis neuf gros sous èyé n'mastoque pou faire èl franc."
+    },
+    {
+      "pl": "Mówi się o pijaku.",
+      "bx": "I n'peut mau d'avoir des toiles d'aragne dins s'goyer."
+    },
+    {
+      "pl": "Masz do mnie pretensję?",
+      "bx": "J'vos ai vindu des pois qui n'ont nié voulu cuire ?"
+    },
+    {
+      "pl": "Nie wyglądasz dobrze.",
+      "bx": "T'es pâle comme ein naviau pelé tois caups"
+    },
+    {
+      "pl": "On ma całą pomarszczoną twarz.",
+      "bx": "Il a ène tiète, on diroit qu'on s'est assis d'ssus avé n' marrone dé v'lours"
+    },
+    {
+      "pl": "Mówi się o szczęściarzu.",
+      "bx": "I peut queïr dins éne fosse à brin, y r'montra toudis avé in capiau boule."
+    },
+    {
+      "pl": "Bardzo mocno pada.",
+      "bx": "I pleut à dique-daque"
+    }
+  ]
+},
+"ar": {
+"Bruxellois_title": "الحديث باللهجة المُنتوازية",
+"Bruxellois_subtitle": "بعض العبارات والأمثال بالمُنتوازية – زُر المدوّنة: https://www.lesBruxelloiscayaux.com/blog",
+"Bruxellois_in_french": "بالعربية:",
+"Bruxellois_in_Bruxellois": "بالمُنتوازية:",
+"Bruxellois_more_info": "زر الموقع https://www.beljike.be/mots-courants-wallon-lexique/ لمزيد من المعلومات والعبارات باللهجة المُنتوازية",
+"phrases": [
+{
+"ar": "مرحبًا، كيف الحال؟",
+"bx": "Bondjoû, comint qu'ça va ?"
+},
+{
+"ar": "إنها تمطر كثيرًا اليوم.",
+"bx": "I plouwe foûrt ojourd' hui."
+},
+{
+"ar": "إنها احتفالية الدودو!",
+"bx": "C'est l'Doudou !"
+},
+{
+"ar": "أنت صديقي.",
+"bx": "T'es mi copain."
+},
+{
+"ar": "أَعِنْ نفسك يُعِنْكَ الله.",
+"bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+},
+{
+"ar": "لا بدّ من توافر الوسائل لتحقيق الطموحات.",
+"bx": "I faut stinde leûs artoiles suivant leûs dras."
+},
+{
+"ar": "لا ينبغي للمرء أن يتظاهر بما ليس عليه.",
+"bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+},
+{
+"ar": "يُقال عن امرأة ثرثارة.",
+"bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+},
+{
+"ar": "نُحسن إلى أهلنا أكثر من أهل الزوج/الزوجة.",
+"bx": "R'passer su l'café pou les parints du côté d'l'homme."
+},
+{
+"ar": "لسنا عند الأغنياء!",
+"bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+},
+{
+"ar": "لديه دائمًا ما يردّ به.",
+"bx": "Il a toudis ène pièce à mett' au trau."
+},
+{
+"ar": "مذهول/مصدوم.",
+"bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+},
+{
+"ar": "إنه أخرق كطفلٍ غارقٍ في الشراب الحلو!",
+"bx": "Il 'est pas très habile !"
+},
+{
+"ar": "لا يفعل إلا ما يمليه عليه رأسه.",
+"bx": "Il aringe ça comme des gailles su ein bâton."
+},
+{
+"ar": "التمتّع بوليمة دسمة.",
+"bx": "Minger à bleffes dé kié."
+},
+{
+"ar": "إنه بخيل.",
+"bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+},
+{
+"ar": "إنه مُتطلِّب.",
+"bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+},
+{
+"ar": "يتمّ ذلك بسهولة.",
+"bx": "Ça rinte comme ène esquète dins ein capiau buse."
+},
+{
+"ar": "امتلاك مؤخرة عريضة.",
+"bx": "Avoi' ein cu comme ène mante à prones."
+},
+{
+"ar": "إنه يعيش حياةً جميلة.",
+"bx": "l l’a belle comme ein kié d’madame."
+},
+{
+"ar": "في مدينة مُونس، الصناديق دائمًا فارغة.",
+"bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+},
+{
+"ar": "يُقال عن مُكثر الشرب.",
+"bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+},
+{
+"ar": "هل لكم شكوى/مأخذ عليّ؟",
+"bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+},
+{
+"ar": "لا تبدو على ما يرام.",
+"bx": "T’es pâle comme ein naviau pelé tois caups"
+},
+{
+"ar": "وجهه كلّه مجعَّد.",
+"bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+},
+{
+"ar": "يُقال عن رجل محظوظ.",
+"bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+},
+{
+"ar": "إنها تمطر بغزارة شديدة.",
+"bx": "I pleut à dique-daque"
+}
+]
+},
+"cn": {
+"Bruxellois_title": "蒙斯方言",
+"Bruxellois_subtitle": "一些蒙斯方言的短语与俗语 - 访问博客：https://www.lesBruxelloiscayaux.com/blog",
+"Bruxellois_in_french": "法语：",
+"Bruxellois_in_Bruxellois": "蒙斯方言：",
+"Bruxellois_more_info": "访问网站 https://www.beljike.be/mots-courants-wallon-lexique/ 了解更多蒙斯方言的信息和短语",
+"phrases": [
+{
+"cn": "你好，你怎么样？",
+"bx": "Bondjoû, comint qu'ça va ?"
+},
+{
+"cn": "今天雨下得很大。",
+"bx": "I plouwe foûrt ojourd' hui."
+},
+{
+"cn": "这是杜杜节！",
+"bx": "C'est l'Doudou !"
+},
+{
+"cn": "你是我的朋友。",
+"bx": "T'es mi copain."
+},
+{
+"cn": "自助者天助之。",
+"bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+},
+{
+"cn": "抱负要与能力相称。",
+"bx": "I faut stinde leûs artoiles suivant leûs dras."
+},
+{
+"cn": "别把自己当成你不是的人。",
+"bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+},
+{
+"cn": "形容一个女人很健谈。",
+"bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+},
+{
+"cn": "对姻亲往往不如对自己家人好。",
+"bx": "R'passer su l'café pou les parints du côté d'l'homme."
+},
+{
+"cn": "我们又不是有钱人！",
+"bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+},
+{
+"cn": "他总有话回。",
+"bx": "Il a toudis ène pièce à mett' au trau."
+},
+{
+"cn": "被惊得目瞪口呆。",
+"bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+},
+{
+"cn": "他不太灵巧。",
+"bx": "Il 'est pas très habile !"
+},
+{
+"cn": "他只按自己的想法来。",
+"bx": "Il aringe ça comme des gailles su ein bâton."
+},
+{
+"cn": "大快朵颐。",
+"bx": "Minger à bleffes dé kié."
+},
+{
+"cn": "他很吝啬。",
+"bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+},
+{
+"cn": "他要求很高。",
+"bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+},
+{
+"cn": "这事很容易做到。",
+"bx": "Ça rinte comme ène esquète dins ein capiau buse."
+},
+{
+"cn": "屁股很大。",
+"bx": "Avoi' ein cu comme ène mante à prones."
+},
+{
+"cn": "他过得很滋润。",
+"bx": "l l’a belle comme ein kié d’madame."
+},
+{
+"cn": "在蒙斯，金库总是空的。",
+"bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+},
+{
+"cn": "说一个嗜酒的人。",
+"bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+},
+{
+"cn": "您对我有什么不满吗？",
+"bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+},
+{
+"cn": "你看起来不太好。",
+"bx": "T’es pâle comme ein naviau pelé tois caups"
+},
+{
+"cn": "他脸上皱巴巴的。",
+"bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+},
+{
+"cn": "形容一个幸运的人。",
+"bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+},
+{
+"cn": "雨下得很大。",
+"bx": "I pleut à dique-daque"
+}
+]
+},
+
+  "jp": {
+  "Bruxellois_title": "モントワ語を話そう",
+  "Bruxellois_subtitle": "いくつかのモントワ語のフレーズとことわざ － ブログを訪問: [https://www.lesBruxelloiscayaux.com/blog](https://www.lesBruxelloiscayaux.com/blog)",
+  "Bruxellois_in_french": "フランス語：",
+  "Bruxellois_in_Bruxellois": "モントワ語：",
+  "Bruxellois_more_info": "ウェブサイト https://www.beljike.be/mots-courants-wallon-lexique/ で、モントワ語の詳細情報とフレーズをご覧ください",
+  "phrases": [
+  {
+  "jp": "こんにちは、元気ですか？",
+  "bx": "Bondjoû, comint qu'ça va ?"
+  },
+  {
+  "jp": "今日は雨がたくさん降っています。",
+  "bx": "I plouwe foûrt ojourd' hui."
+  },
+  {
+  "jp": "ドゥドゥーの祭りだ！",
+  "bx": "C'est l'Doudou !"
+  },
+  {
+  "jp": "君は私の友だちだ。",
+  "bx": "T'es mi copain."
+  },
+  {
+  "jp": "自分を助けよ、そうすれば天も助けてくれる。",
+  "bx": "Raquïe d'ssus èyé d'mande au Bon Dieu qu'i gèle."
+  },
+  {
+  "jp": "志に見合う手段を持たねばならない。",
+  "bx": "I faut stinde leûs artoiles suivant leûs dras."
+  },
+  {
+  "jp": "自分でもない者のふりをしてはいけない",
+  "bx": "El cien qui pète pus haut qué l'trau dé s'cu, i fait ein trau dins s'dos"
+  },
+  {
+  "jp": "おしゃべりな女性のことを言う",
+  "bx": "Elle a n' langue comme ène lavète au cu d'ein pot !"
+  },
+  {
+  "jp": "義理の家族はあまり手厚く扱われない。",
+  "bx": "R'passer su l'café pou les parints du côté d'l'homme."
+  },
+  {
+  "jp": "ここは金持ちの家じゃない！",
+  "bx": "C'est co iun qui pinse qu'on trouve les yârds sous les pattes des qu'vaux !"
+  },
+  {
+  "jp": "彼はいつも何か言い返す。",
+  "bx": "Il a toudis ène pièce à mett' au trau."
+  },
+  {
+  "jp": "唖然とする。",
+  "bx": "Êtes comme ein bourdon qu'a r'çu ein caup d'casquète."
+  },
+  {
+  "jp": "彼はシロップの中のひよこのようにぎこちない！",
+  "bx": "Il 'est pas très habile !"
+  },
+  {
+  "jp": "彼は自分の思いどおりにしかしない。",
+  "bx": "Il aringe ça comme des gailles su ein bâton."
+  },
+  {
+  "jp": "ごちそうを食べる。",
+  "bx": "Minger à bleffes dé kié."
+  },
+  {
+  "jp": "彼はけちだ。",
+  "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+  },
+  {
+  "jp": "彼は要求が厳しい。",
+  "bx": "I n'baroit nié co l'iau qu'a cuit ses oeus."
+  },
+  {
+  "jp": "それはたやすくできる。",
+  "bx": "Ça rinte comme ène esquète dins ein capiau buse."
+  },
+  {
+  "jp": "大きなお尻をしている。",
+  "bx": "Avoi' ein cu comme ène mante à prones."
+  },
+  {
+  "jp": "彼はいい暮らしをしている。",
+  "bx": "l l’a belle comme ein kié d’madame."
+  },
+  {
+  "jp": "モンスではいつも金庫が空だ。",
+  "bx": "A l’ville dé Mons, i manque toudis neuf gros sous èyé n’mastoque pou faire èl franc."
+  },
+  {
+  "jp": "酒飲みのことを言う。",
+  "bx": "I n’peut mau d’avoir des toiles d’aragne dins s’goyer."
+  },
+  {
+  "jp": "私に不満でもありますか？",
+  "bx": "J’vos ai vindu des pois qui n’ont nié voulu cuire ?"
+  },
+  {
+  "jp": "具合がよくなさそうだね",
+  "bx": "T’es pâle comme ein naviau pelé tois caups"
+  },
+  {
+  "jp": "彼の顔はすっかりしわくちゃだ",
+  "bx": "Il a ène tiète, on diroit qu’on s’est assis d’ssus avé n' marrone dé v’lours"
+  },
+  {
+  "jp": "運の良い男のことを言う",
+  "bx": "I peut queïr dins éne fosse à brin, y r’montra toudis avé in capiau boule."
+  },
+  {
+  "jp": "激しく雨が降っている",
+  "bx": "I pleut à dique-daque"
+  }
+  ]
+  }
+  }
+  

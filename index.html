@@ -10,18 +10,30 @@
     script { display: none !important; }
   </style>
   
-  <title>CityLoop Quest Mons</title>
-  <link rel="manifest" href="manifest.json">
+  <title>CityLoop Quest Bruxelles</title>
+  <script>(function(){var u=navigator.userAgent||'';document.write('<link rel="manifest" href="'+(/android/i.test(u)?'manifest-android.json':'manifest.json')+'">');})();</script>
+  <!-- Android : manifest-android.json utilise display:fullscreen — persister le flag PWA au lancement -->
+  <script>
+    (function () {
+      if (!/android/i.test(navigator.userAgent || '')) return;
+      try {
+        if (window.matchMedia('(display-mode: fullscreen)').matches ||
+            window.matchMedia('(display-mode: standalone)').matches) {
+          localStorage.setItem('pwa-installed', 'true');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <meta name="theme-color" content="#b30000">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="apple-mobile-web-app-title" content="CQ Mons">
-  <meta name="application-name" content="CLQ Mons">
-  <link rel="apple-touch-icon" href="images/cityLoopQuest_Mons_192.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="images/cityLoopQuest_Mons_192.png">
-  <link rel="apple-touch-icon" sizes="512x512" href="images/cityLoopQuest_Mons_512.png">
+  <meta name="apple-mobile-web-app-title" content="CLQ Bruxelles">
+  <meta name="application-name" content="CLQ Bruxelles">
+  <link rel="apple-touch-icon" href="images/cityLoopQuest_Bruxelles_192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/cityLoopQuest_Bruxelles_192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="images/cityLoopQuest_Bruxelles_512.png">
   <meta name="msapplication-TileColor" content="#b30000">
   <meta name="msapplication-tap-highlight" content="no">
 
@@ -146,7 +158,39 @@
   </section>
 
   <script>
+    /** Android uniquement : PWA installée via manifest-android (display: fullscreen). iOS : toujours false. */
+    function isAndroidPwaActive() {
+      try {
+        if (!/android/i.test(navigator.userAgent || '')) return false;
+        return window.matchMedia('(display-mode: fullscreen)').matches ||
+               window.matchMedia('(display-mode: standalone)').matches;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function isRunningAsInstalledPwa() {
+      try {
+        if (window.matchMedia('(display-mode: standalone)').matches) return true;
+        if (window.matchMedia('(display-mode: fullscreen)').matches) return true;
+      } catch (e) {}
+      if (window.navigator && window.navigator.standalone === true) return true;
+      if (isAndroidPwaActive()) return true;
+      return false;
+    }
+
+    function syncPwaInstalledFlag() {
+      try {
+        if (isRunningAsInstalledPwa()) {
+          localStorage.setItem('pwa-installed', 'true');
+        } else {
+          localStorage.removeItem('pwa-installed');
+        }
+      } catch (e) {}
+    }
+
     (async function bootRouteGuard() {
+      syncPwaInstalledFlag();
       // Activer le mode debug via paramètre d'URL (pour PC avec console)
       const urlParams = new URLSearchParams(window.location.search);
       if (urlParams.get('debug') === 'true') {
@@ -202,6 +246,7 @@
               localStorage.setItem('clq_token', activateData.token);
               localStorage.setItem('jwt', activateData.token);
               localStorage.setItem('clq_has_access', '1');
+              try { sessionStorage.removeItem('expired_popup_acknowledged'); } catch (_) {}
               
               // S'assurer que la langue est définie
               if (!localStorage.getItem('selectedLanguage') && langFromCookie) {
@@ -334,20 +379,10 @@
         alert(`🔍 ÉTAT AU DÉMARRAGE:\n\nCode: ${debugState.clq_short_code}\nToken: ${debugState.clq_token}\nJWT: ${debugState.jwt}\nAccès: ${debugState.clq_has_access}\nLangue: ${debugState.selectedLanguage}\nLangue sélectionnée: ${debugState.webLanguageSelected}`);
       }
       
-      // Détection du mode PWA installé - méthodes multiples pour plus de robustesse
-      const standaloneMatch = window.matchMedia && window.matchMedia('(display-mode: standalone)').matches;
-      const iosStandalone = window.navigator && window.navigator.standalone === true;
-      const pwaInstalledFlag = localStorage.getItem('pwa-installed') === 'true';
-      
-      // Détecter aussi si on est lancé depuis l'icône (pas depuis le navigateur)
-      const isLaunchedFromIcon = standaloneMatch || iosStandalone || 
-                                 (window.navigator && window.navigator.standalone) ||
-                                 (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
-      
-      const isPWAInstalled = standaloneMatch || iosStandalone || pwaInstalledFlag || isLaunchedFromIcon;
+      const isPWAInstalled = isRunningAsInstalledPwa();
       
       if (localStorage.getItem('debug_mode') === 'true') {
-        alert(`🚀 DÉTECTION PWA:\n\nStandalone: ${standaloneMatch}\niOS Standalone: ${iosStandalone}\nFlag localStorage: ${pwaInstalledFlag}\nPWA Installée: ${isPWAInstalled}`);
+        alert(`🚀 DÉTECTION PWA:\n\nPWA active (display-mode): ${isPWAInstalled}\nFlag localStorage: ${localStorage.getItem('pwa-installed') || 'absent'}`);
       }
       
       // On vérifie le code si l'app est installée OU si l'on dispose déjà d'un code/token stocké (localStorage/cookie)
@@ -530,6 +565,7 @@
                   localStorage.setItem('clq_token', activateData.token);
                   localStorage.setItem('jwt', activateData.token);
                   localStorage.setItem('clq_has_access', '1');
+                  try { sessionStorage.removeItem('expired_popup_acknowledged'); } catch (_) {}
                   if (activateData.short_code) {
                     localStorage.setItem('clq_short_code', activateData.short_code);
                   }
@@ -588,7 +624,16 @@
             
             // Si ni token ni code ne sont valides, continuer le flux normal
             if (localStorage.getItem('debug_mode') === 'true') {
-              alert('Accès invalide ou expiré\n→ Flux normal vers sélection de langue');
+              alert('Accès invalide ou expiré\n→ Redirection vers page paiements');
+            }
+            // PWA installée mais accès expiré/invalide → redirection directe vers choose-access (évite la boucle popup)
+            if (isPWAInstalled) {
+              try {
+                let lang = localStorage.getItem('selectedLanguage');
+                if (!lang) { const c = getCookie('clq_selected_language'); lang = c || 'fr'; }
+                window.location.replace('choose-access.html?lang=' + encodeURIComponent(lang) + '&from_expired=1');
+                return;
+              } catch (_) {}
             }
           } catch (error) {
             console.error('❌ Erreur lors de la vérification de l\'accès PWA:', error);
@@ -626,7 +671,16 @@
             }
             
             if (localStorage.getItem('debug_mode') === 'true') {
-              alert(`Erreur lors de la vérification:\n${error.message}\n→ Flux normal vers sélection de langue`);
+              alert(`Erreur lors de la vérification:\n${error.message}\n→ Redirection vers page paiements`);
+            }
+            // PWA installée mais vérification en erreur (accès expiré) → redirection directe vers choose-access
+            if (isPWAInstalled) {
+              try {
+                let lang = localStorage.getItem('selectedLanguage');
+                if (!lang) { const c = getCookie('clq_selected_language'); lang = c || 'fr'; }
+                window.location.replace('choose-access.html?lang=' + encodeURIComponent(lang) + '&from_expired=1');
+                return;
+              } catch (_) {}
             }
             // En cas d'erreur, continuer le flux normal
           }
@@ -817,13 +871,9 @@
     }
     
     #warning-title {
-      opacity: 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-      text-align: center; font-size: clamp(1.8em, 5vw, 3.5em); font-weight: 700; color: #14365c;
-      background: rgba(255, 255, 255, 0.95); border-radius: 16px; padding: clamp(20px, 4vw, 32px) clamp(24px, 5vw, 48px);
-      box-shadow: 0 18px 45px rgba(20,54,92,0.35); text-shadow: 0 2px 4px rgba(0,0,0,0.25);
-      transition: opacity 1s; z-index: 100001; pointer-events: none; border: 2px solid #14365c;
-      max-width: 90vw;
-      word-wrap: break-word;
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
     }
     
     #warning-continue-btn {
@@ -959,11 +1009,28 @@
         padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
       }
       
-      #warning-title, #warning-continue-btn {
+      #warning-continue-btn {
         margin: env(safe-area-inset-top) 0;
       }
     }
     
+    /* Popup accès expiré (PWA installée, date/token invalide) */
+    #expired-access-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 100002;
+      display: none; align-items: center; justify-content: center; padding: 20px;
+    }
+    #expired-access-overlay.show { display: flex; }
+    #expired-access-box {
+      background: rgba(255,255,255,0.98); max-width: min(420px, calc(100vw - 40px)); width: 100%;
+      padding: 24px 28px; border-radius: 16px; box-shadow: 0 18px 45px rgba(20,54,92,0.35);
+      text-align: center; border: 2px solid #14365c;
+    }
+    #expired-access-box p { color: #14365c; font-size: 1.1em; line-height: 1.5; margin: 0 0 20px; }
+    #expired-access-ok {
+      display: inline-block; padding: 14px 32px; border-radius: 12px; border: none;
+      background: #14365c; color: #fff; font-weight: 600; cursor: pointer; font-size: 16px;
+    }
+
     /* MASQUAGE FORCÉ DU BOUTON D'ACTIVATION */
     #manual-activation-btn {
       display: none !important;
@@ -980,9 +1047,16 @@
     }
   </style>
   
+  <!-- Popup accès expiré (PWA : date/token plus valable) -->
+  <div id="expired-access-overlay" aria-hidden="true">
+    <div id="expired-access-box">
+      <p id="expired-access-message">Votre accès n'est plus valable. Merci de souscrire une nouvelle inscription si vous désirez continuer dans l'application.</p>
+      <button type="button" id="expired-access-ok">OK</button>
+    </div>
+  </div>
+
   <!-- ÉCRAN D'AVERTISSEMENT INTERMÉDIAIRE -->
   <div id="warning-screen">
-    <div id="warning-title">CityLoop Quest Mons</div>
     <button id="warning-continue-btn" onclick="continueToSplash()">
       <span id="warning-text" data-translate="warning_button_text">Certaines plateformes n'acceptent pas l'installation en tant que app. Si tel est le cas, vous pouvez utiliser le système en tant que page web. Le choix vous est donné dans l'écran suivant.<br><br><strong>Pour continuer, cliquez ici.</strong></span>
     </button>
@@ -1009,18 +1083,28 @@
   <script>
     // SYSTÈME SIMPLIFIÉ - SPLASHSCREEN UNIQUEMENT POUR LES PWA
     document.addEventListener('DOMContentLoaded', function() {
+      syncPwaInstalledFlag();
+
+      // Accès expiré (flag posé par bootRouteGuard ou ancien cache) → redirection directe, jamais de popup (Safari cache)
+      const showExpiredPopup = sessionStorage.getItem('show_expired_access_popup') === '1';
+      if (showExpiredPopup) {
+        try {
+          sessionStorage.removeItem('show_expired_access_popup');
+          const lang = sessionStorage.getItem('expired_access_lang') || localStorage.getItem('selectedLanguage') || 'fr';
+          sessionStorage.removeItem('expired_access_lang');
+          window.location.replace('choose-access.html?lang=' + encodeURIComponent(lang) + '&from_expired=1');
+        } catch (_) {
+          window.location.replace('choose-access.html?lang=fr&from_expired=1');
+        }
+        return;
+      }
+
       // Détection Android pour affichage de debug
       const isAndroid = /android/i.test(navigator.userAgent);
       
-      // DÉTECTION PWA ROBUSTE
-      const isPWA = window.matchMedia('(display-mode: standalone)').matches || 
-                    window.navigator.standalone === true ||
-                    localStorage.getItem('pwa-installed') === 'true';
+      const isPWA = isRunningAsInstalledPwa();
       
-      // DÉTECTION SI L'APP EST DÉJÀ INSTALLÉE (plus robuste)
-      const isAppInstalled = window.matchMedia('(display-mode: standalone)').matches || 
-                             window.navigator.standalone === true ||
-                             localStorage.getItem('pwa-installed') === 'true' ||
+      const isAppInstalled = isRunningAsInstalledPwa() ||
                              window.location.search.includes('installed=true');
       
       let selectedLang = localStorage.getItem('selectedLanguage');
@@ -1183,18 +1267,12 @@
     // Fonction pour afficher l'écran d'avertissement
     function showWarningScreen() {
       const warningScreen = document.getElementById('warning-screen');
-      const warningTitle = document.getElementById('warning-title');
       
-      if (warningScreen && warningTitle) {
+      if (warningScreen) {
         warningScreen.style.display = 'flex';
         
         // MARQUER QUE L'ÉCRAN D'AVERTISSEMENT A ÉTÉ AFFICHÉ (éviter la boucle)
         sessionStorage.setItem('warningScreenShown', 'true');
-        
-        // Animation du titre
-        setTimeout(() => {
-          warningTitle.style.opacity = '1';
-        }, 500);
         
         // Appliquer les traductions au bouton d'avertissement
         loadInstallTranslations().then(t => {
@@ -1282,9 +1360,7 @@
       event.stopPropagation();
       
       // Vérifier si l'app est déjà installée
-      const isAppInstalled = window.matchMedia('(display-mode: standalone)').matches || 
-                             window.navigator.standalone === true ||
-                             localStorage.getItem('pwa-installed') === 'true' ||
+      const isAppInstalled = isRunningAsInstalledPwa() ||
                              window.location.search.includes('installed=true');
       
       if (isAppInstalled) {
@@ -1398,13 +1474,15 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
       `;
       
-      let message = 'Installation terminée ! Vous pouvez fermer le navigateur et démarrer l\'app à partir de l\'icône sur votre écran d\'accueil.';
+      let message = 'Installation terminée ! Fermez le navigateur puis lancez l\'app depuis l\'icône CLQ sur votre écran d\'accueil.';
       if (window.translationManager && window.translationManager.isLoaded) {
         message = window.translationManager.translate('installation_complete') || message;
       }
       
       popupContent.innerHTML = `
-        <div style="margin: 0 0 20px 0; font-size: 48px;">✅</div>
+        <div style="margin: 0 0 20px 0;">
+          <img src="images/Logo minimaliste sur fond bleu.png" alt="CityLoop Quest" style="display: block; margin: 0 auto; width: 80px; height: 80px; object-fit: contain;">
+        </div>
         <p style="margin: 0; color: #333; font-size: 16px; line-height: 1.6;">
           ${message}
         </p>
@@ -1412,6 +1490,15 @@
       
       popup.appendChild(popupContent);
       document.body.appendChild(popup);
+    }
+    
+    // Prévisualisation avant déploiement : afficher le popup avec ?preview_install=1
+    if (new URLSearchParams(window.location.search).get('preview_install') === '1') {
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => setTimeout(showInstallationComplete, 500));
+      } else {
+        setTimeout(showInstallationComplete, 500);
+      }
     }
     
     function showChromeRequiredPopup() {
@@ -1552,9 +1639,10 @@
       
       const selectedLanguage = localStorage.getItem('selectedLanguage');
       if (selectedLanguage) {
-        window.location.href = 'parcours.html';
+        // Utiliser replace() au lieu de href pour éviter que le navigateur mobile propose de télécharger la page
+        window.location.replace('parcours.html');
       } else {
-        window.location.href = 'language-selection.html';
+        window.location.replace('language-selection.html');
       }
     }
 
@@ -1604,7 +1692,7 @@
             </h2>
             
             <p style="margin-bottom: 20px; color: #333; font-size: 1.1em;">
-              ${t.ios_intro || 'Pour installer CityLoop Quest Mons sur votre appareil iOS :'}
+              ${t.ios_intro || 'Pour installer CityLoop Quest Bruxelles sur votre appareil iOS :'}
             </p>
             
             <div style="text-align: left; margin-bottom: 25px;">

@@ -151,7 +151,7 @@ class PWAInstaller {
                 <div class="pwa-install-icon"><img src="images/partager_ios.png" alt="Installer" style="height:2em;width:auto;"></div>
                 <div class="pwa-install-text">
                     <h3><span data-translate="install_title">Installer l'application</span></h3>
-                    <p><span data-translate="install_message">Installez CityLoop Quest Mons pour une meilleure expérience</span></p>
+                    <p><span data-translate="install_message">Installez CityLoop Quest Bruxelles pour une meilleure expérience</span></p>
                 </div>
                 <div class="pwa-install-buttons">
                     <button id="pwa-prompt-install-btn" class="pwa-install-btn"><span data-translate="install_button">Installer l'application et redémarrer à partir de l'app installée - cliquer ici</span></button>
@@ -414,7 +414,7 @@ class PWAInstaller {
         instructions.innerHTML = `
             <div class="pwa-manual-content">
                 <h3><img src="images/partager_ios.png" alt="Installer" style="height:1.3em;vertical-align:-0.2em;margin-right:5px;"> <span data-translate="install_title">Installation de l'application</span></h3>
-                <p><span data-translate="install_intro">Pour installer CityLoop Quest Mons sur votre appareil :</span></p>
+                <p><span data-translate="install_intro">Pour installer CityLoop Quest Bruxelles sur votre appareil :</span></p>
                 <div class="install-steps">
                     <div class="step">
                         <div class="step-icon">🔍</div>
@@ -567,7 +567,7 @@ class PWAInstaller {
         instructions.innerHTML = `
             <div class="pwa-manual-content">
                 <h3>🍎 <span data-translate="ios_title">Installation sur iPhone/iPad</span></h3>
-                <p><span data-translate="ios_intro">Pour installer CityLoop Quest Mons sur votre appareil iOS :</span></p>
+                <p><span data-translate="ios_intro">Pour installer CityLoop Quest Bruxelles sur votre appareil iOS :</span></p>
                 <div class="install-steps">
                     <div class="step">
                         <div class="step-icon">📤</div>

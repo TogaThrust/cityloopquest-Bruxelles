@@ -49,6 +49,8 @@ class AccessControl {
       'personnalites.html': { type: 'page', restricted: true },
       'folklore.html': { type: 'page', restricted: true },
       'evenements.html': { type: 'page', restricted: true },
+      'associations.html': { type: 'page', restricted: true },
+      'carabistouilles.html': { type: 'page', restricted: true },
 
       // (ne pas lister les popups ici ; ils sont gérés en "features")
     };
@@ -59,7 +61,7 @@ class AccessControl {
     return {
       // Popup Histoire du doudou → RESTREINT en LITE
       histoire_doudou: true,
-      // Note: parler_montois et infos_contacts sont libres (non listés)
+      // Note: parler_Bruxellois et infos_contacts sont libres (non listés)
     };
   }
 

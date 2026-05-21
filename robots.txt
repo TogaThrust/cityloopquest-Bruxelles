@@ -1,4 +1,4 @@
-# robots.txt pour CityLoop Quest Mons
+# robots.txt pour CityLoop Quest Bruxelles
 # Bloque l'indexation des pages sensibles par les robots de recherche
 
 User-agent: *
@@ -44,7 +44,7 @@ Allow: /culture.html
 Allow: /histoire-ville.html
 Allow: /personnages.html
 Allow: /personnalites.html
-Allow: /personnalites-montoises.html
+Allow: /personnalites-Bruxelloises.html
 Allow: /artistes_celebres.html
 Allow: /musees.html
 Allow: /evenements.html

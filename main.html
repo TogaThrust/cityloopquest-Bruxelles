@@ -6,18 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="CQ Mons">
-  <meta name="application-name" content="CQ Mons">
+  <meta name="apple-mobile-web-app-title" content="CLQ Bruxelles">
+  <meta name="application-name" content="CLQ Bruxelles">
   <meta name="msapplication-TileColor" content="#b30000">
   <meta name="msapplication-tap-highlight" content="no">
-  <title data-translate="title_chevauchee">La Chevauchée de Saint Georges</title>
+  <title data-translate="title_chevauchee">Au coeur de l'Europe</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="manifest" href="manifest.json">
+  <script>(function(){var u=navigator.userAgent||'';document.write('<link rel="manifest" href="'+(/android/i.test(u)?'manifest-android.json':'manifest.json')+'">');})();</script>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="js/maps-api-dev-hint.js"></script>
   <script src="/api-base.js"></script>
 
   <!-- Garde d'accès : bloque l'accès si aucun code d'activation valide (clq_short_code) -->
-  <!--<script src="js/access-guard.js" defer></script>
+  <script src="js/access-guard.js" defer></script>
 
   <!-- Config API -->
   <script>
@@ -53,6 +54,9 @@
       const originalWatchPosition = typeof geo.watchPosition === 'function'
         ? geo.watchPosition.bind(geo)
         : null;
+
+      window.clqNativeGetCurrentPosition = originalGetCurrentPosition;
+      window.clqNativeWatchPosition = originalWatchPosition;
 
       let geoRequested = false;
       let geoSuccess = false;
@@ -217,6 +221,22 @@
 
   <script src="orientation-handler.js"></script> <!-- Gestionnaire d'orientation -->
 
+  <script>
+    (function(){
+      var u = navigator.userAgent || '';
+      if (/android/i.test(u)) {
+        document.documentElement.classList.add('android');
+        document.documentElement.setAttribute('data-android', '1');
+      }
+      document.addEventListener('DOMContentLoaded', function() {
+        if (/android/i.test(navigator.userAgent || '')) {
+          document.documentElement.classList.add('android');
+          document.documentElement.setAttribute('data-android', '1');
+        }
+      });
+    })();
+  </script>
+
   <style>
     /* Style pour les boutons désactivés */
     button:disabled {
@@ -228,7 +248,7 @@
     }
 
     /* Style pour les boutons audio désactivés */
-    #audio-btn:disabled, #doudou-btn:disabled, #pause-btn:disabled, #stop-btn:disabled, #restart-btn:disabled {
+    #audio-btn:disabled, #pause-btn:disabled, #stop-btn:disabled, #restart-btn:disabled {
         background-color: #cccccc !important;
         color: #666666 !important;
         cursor: not-allowed !important;
@@ -272,6 +292,13 @@
     /* Flèche de navigation "suivant" avec pulsation */
     #next-btn {
         animation: pulseGlow 2s ease-in-out infinite;
+    }
+
+    /* Quand le bouton "suivant" est désactivé (audio non écouté), stopper la pulsation */
+    #next-btn:disabled {
+        animation: none !important;
+        transform: none !important;
+        box-shadow: none !important;
     }
     
     /* Positionnement des flèches de navigation le long de la bordure droite */
@@ -321,10 +348,65 @@
         width: 75px;
         height: 75px;
         transform: translateY(-10mm) rotate(30deg);
-        z-index: 1001; /* Au-dessus des flèches (z-index: 1000) */
+        z-index: 999; /* Sous les flèches (z-index: 1000) */
         pointer-events: none;
         opacity: 0.9;
         object-fit: contain;
+    }
+
+    /* Android uniquement : badge sous les flèches pour ne jamais cacher les boutons */
+    html.android #clq-version-badge {
+        z-index: 999;
+    }
+
+    #main-geo-activation-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.72);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 10010;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    #main-geo-activation-overlay:not([hidden]) {
+        display: flex;
+    }
+    #main-geo-activation-box {
+        background: url('images/parchemin.jpg') center/cover;
+        border: 4px solid #b8860b;
+        border-radius: 18px;
+        box-shadow: 0 0 24px rgba(0,0,0,0.5);
+        color: #4b2e05;
+        font-family: MedievalSharp, Arial, serif;
+        padding: 28px 22px;
+        max-width: min(420px, 92vw);
+        text-align: center;
+    }
+    #main-geo-activation-title {
+        margin: 0 0 12px;
+        font-size: 1.25em;
+        color: #b30000;
+        font-weight: bold;
+    }
+    #main-geo-activation-message {
+        margin: 0 0 20px;
+        line-height: 1.45;
+        font-size: 1rem;
+    }
+    #main-geo-activation-btn {
+        background: #b30000;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding: 14px 24px;
+        font-size: 1.05rem;
+        cursor: pointer;
+        font-family: MedievalSharp, Arial, serif;
+        width: 100%;
+        max-width: 320px;
     }
     
     /* Flèches de guidage clignotantes */
@@ -615,7 +697,7 @@
       <div id="info-container" style="flex-direction: column; align-items: center; position: relative;">
         <div class="legal-mention">© Toga Thrust SNC - 2025</div>
         <div style="position: relative; display: inline-block; width: 100%;">
-          <img id="point-image" src="images/grand-place.jpg" alt="Photo du lieu" style="max-width: 100%; height: auto;" />
+          <img id="point-image" src="images/1 Grand-place.png" alt="Photo du lieu" style="max-width: 100%; height: auto;" />
           <!-- Badge CLQ LITE/FULL au coin supérieur droit de la photo -->
           <img id="clq-version-badge" src="" alt="Version badge" style="position: absolute; top: 10px; right: 10px; display: none;" />
         </div>
@@ -648,8 +730,10 @@
       <button id="restart-btn">🔁</button>
     </div>
     <button id="home-btn">🏠</button>
-    <button id="culture-btn" title="Culture montoise" data-translate="culture">🎭 Culture</button>
-    <button id="doudou-btn" data-translate="doudou_song">🎶 Air du Doudou</button>
+    <button id="transit-btn" class="footer-btn" title="Train/Tram/Bus">🚋</button>
+    <button id="uber-btn" class="footer-btn" data-translate="transit_open_uber">Uber</button>
+    <button id="poi-interest-btn" class="footer-btn" title="Points d'intérêt">📍</button>
+    <button id="culture-btn" title="Culture Bruxelloise">🎭</button>
     <button id="selfie-btn" style="display: none;" title="Prendre un selfie avec Saint Georges">📸 Selfie</button>
     <button id="instructions-btn" class="small-btn" title="Instructions">❓</button>
   </footer>
@@ -665,7 +749,27 @@
     <span class="arrow-symbol">➡️</span>
   </div>
 
+  <!-- Popup Itinéraire Transports -->
+  <div id="transit-modal" class="transit-hidden">
+    <div class="transit-modal-content">
+      <h3 id="transit-title">Itinéraire en train / tram / bus</h3>
+      <p id="transit-status">Préparation…</p>
+      <a id="transit-link" class="transit-link" href="#" target="_blank" rel="noopener">Ouvrir dans Google Maps</a>
+      <div class="transit-actions">
+        <button id="transit-close" class="transit-close">Fermer</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Popup d'instructions pour le premier point -->
+  <div id="main-geo-activation-overlay" hidden aria-modal="true" role="dialog">
+    <div id="main-geo-activation-box">
+      <h2 id="main-geo-activation-title">Autorisation de localisation</h2>
+      <p id="main-geo-activation-message">Appuyez sur le bouton pour afficher la demande de localisation du navigateur, puis choisissez « Autoriser ».</p>
+      <button type="button" id="main-geo-activation-btn">Autoriser la localisation</button>
+    </div>
+  </div>
+
   <div id="first-point-popup" style="display: none;">
     <div id="first-point-popup-content">
       <h3 id="first-point-popup-title"></h3>
@@ -673,20 +777,44 @@
     </div>
   </div>
 
+  <!-- Navigateur intégré (TogaThrust / WebView) : ouvrir dans Safari ou Chrome pour le GPS -->
+  <div id="clq-inapp-safari-overlay" hidden aria-modal="true" role="dialog" aria-labelledby="clq-inapp-safari-title" style="position:fixed;inset:0;background:rgba(0,0,0,.78);display:none;align-items:center;justify-content:center;z-index:21000;padding:16px;box-sizing:border-box;">
+    <div style="background:#fff;border-radius:14px;padding:22px 18px;max-width:min(400px,92vw);color:#1a1a2e;font-family:system-ui,-apple-system,sans-serif;text-align:center;">
+      <h2 id="clq-inapp-safari-title" style="margin:0 0 12px;font-size:1.15rem;color:#b30000;">GPS : navigateur complet requis</h2>
+      <p style="margin:0 0 16px;line-height:1.45;font-size:0.95rem;">TogaThrust ne permet pas le GPS. Ouvrez cette page dans <strong>Chrome</strong>, <strong>Safari</strong> ou votre navigateur complet.</p>
+      <button type="button" style="display:block;width:100%;margin:0 0 8px;padding:14px;background:#b30000;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:1rem;" onclick="return window.clqCopyAppLink &amp;&amp; window.clqCopyAppLink();">Copier le lien et fermer</button>
+      <button type="button" id="clq-inapp-share-hint-btn" disabled aria-disabled="true" tabindex="-1" style="display:block;width:100%;margin:0 0 8px;padding:13px 10px;background:#1565c0;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:0.95rem;line-height:1.35;opacity:0.9;cursor:default;pointer-events:none;-webkit-touch-callout:none;" title="Utilisez l’icône Partager en bas de l’application TogaThrust">Partager → Ouvrir dans Chrome, Safari…</button>
+      <button type="button" style="display:block;width:100%;padding:14px;background:#333;color:#fff;border:none;border-radius:8px;font-weight:700;font-size:1rem;" onclick="return window.clqDismissInAppOverlay &amp;&amp; window.clqDismissInAppOverlay();">Fermer</button>
+    </div>
+  </div>
+
  <!-- Service Worker -->
 <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js')
+  (function () {
+    var port = String(location.port || '');
+    var host = String(location.hostname || '');
+    var isDev =
+      (port === '5173' || port === '5174') &&
+      (host === 'localhost' || host === '127.0.0.1' || /^192\.168\./.test(host) || /^10\./.test(host));
+    if (isDev || !('serviceWorker' in navigator)) return;
+    navigator.serviceWorker.register('service-worker.js?v=20')
       .then(() => console.log('Service Worker enregistré.'))
       .catch(error => console.log('Service Worker échec :', error));
-  }
+  })();
 </script>
 
 <!-- Scripts de ton projet -->
+<!-- Clé API Google Maps (obfusquée en production) -->
+<script src="/api-key.js"></script>
 <script defer src="quizData.js"></script>
 <script src="circuit.js"></script>
 <script src="circuit-data.js"></script>
-<script defer src="app.js?v=1"></script>
+<script src="js/clq-inapp-overlay-inline.js"></script>
+<script src="js/clq-inapp-browser.js"></script>
+<script src="js/clq-open-external.js"></script>
+<script src="js/clq-maps-launch.js?v=maps-same-tab"></script>
+<script src="js/main-geo-prompt.js"></script>
+<script defer src="app.js?v=15"></script>
 
 <script>
 window.addEventListener("load", function () {
@@ -753,12 +881,12 @@ function updateCLQVersionBadge() {
     }
     
     if (versionToUse === 'LITE' || versionToUse === 'lite') {
-        badge.src = 'images/cityLoopQuest_Mons_Lite_192.png';
+        badge.src = 'images/cityLoopQuest_Bruxelles_Lite_192.png';
         badge.style.display = 'block';
         badge.style.visibility = 'visible';
         badge.alt = 'CLQ LITE';
     } else if (versionToUse === 'FULL' || versionToUse === 'full') {
-        badge.src = 'images/cityLoopQuest_Mons_Full_192.png';
+        badge.src = 'images/cityLoopQuest_Bruxelles_Full_192.png';
         badge.style.display = 'block';
         badge.style.visibility = 'visible';
         badge.alt = 'CLQ FULL';

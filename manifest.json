@@ -1,11 +1,11 @@
 {
-  "name": "CityLoop Quest Mons",
-  "short_name": "CLQ Mons",
+  "name": "CityLoop Quest Bruxelles",
+  "short_name": "CLQ Bruxelles",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#b30000",
   "theme_color": "#b30000",
-  "description": "Parcours ludique à Mons sur les traces de Saint Georges et du Doudou.",
+  "description": "Parcours ludique à Bruxelles sur les traces de Manneken Pis.",
   "orientation": "landscape",
   "scope": "./",
   "categories": ["navigation", "travel"],
@@ -14,13 +14,13 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "images/cityLoopQuest_Mons_192.png",
+      "src": "images/cityLoopQuest_Bruxelles_192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "images/cityLoopQuest_Mons_512.png",
+      "src": "images/cityLoopQuest_Bruxelles_512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

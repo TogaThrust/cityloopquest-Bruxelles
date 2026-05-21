@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Espace Culturel Montois</title>
+  <title>Espace Culturel Bruxellois</title>
   <link rel="stylesheet" href="style.css"/>
 
   <!-- Librairies de traduction -->
@@ -32,19 +32,16 @@
 
   <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:600px; margin:auto;">
     <!-- ACCESSIBLES (LITE + FULL) -->
-    <button data-culture-target="chansons.html" data-requires-full="0" data-translate="culture_btn_1">🎵 Chansons</button>
     <button data-culture-target="musees.html"   data-requires-full="0" data-translate="culture_btn_3">🏛️ Musées</button>
 
     <!-- RÉSERVÉS FULL -->
     <button data-culture-target="personnalites.html" data-requires-full="1" data-translate="culture_btn_4">👤 Personnalités</button>
     <button data-culture-target="histoire-ville.html" data-requires-full="1" data-translate="culture_btn_2">📜 Histoire de la Ville</button>
     <button data-culture-target="folklore.html" data-requires-full="1" data-translate="culture_btn_5">🎭 Folklore</button>
-    <button data-culture-target="evenements.html" data-requires-full="1" data-translate="culture_btn_6">🎉 Évènements/Photos/Vidéos</button>
+    <button data-culture-target="associations.html" data-requires-full="1" data-translate="culture_btn_6">🎉 Évènements/Photos/Vidéos</button>
 
     <!-- Popups internes -->
-    <button id="btn-histoire-doudou" data-translate="culture_btn_histoire_doudou">Histoire du doudou</button>
-    <button id="btn-parler-montois"  data-translate="culture_btn_parler_montois">Parler montois</button>
-    <button id="btn-infos-contacts"  data-translate="culture_btn_infos_contacts">Infos / Contacts</button>
+    <button id="btn-histoire-doudou" data-culture-target="carabistouilles.html" data-requires-full="1" data-translate="culture_btn_histoire_doudou">Histoires, mystères et "carabistouilles"</button>
   </div>
 
   <div style="margin-top:40px;"></div>
@@ -115,12 +112,12 @@ function showHistoireDoudouPopup() {
   document.body.appendChild(overlay);
 }
 
-// 🔓 Parler montois : toujours accessible
-function showParlerMontoisPopup() {
-  if (document.getElementById('popup-parler-montois')) return;
+// 🔓 Parler Bruxellois : toujours accessible
+function showParlerBruxelloisPopup() {
+  if (document.getElementById('popup-parler-Bruxellois')) return;
 
   const overlay = document.createElement('div');
-  overlay.id = 'popup-parler-montois';
+  overlay.id = 'popup-parler-Bruxellois';
   Object.assign(overlay.style, {
     position:'fixed', top:0, left:0, width:'100vw', height:'100vh',
     background:'rgba(0,0,0,0.7)', display:'flex', alignItems:'center',
@@ -154,8 +151,8 @@ function showParlerMontoisPopup() {
   const currentLang = window.translationManager?.getCurrentLanguage?.() || 'fr';
   const phrases = window.translationManager?.translations?.[currentLang]?.phrases || [];
   const labels = {
-    lang: window.translationManager?.translate('montois_in_french') || 'En français :',
-    mt:   window.translationManager?.translate('montois_in_montois') || 'En montois :'
+    lang: window.translationManager?.translate('Bruxellois_in_french') || 'En français :',
+    mt:   window.translationManager?.translate('Bruxellois_in_Bruxellois') || 'En Bruxellois :'
   };
   const key = ['fr','en','nl','de','it','es','pl','cn','ar','jp'].includes(currentLang) ? currentLang : 'fr';
 
@@ -189,8 +186,8 @@ function showParlerMontoisPopup() {
     marginTop:'20px', paddingTop:'20px', borderTop:'2px solid #b8860b',
     textAlign:'center', fontSize:'0.9em', fontStyle:'italic', color:'#333'
   });
-  const txt = window.translationManager?.translate('montois_more_info')
-    || "Visitez le site https://www.beljike.be/mots-courants-wallon-lexique/ pour plus d'informations et de phrases en Montois";
+  const txt = window.translationManager?.translate('Bruxellois_more_info')
+    || "Visitez le site https://www.beljike.be/mots-courants-wallon-lexique/ pour plus d'informations et de phrases en Bruxellois";
   more.innerHTML = txt.replace('https://www.beljike.be/mots-courants-wallon-lexique/',
     '<a href="https://www.beljike.be/mots-courants-wallon-lexique/" target="_blank" style="color:#b8860b;font-weight:bold;text-decoration:underline;">https://www.beljike.be/mots-courants-wallon-lexique/</a>');
   box.appendChild(more);
@@ -263,7 +260,7 @@ function showInfosContactsPopup() {
 
 // ----------------- Changement de langue -----------------
 document.addEventListener('languageChanged', (evt) => {
-  ['popup-parler-montois','popup-histoire-doudou','popup-infos-contacts'].forEach(id => {
+  ['popup-parler-Bruxellois','popup-histoire-doudou','popup-infos-contacts'].forEach(id => {
     const el = document.getElementById(id);
     if (el) document.body.removeChild(el);
   });
@@ -287,15 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Popups
-  document.getElementById('btn-histoire-doudou')?.addEventListener('click', () => {
-    // 🔒 protégé via feature
-    if (window.checkFeatureAccess && !window.checkFeatureAccess('histoire_doudou')) return;
-    showHistoireDoudouPopup();
-  });
-
-  document.getElementById('btn-parler-montois')?.addEventListener('click', showParlerMontoisPopup);
-  document.getElementById('btn-infos-contacts')?.addEventListener('click', showInfosContactsPopup);
+  // Popups (Parler Bruxellois / Infos supprimés)
 });
 </script>
 </body>

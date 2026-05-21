@@ -1,43 +1,43 @@
 {
   "fr": {
-    "title": "🎵 Chansons montoises",
+    "title": "🎵 Chansons bruxelloises",
     "back": "RETOUR"
   },
   "en": {
-    "title": "🎵 Mons Songs",
+    "title": "🎵 Bruxelles Songs",
     "back": "BACK"
   },
   "nl": {
-      "title": "🎵 Monsse Chansons",
+      "title": "🎵 Bruxellesse Chansons",
       "back": "TERUG"
   },
   "de": {
-    "title": "🎵 Monsse Chansons",
+    "title": "🎵 Bruxellesse Chansons",
     "back": "ZURÜCK"
   },
   "it": {
-"title": "🎵 Canzoni di Mons",
+"title": "🎵 Canzoni di Bruxelles",
 "back": "INDIETRO"
 },
 "es": {
-  "title": "🎵 Canciones de Mons",
+  "title": "🎵 Canciones de Bruxelles",
   "back": "VOLVER"
 },
 "pl": {
-  "title": "🎵 Pieśni z Mons",
+  "title": "🎵 Pieśni z Bruxelles",
   "back": "POWRÓT"
 },
 
   "ar": {
-  "title": "🎵 أغاني مونس",
+  "title": "🎵 أغاني بروكسل",
   "back": "عودة"
   },
   "cn": {
-"title": "🎵 蒙斯歌曲",
+"title": "🎵 布鲁塞尔歌曲",
 "back": "返回"
 },
 "jp": {
-    "title": "🎵 モンスの歌",
+    "title": "🎵 ブルックスルの歌",
     "back": "戻る"
   }
   }

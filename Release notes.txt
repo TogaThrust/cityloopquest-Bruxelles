@@ -1,21 +1,108 @@
-CityLoop Quest Mons - Release notes
-Version 25.11.03
+CityLoop Quest Bruxelles - Release notes
+Version 26.05.04
 ----------------------------------------
 
-Modification description Gare de Mons
-
-CityLoop Quest Mons - Release notes
-Version 25.11.02
+CityLoop Quest Bruxelles - Release notes
+Version 26.05.03
 ----------------------------------------
 
-Mise en place de la Version
-Alerte de géolocalisation, contrôle des paramètres navigateur et appareil
-Modification page d'aide
-Modification page install/web
-
-CityLoop Quest Mons - Release notes
-Version 25.11.1
+CityLoop Quest Bruxelles - Release notes
+Version 26.05.02
 ----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.05.01
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.04.02
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.04.01
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.12
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.11
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.10
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.09
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.08
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.07
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.06
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.05
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.04
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.03
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.02
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.03.01
+----------------------------------------
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.02.03
+----------------------------------------
+
+Add Maison du cygne
+
+suppression of debug window on main
+Addon of new popup date void
+
+CityLoop Quest Bruxelles - Release notes
+Version 26.01.02
+----------------------------------------
+
+Fix Stripe webhook: idempotency + correct status codes
+Update mailer configuration
+Fix webhook idempotence + root GET
+Webhook: idempotence on session_id
+Invoice label: add city name
+Polish invoice PDF layout (A4 one-page)
+
+CityLoop Quest Bruxelles - Release notes
+Version 25.12.02
+----------------------------------------
+
+implémentation de l'email
+ajout des boutons Train/Tram/Bus et Uber
+Correction de bugs mineurs
+
+CityLoop Quest Bruxelles - Release notes
+Version 25.12.01
+----------------------------------------
+
+
 
 - Version initiale publiée
 

@@ -282,6 +282,7 @@
           localStorage.setItem('clq_token', data.token);
           localStorage.setItem('jwt', data.token);
           localStorage.setItem('clq_has_access', '1');
+          try { sessionStorage.removeItem('expired_popup_acknowledged'); } catch (_) {}
 
           // Mémoriser le short code normalisé pour faciliter l'upgrade
           localStorage.setItem('clq_short_code', code);

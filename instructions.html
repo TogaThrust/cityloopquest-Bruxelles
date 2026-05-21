@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 
-<link rel="manifest" href="manifest.json">
+<script>(function(){var u=navigator.userAgent||'';document.write('<link rel="manifest" href="'+(/android/i.test(u)?'manifest-android.json':'manifest.json')+'">');})();</script>
 <meta name="theme-color" content="#ffffff">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -34,6 +34,13 @@
     if (relBtn) {
       relBtn.addEventListener('click', function () {
         showReleaseNotesPopup();
+      });
+    }
+
+    var mailBtn = document.getElementById('mail-btn');
+    if (mailBtn) {
+      mailBtn.addEventListener('click', function () {
+        window.location.href = 'mail.html';
       });
     }
   });
@@ -112,6 +119,15 @@
     top: calc(50% + 60px);
   }
 
+  /* Positionnement vertical des boutons pour éviter le chevauchement */
+  #release-notes-btn {
+    top: calc(50% - 20px);
+  }
+
+  #mail-btn {
+    top: calc(50% + 20px);
+  }
+
   body.no-scroll {
     overflow: hidden;
   }
@@ -136,7 +152,8 @@
 
   <!-- Bouton CGU au-dessus de CONTINUER -->
   <button id="cgu-btn" class="back-button">CGU</button>
-  <button id="release-notes-btn" class="back-button"">Rel notes</button>
+  <button id="release-notes-btn" class="back-button">Rel notes</button>
+  <button id="mail-btn" class="back-button" data-translate="mail_btn">Mail</button>
   <button id="continue-btn" class="back-button">CONTINUER</button>
 
   <!-- Popup CGU -->
@@ -4629,7 +4646,7 @@ content: `
     // Initialiser la page quand le DOM est chargé
     document.addEventListener('DOMContentLoaded', initInstructionsPage);
 
-    // Fonction pour afficher le popup des release notes (style similaire à parler montois)
+    // Fonction pour afficher le popup des release notes (style similaire à parler Bruxellois)
     async function showReleaseNotesPopup() {
       if (document.getElementById('popup-release-notes')) return;
 
